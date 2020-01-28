@@ -1,3 +1,27 @@
 {
-    "compiler": "node"
+    "port": 3000,
+    "address": "localhost",
+    "language": "node",
+    "compiler": "node",
+    "tester": "jest",
+    "editor": "gitpod",
+    "ignoreRegex": null,
+    "grading": "isolated",
+    "actions": [
+        "run",
+        "test"
+    ],
+    "exercisesPath": "./exercises",
+    "exercises": [
+        {
+            "slug": "01-Welcome",
+            "title": "01-Welcome",
+            "path": "exercises/01-Welcome"
+        },
+        {
+            "slug": "02-Hello-World",
+            "title": "02-Hello-World",
+            "path": "exercises/02-Hello-World"
+        }
+    ]
 }
