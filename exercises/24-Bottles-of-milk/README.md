@@ -1,11 +1,19 @@
-Have you heard the song about 99 bottles of milk? Is a great song, is not boring at all... here you can here it: https://www.youtube.com/watch?v=Xy-da43E6Lo
+# `24` Bottles of Milk 
 
-Please write an algorithm to print the exact same lyrics.
+Have you heard the song about 99 bottles of milk? 
 
-HINT:
-- At the end of the song, the lyrics change because is only one bottle (singular instead of plural).
-- Read the last lyrics and you will see how the last line changes to "go to the store and by some more".
+It is a great song - not boring at all... :laughing: 
 
+Here you can hear it: https://www.youtube.com/watch?v=Xy-da43E6Lo
+
+## :pencil: Instructions:
+* Please write an algorithm to print the exact same lyrics.
+
+### :bulb: HINT:
+* At the end of the song, the lyrics change because is only one bottle (singular instead of plural).
+* Read the last lyrics and you will see how the last line changes to "go to the store and by some more".
+
+### :scroll: Note:
 The result should be something like this:
 
 99 bottles of milk on the wall, 99 bottles of milk. 

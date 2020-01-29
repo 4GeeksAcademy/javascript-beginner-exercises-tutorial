@@ -1,5 +1,11 @@
-If you run this code you'll see a count from 0 to 99 (White characters).  Fix it so that it counts up to 100, you'll see 101 on green afterwards.
+# `17` Your First Loop
 
-IMPORTANT: there's a Replit Classroom dedicated to Arrays, we encourage you to go and finish those after this first Array exercise. (And then, come back).
+If you run this code you'll see a count from 0 to 99 (White characters).  
 
-Can you fix it?
+## :pencil: Instructions:
+Fix the code so that it counts up to 100. You will then see it followed by 101 in green text in the console.
+
+### :exclamation: IMPORTANT: 
+*There is a Replit Classroom dedicated to Arrays, we encourage you to go and finish those after this first Array exercise. (And then, come back).*
+
+**Can you fix it?**

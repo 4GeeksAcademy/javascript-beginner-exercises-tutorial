@@ -13,7 +13,7 @@ console.log("How are you?");
 
 Use console.log to print "Hello World" on the console. Feel free to try other things as well.
 
-## 💡 Hint:
+### 💡 Hint:
 
 5 minutes video about the console:
 https://www.youtube.com/watch?v=1RlkftxAo-M

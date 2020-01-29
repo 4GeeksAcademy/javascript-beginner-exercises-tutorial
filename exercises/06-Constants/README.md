@@ -1,13 +1,21 @@
-Since 2015, Javascript also allows the usage of constants, they differ from variables because once declared, they cannot change their value over time like variables can.
+# `06` Constants
 
-To declare a constant, you have to use the reserved word const instead of var, like this:
 
+Since 2015, JavaScript also allows the usage of constants. 
+They differ from variables because once declared, they cannot have their values changed over time like variables can.
+
+To declare a constant, you have to use the reserved word **const** instead of **var**, like this:
+
+```js
 const VERSION = '1.2';
+```
 
-Constants are super useful because some times, as a developer, you want to make sure parts of your data are read-only.
+Constants are super useful because sometimes as a developer you'd want to make sure parts of your data are read-only.
 
-Instructions
-Run the exercise and fix the error that will show on the console. 
-Make the code output 0.9 on the console when fixed.
 
-Hint: Search the error on google.com to learn how to fix it.
+## :pencil: Instructions
+* Run the exercise and fix the error that will show on the console. 
+Make the code output **0.9** on the console when fixed.
+
+### 💡 Hint:
+* Search the error on google.com to learn how to fix it.
