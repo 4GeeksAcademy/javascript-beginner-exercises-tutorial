@@ -16,7 +16,7 @@ describe('All the javascript should match', function () {
     });
     afterEach(() => { jest.resetModules(); });
 
-    it('console.log() function should be called with Hello World', function () {
+    it('console.log() should display 0.9', function () {
 
         /*
             Here is how to mock the alert function:
@@ -27,7 +27,7 @@ describe('All the javascript should match', function () {
         const file = require("./app.js");
 
         //Expect the console log to have been called with "Hello World" at least one
-        expect(console.log).toHaveBeenCalledWith("Hello World");
+        expect(console.log).toHaveBeenCalledWith("0.9");
         //and I expect the console.log to be already called just one time.
         expect(console.log.mock.calls.length).toBe(1);
 

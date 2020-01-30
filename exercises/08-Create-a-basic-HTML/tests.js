@@ -16,7 +16,7 @@ describe('All the javascript should match', function () {
     });
     afterEach(() => { jest.resetModules(); });
 
-    it('console.log() function should be called with Hello World', function () {
+    it('console.log() function should display <html><head><title></title></head><body></body></html>', function () {
 
         /*
             Here is how to mock the alert function:
