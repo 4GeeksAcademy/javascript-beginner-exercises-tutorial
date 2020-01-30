@@ -8,6 +8,6 @@ Functions are amazing because of many things, but mainly because you can encapsu
 
 ## :pencil: Instructions
 
-The function **isOdd** is defined at the beginning of the code.
+The already defined function **isOdd** returns *True* if an odd number is passed as a parameter, and *False* if the number is even. 
 * Please call that function by passing the number 45345 as its parameter.
-* Print the result on the console.
+* Print the result of the function call on the console.

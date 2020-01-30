@@ -7,4 +7,6 @@ const f = '</head>';
 const g = '<title>';
 const h = '<body>';
 
-let htmlDocument = '';
+let htmlDocument = e+c+g+a+f+h+d+b;
+
+console.log(htmlDocument);
