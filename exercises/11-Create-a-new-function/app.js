@@ -1,2 +1,6 @@
+const generateRandom = () => {
+    let number = Math.floor(Math.random() * 10);
+    return number;
+}
 
-//declare your function here
+console.log(generateRandom());

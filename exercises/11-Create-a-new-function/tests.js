@@ -16,7 +16,7 @@ describe('All the javascript should match', function () {
     });
     afterEach(() => { jest.resetModules(); });
 
-    it('console.log() function should be called with Hello World', function () {
+    it('console.log() function should be called with a random 0-9 number', function () {
 
         /*
             Here is how to mock the alert function:
@@ -25,9 +25,12 @@ describe('All the javascript should match', function () {
 
         //then I import the index.js (which should have the alert() call inside)
         const file = require("./app.js");
+        file.generateRandom = jest.fn();
 
-        //Expect the console log to have been called with "Hello World" at least one
-        expect(console.log).toHaveBeenCalledWith("Hello World");
+        //Expect the console log to have been called with a random 0-9 number at least once
+        expect(parseInt(console.log())).toBeGreaterThanOrEqual(0);
+
+        expect(parseInt(console.log())).toBeLessThanOrEqual(9);
         //and I expect the console.log to be already called just one time.
         expect(console.log.mock.calls.length).toBe(1);
 
