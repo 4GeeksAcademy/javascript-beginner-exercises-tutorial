@@ -25,7 +25,6 @@ describe('All the javascript should match', function () {
 
         //then I import the index.js (which should have the alert() call inside)
         const file = require("./app.js");
-        file.generateRandom = jest.fn();
 
         //Expect the console log to have been called with a random 0-9 number at least once
         expect(parseInt(console.log())).toBeGreaterThanOrEqual(0);
