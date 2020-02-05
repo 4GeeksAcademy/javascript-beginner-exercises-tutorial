@@ -1,3 +1,5 @@
+/* Test status - test is working fine */
+
 const fs = require('fs');
 const path = require('path');
 
@@ -18,15 +20,10 @@ describe('All the javascript should match', function () {
 
     it('console.log() function should display Hello World', function () {
 
-        /*
-            Here is how to mock the alert function:
-            https://stackoverflow.com/questions/41885841/how-to-mock-the-javascript-window-object-using-jest
-        */
-
         //then I import the index.js (which should have the alert() call inside)
         const file = require("./app.js");
 
-        //Expect the console log to have been called with "Hello World" at least one
+        //Expect the console log to have been called with "Hello World" at least once
         expect(console.log).toHaveBeenCalledWith("Hello World");
         //and I expect the console.log to be already called just one time.
         expect(console.log.mock.calls.length).toBe(1);

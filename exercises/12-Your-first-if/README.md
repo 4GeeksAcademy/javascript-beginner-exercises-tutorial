@@ -11,4 +11,5 @@ Once the user inputs the amount, we need to print one of the following answers:
 * If the user has less or equal than $50, we answer: "You are a poor guy, go away!"
 
 ### 💡 Hint:
-Use an If/else statement to check the value of the "total" variable.
+* Use an If/else statement to check the value of the "total" variable
+* Print the corresponding message

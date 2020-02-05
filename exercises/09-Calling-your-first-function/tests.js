@@ -1,5 +1,8 @@
+/* Test status - test is working fine */
+
 const fs = require('fs');
 const path = require('path');
+var rewire = require('rewire');
 
 jest.dontMock('fs');
 //here we are going to store and accumulate (concatenate) all the console log's from the exercise
@@ -18,14 +21,12 @@ describe('All the javascript should match', function () {
 
     it('console.log() function should be called with parameter 45345', function () {
 
-        /*
-            Here is how to mock the alert function:
-            https://stackoverflow.com/questions/41885841/how-to-mock-the-javascript-window-object-using-jest
-        */
-
         //then I import the index.js (which should have the alert() call inside)
         const file = require("./app.js");
+        const _app = rewire('./app');
+        const isOdd = _app.__get__("isOdd");
 
+        expect(console.log).toHaveBeenCalledWith(isOdd(45345));
         //Expect the console log to have been called with parameter 45345 at least once
         expect(console.log).toHaveBeenCalledWith(true);
         //and I expect the console.log to be already called just one time.

@@ -1,15 +1,38 @@
  
-function getColor(selection)
-{
-	switch(selection){
-		//Add more options here
-	    default :
-	    	return false;//return false because the user pick a unavailable color
-	    break;               
-	}
+const getColor = (selection) => {
+ let color = selection;
+  console.log('Color', color);
+
+	switch (color) {
+        case 'red':
+            console.log('Good news! That color is available');   
+            break;
+        case 'green':
+            console.log('Good news! That color is available');   
+            break;
+        case 'blue':
+            console.log('Good news! That color is available');   
+            break;    
+            default:
+                console.log('We are sorry, that color is not available'); 
+                break;
+    }
+    
 }
 
-var colorname = window.prompt('What color do you want?');
+var colorname = prompt('What color do you want?');
+console.log("colorname", colorname);
+
+getColor(colorname.toString());
+
+
+/*
+var colorname = prompt('What color do you want?');
+console.log("colorname", colorname);
+
 var isAvailable = getColor(colorname);
-if(isAvailable) console.log('Good news! That color is available');
+console.log("getColor ", isAvailable);
+
+if(isAvailable == true) console.log('Good news! That color is available');
 else console.log('We are sorry, that color is not available');
+*/
