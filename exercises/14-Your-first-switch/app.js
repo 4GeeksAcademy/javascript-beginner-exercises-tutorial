@@ -1,38 +1,27 @@
- 
-const getColor = (selection) => {
- let color = selection;
-  console.log('Color', color);
+/* The exercise compiles with the wrong message even though same code brings up the correct message on Replit */
+  
+function getColor(selection) {
+  selection = selection.toLowerCase();
+  console.log("selection is " + selection);
 
-	switch (color) {
-        case 'red':
-            console.log('Good news! That color is available');   
-            break;
+  var available;
+	switch(selection){
+	    case 'red':
+        available = "true";
+        break;
         case 'green':
-            console.log('Good news! That color is available');   
-            break;
+        available = true;
+        break;
         case 'blue':
-            console.log('Good news! That color is available');   
-            break;    
-            default:
-                console.log('We are sorry, that color is not available'); 
-                break;
-    }
-    
+        available = true;
+        break;
+	    default :
+	    	return false;//return false because the user pick a unavailable color
+	}
+	return available;
 }
 
 var colorname = prompt('What color do you want?');
-console.log("colorname", colorname);
-
-getColor(colorname.toString());
-
-
-/*
-var colorname = prompt('What color do you want?');
-console.log("colorname", colorname);
-
 var isAvailable = getColor(colorname);
-console.log("getColor ", isAvailable);
-
-if(isAvailable == true) console.log('Good news! That color is available');
+if (isAvailable === "true") console.log('Good news! That color is available');
 else console.log('We are sorry, that color is not available');
-*/

@@ -3,7 +3,7 @@
 We have created a function that returns a color based on a number between 1 and 4 (for any different number, it will return the color black).
 
 ## :pencil: Instructions:
-Let's say that we are teachers in a 10 student classroom and we want to randomly assign ONE color, between red, yellow, blue and green, to EACH student. 
+Let's say that we are teachers in a 10-student classroom. We want to randomly assign ONE color (red, yellow, blue or green), to EACH student. 
 
 (only ONE color PER student)
 

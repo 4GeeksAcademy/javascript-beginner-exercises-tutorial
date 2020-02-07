@@ -1,3 +1,5 @@
+/* Test status - test is working fine */
+
 const fs = require('fs');
 const path = require('path');
 
@@ -17,11 +19,6 @@ describe('All the javascript should match', function () {
     afterEach(() => { jest.resetModules(); });
 
     it('console.log() function should be called with variable color', function () {
-
-        /*
-            Here is how to mock the alert function:
-            https://stackoverflow.com/questions/41885841/how-to-mock-the-javascript-window-object-using-jest
-        */
 
         //then I import the index.js (which should have the alert() call inside)
         const file = require("./app.js");
