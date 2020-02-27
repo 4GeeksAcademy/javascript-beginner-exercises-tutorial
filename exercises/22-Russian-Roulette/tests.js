@@ -16,8 +16,6 @@ global.console.log = console.log = jest.fn((text) => _buffer += text + "\n");
     const  fireGun = app.__get__("fireGun"); 
     const  bulletPosition = app.__get__("bulletPosition"); 
     
-    _log(fireGun);
-
         it('If fireGun() is false, message should be "Keep playing :)"', function () {
             for(var i=0;i<6;i++){
                 if(i === bulletPosition){
