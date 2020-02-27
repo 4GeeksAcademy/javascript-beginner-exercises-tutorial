@@ -1,15 +1,13 @@
-var bulletPosition = 3;
+var bulletPosition = 4;
 
-function spinChamber()
-{
+const spinChamber = () => {
 	var chamberPosition = Math.floor((Math.random() * 6) + 1);
 	return chamberPosition;
-}
+};
 
-function fireGun()
-{
-	//you code here
-}
+const fireGun = (spinnerPosition) => {
+    if (bulletPosition === spinnerPosition) return ("You're dead!");
+    else return ("Keep playing!");
+};
 
-if(fireGun()) console.log('Keep playing :)');
-else console.log('you are dead!');
+console.log(fireGun(spinChamber()));

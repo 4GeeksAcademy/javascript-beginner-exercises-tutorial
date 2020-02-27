@@ -1,4 +1,4 @@
-/* Test status - test is working fine */ 
+/*Test status - Test is working */
 
 const fs = require('fs');
 const path = require('path');
@@ -14,15 +14,16 @@ global.console.log = console.log = jest.fn((text) => _buffer += text + "\n");
 
 describe('All the javascript should match', function () {
     beforeEach(() => {
+        //here I import the HTML into the document
     });
     afterEach(() => { jest.resetModules(); });
 
-    it('console.log() call should result between 1 and 6', function () {
+    it('console.log() function should be called with proper lyrics order', function () {
 
         const file = require("./app.js");
 
-        expect(parseInt(console.log())).toBeGreaterThanOrEqual(1);
+        expect(console.log).toHaveBeenCalledWith("let it be, let it be, let it be, let it be, words of wisdom, let it be, let it be, let it be, let it be, let it be, there will be an answer, let it be ");
 
-        expect(parseInt(console.log())).toBeLessThanOrEqual(6);
+        expect(console.log.mock.calls.length).toBe(1);
     });
 });
