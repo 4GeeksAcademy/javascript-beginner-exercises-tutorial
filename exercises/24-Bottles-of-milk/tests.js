@@ -1,4 +1,4 @@
-/*Test status - test is working */
+
 
 const fs = require('fs');
 const path = require('path');

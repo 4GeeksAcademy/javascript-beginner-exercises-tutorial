@@ -1,8 +1,3 @@
-/* This exercise is almost identical to 15-Random numbers */
+/* This exercise is almost identical to 15-Random numbers - consider merging them here and using another concept for 15? */
 
-const generateRandom = () => {
-    let number = Math.floor(Math.random() * 10);
-    return number;
-}
-
-console.log(generateRandom());
+// Declare your function here

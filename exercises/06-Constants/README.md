@@ -18,4 +18,4 @@ Constants are super useful because sometimes as a developer you'd want to make s
 Make the code output **0.9** on the console when fixed.
 
 ### 💡 Hint:
-* Search the error on google.com to learn how to fix it.
+* Search "TypeError assignment to constant variable" on Google.com to learn how to fix it.

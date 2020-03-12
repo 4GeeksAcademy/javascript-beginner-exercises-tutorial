@@ -22,7 +22,5 @@ describe('All the javascript should match', function () {
         //and I expect the console.log to be already called just one time.
         expect(console.log.mock.calls.length).toBe(1);
 
-        //You can also compare the entire console buffer (if there have been several console.log calls on the exercise)
-        //expect(_buffer).toBe("Compare with the entire function buffer out");
     });
 });

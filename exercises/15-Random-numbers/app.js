@@ -1,4 +1,4 @@
-/*Exercise closely resembles 11? */
+/*Exercise closely resembles 11 - consider introducing another concept here? */
 
 function getRandomInt()
 {

@@ -1,0 +1,142 @@
+{
+    "port": 3000,
+    "address": "localhost",
+    "language": "node",
+    "compiler": "node",
+    "tester": "jest",
+    "editor": "gitpod",
+    "ignoreRegex": null,
+    "grading": "isolated",
+    "actions": [
+        "run",
+        "test"
+    ],
+    "exercisesPath": "./exercises",
+    "exercises": [
+        {
+            "slug": "01-Welcome",
+            "title": "01-Welcome",
+            "path": "exercises/01-Welcome"
+        },
+        {
+            "slug": "02-Hello-World",
+            "title": "02-Hello-World",
+            "path": "exercises/02-Hello-World"
+        },
+        {
+            "slug": "03-Print-variables-in-the-console",
+            "title": "03-Print-variables-in-the-console",
+            "path": "exercises/03-Print-variables-in-the-console"
+        },
+        {
+            "slug": "04-Multiply-two-values",
+            "title": "04-Multiply-two-values",
+            "path": "exercises/04-Multiply-two-values"
+        },
+        {
+            "slug": "05-User-inputed-variables",
+            "title": "05-User-inputed-variables",
+            "path": "exercises/05-User-inputed-variables"
+        },
+        {
+            "slug": "06-Constants",
+            "title": "06-Constants",
+            "path": "exercises/06-Constants"
+        },
+        {
+            "slug": "07-String-concatenation",
+            "title": "07-String-concatenation",
+            "path": "exercises/07-String-concatenation"
+        },
+        {
+            "slug": "08-Create-a-basic-HTML",
+            "title": "08-Create-a-basic-HTML",
+            "path": "exercises/08-Create-a-basic-HTML"
+        },
+        {
+            "slug": "09-Calling-your-first-function",
+            "title": "09-Calling-your-first-function",
+            "path": "exercises/09-Calling-your-first-function"
+        },
+        {
+            "slug": "10-Creating-your-first-function",
+            "title": "10-Creating-your-first-function",
+            "path": "exercises/10-Creating-your-first-function"
+        },
+        {
+            "slug": "11-Create-a-new-function",
+            "title": "11-Create-a-new-function",
+            "path": "exercises/11-Create-a-new-function"
+        },
+        {
+            "slug": "12-Your-first-if",
+            "title": "12-Your-first-if",
+            "path": "exercises/12-Your-first-if"
+        },
+        {
+            "slug": "13-How-much-the-wedding-costs",
+            "title": "13-How-much-the-wedding-costs",
+            "path": "exercises/13-How-much-the-wedding-costs"
+        },
+        {
+            "slug": "14-Your-first-switch",
+            "title": "14-Your-first-switch",
+            "path": "exercises/14-Your-first-switch"
+        },
+        {
+            "slug": "15-Random-numbers",
+            "title": "15-Random-numbers",
+            "path": "exercises/15-Random-numbers"
+        },
+        {
+            "slug": "16-Rand-from-one-to-six",
+            "title": "16-Rand-from-one-to-six",
+            "path": "exercises/16-Rand-from-one-to-six"
+        },
+        {
+            "slug": "17-Your-first-loop",
+            "title": "17-Your-first-loop",
+            "path": "exercises/17-Your-first-loop"
+        },
+        {
+            "slug": "18-Create-a-for-loop",
+            "title": "18-Create-a-for-loop",
+            "path": "exercises/18-Create-a-for-loop"
+        },
+        {
+            "slug": "19-While-loop",
+            "title": "19-While-loop",
+            "path": "exercises/19-While-loop"
+        },
+        {
+            "slug": "20-Random-colors-loop",
+            "title": "20-Random-colors-loop",
+            "path": "exercises/20-Random-colors-loop"
+        },
+        {
+            "slug": "21-Looping-with-FizzBuzz",
+            "title": "21-Looping-with-FizzBuzz",
+            "path": "exercises/21-Looping-with-FizzBuzz"
+        },
+        {
+            "slug": "22-Russian-Roulette",
+            "title": "22-Russian-Roulette",
+            "path": "exercises/22-Russian-Roulette"
+        },
+        {
+            "slug": "23-The-Beatles",
+            "title": "23-The-Beatles",
+            "path": "exercises/23-The-Beatles"
+        },
+        {
+            "slug": "24-Bottles-of-milk",
+            "title": "24-Bottles-of-milk",
+            "path": "exercises/24-Bottles-of-milk"
+        },
+        {
+            "slug": "25-Javascript-Objects",
+            "title": "25-Javascript-Objects",
+            "path": "exercises/25-Javascript-Objects"
+        }
+    ]
+}

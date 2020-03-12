@@ -1,10 +1,10 @@
 
 //Set the values here
-var myVar1 = 'Hello';
-var myVar2 = 'World';
+var myVar1 = '';
+var myVar2 = '';
 
 
 
-//Don't change any of this line
+//Don't change any code below
 var theNewString = myVar1+' '+myVar2;
 console.log(theNewString);

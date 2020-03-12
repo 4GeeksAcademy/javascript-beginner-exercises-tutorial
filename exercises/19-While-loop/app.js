@@ -1,17 +1,15 @@
-/* Done - check tests and clear for student use */
 
 //fix this function:
 function startCounting()
 {
 	var counter = 100;
-	while(counter >= 0)
+	while(counter <= 100)
 	{
-        console.log(counter);
-        counter --;
+		counter --;
+		console.log(counter);
 	}
 	
 	return counter;
 }
 
-//do not modify the code below
 startCounting();

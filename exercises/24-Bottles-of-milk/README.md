@@ -10,8 +10,9 @@ Here you can hear it: https://www.youtube.com/watch?v=Xy-da43E6Lo
 * Please write an algorithm to print the exact same lyrics.
 
 ### :bulb: HINT:
-* At the end of the song, the lyrics change because is only one bottle (singular instead of plural).
+* At the end of the song, the lyrics change because it is only one bottle (singular instead of plural).
 * Read the last lyrics and you will see how the last line changes to "go to the store and by some more".
+* Use loops to complete this task
 
 ### :scroll: Note:
 The result should be something like this:
