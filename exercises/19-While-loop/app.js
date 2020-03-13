@@ -1,3 +1,5 @@
+
+//fix this function:
 function startCounting()
 {
 	var counter = 100;

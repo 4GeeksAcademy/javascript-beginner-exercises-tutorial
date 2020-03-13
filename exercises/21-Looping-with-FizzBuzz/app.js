@@ -1,5 +1,5 @@
 function fizzBuzz() {  
-	//your code here
+	// Your code here
 }
 
 fizzBuzz();

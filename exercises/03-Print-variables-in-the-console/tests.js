@@ -1,3 +1,4 @@
+
 const fs = require('fs');
 const path = require('path');
 
@@ -16,20 +17,16 @@ describe('All the javascript should match', function () {
     });
     afterEach(() => { jest.resetModules(); });
 
-    it('console.log() function should be called with Hello World', function () {
-
-        /*
-            Here is how to mock the alert function:
-            https://stackoverflow.com/questions/41885841/how-to-mock-the-javascript-window-object-using-jest
-        */
+    it('console.log() function should be called with variable color', function () {
 
         //then I import the index.js (which should have the alert() call inside)
         const file = require("./app.js");
+        const color = 'red';
 
         //Expect the console log to have been called with "Hello World" at least one
-        expect(console.log).toHaveBeenCalledWith("Hello World");
+        expect(console.log).toHaveBeenCalledWith(color);
         //and I expect the console.log to be already called just one time.
-        expect(console.log.mock.calls.length).toBe(1);
+        expect(console.log.mock.calls.length).toBe(2);
 
         //You can also compare the entire console buffer (if there have been several console.log calls on the exercise)
         //expect(_buffer).toBe("Compare with the entire function buffer out");

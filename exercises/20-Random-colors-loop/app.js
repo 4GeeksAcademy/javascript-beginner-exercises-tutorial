@@ -1,6 +1,6 @@
 function getColor(colorNumber=0)
 {
-	//making sure is a number and not a string
+	//make sure parameter is a number and not a string by converting the value to int:
 	colorNumber = parseInt(colorNumber);
 	switch(colorNumber){
 		case 1: return "red"; break;
@@ -17,4 +17,6 @@ function getAllStudentColors(){
 	var exampleColor = getColor(1);
 }
 
-console.log(getAllStudentColors());
+//call the function below with the number of students in the class and print on the console
+getAllStudentColors();
+

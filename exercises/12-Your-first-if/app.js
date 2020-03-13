@@ -1,3 +1,3 @@
-var total = window.prompt('How much money do you have in your pocket');
+var total = prompt('How much money do you have in your pocket');
 
-//your code here
+// Your code below:

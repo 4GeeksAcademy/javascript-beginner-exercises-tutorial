@@ -12,4 +12,4 @@ In this case, we stored the result value of the multiplication into a variable c
 
 ## :pencil: Instructions
 
-Please store the result of multiplying 2345 times 7323 in a variable called variablesAreCool and the print the result in the console.
+Please store the result of multiplying 2345 times 7323 in a variable called **variablesAreCool** and then print the result in the console.

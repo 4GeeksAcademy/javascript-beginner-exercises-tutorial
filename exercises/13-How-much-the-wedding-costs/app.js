@@ -1,6 +1,5 @@
+let input = prompt('How many people are coming to your wedding?');
 
-let userInput = prompt('How many people are coming to your wedding?');
-
-// your code here
+// Your code here
 
 console.log('Your wedding will cost '+price+' dollars');

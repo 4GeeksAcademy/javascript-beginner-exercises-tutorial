@@ -1,9 +1,14 @@
-Loops are very useful, you don't have to repeat yourself by writing the same lines many times. 
+# `18` Creat a FOR Loop
 
-The "for" loop lets you run the same code for different values. 
+Loops are very useful - with them you don't have to repeat yourself by writing the same lines of code many times. 
 
-Read more on loops: 
-https://www.w3schools.com/js/js_loop_for.asp
+The **For** loop lets you run the same code for different values. 
 
-Instructions
-Create a function called standardsMaker that prints 300 times the phrase "I will write questions if I'm stuck".
+
+
+## :pencil: Instructions:
+* Create a function called **standardsMaker** that prints 300 times the phrase "I will write questions if I'm stuck".
+
+### :scroll: Note:
+* Read more on loops here: 
+    https://www.w3schools.com/js/js_loop_for.asp

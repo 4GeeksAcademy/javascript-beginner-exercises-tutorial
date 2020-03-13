@@ -1,10 +1,9 @@
- 
 function getColor(selection)
 {
 	switch(selection){
 		//Add more options here
 	    default :
-	    	return false;//return false because the user pick a unavailable color
+	    	return false;//returns false because the user picked an unavailable color
 	    break;               
 	}
 }
