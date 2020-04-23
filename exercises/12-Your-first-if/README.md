@@ -1,3 +1,7 @@
+---
+video: "https://www.youtube.com/watch?v=ISVA9y09Kx4"
+---
+
 # `12` Your First If Statement
 
 The current application has a prompt asking how much money the user has. 
