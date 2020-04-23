@@ -1,3 +1,7 @@
+---
+intro: "https://www.youtube.com/watch?v=GjQEotj3t6Y"
+---
+
 ![Javascript Preview](https://ucarecdn.com/b6fd7d5e-09ac-4f1f-8546-ce8732be63f9/)
 
 # Welcome to the Javascript Exercises!
