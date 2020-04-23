@@ -1,3 +1,7 @@
+---
+video: "https://www.youtube.com/watch?v=N95pm7kv0a4"
+---
+
 # `11` Creating a New Function
 
 As you know, functions are a useful block of code that you can re-use as many times as you wish. In the last exercise, you had a function that received two parameters (two inputs) and returned the sum of those. 
