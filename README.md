@@ -16,7 +16,9 @@ My name is Alejandro Sanchez @alesanchezr. I'm really excited to have you here !
 Complete selection of auto-graded and interactive Javascript exercises for anyone interested in learning Python!
 
 <ol>
-  <li><a href="https://github.com/4GeeksAcademy/javascript-beginner-exercises-tutorial">Python for Beginners</a> ← your are here now</li>
+  <li><a href="https://github.com/4GeeksAcademy/javascript-beginner-exercises-tutorial">Javascript for Beginners</a> ← your are here now</li>
+  <li><a href="https://github.com/4GeeksAcademy/javascript-beginner-exercises-tutorial">Looping with Javascript</a></li>
+  <li><a href="https://github.com/4GeeksAcademy/javascript-functions-exercises-tutorial">javascript Functions</a></li>
 </ol>
 
 These exercises were built in collaboration, we need you! If you find any bugs or misspells plese contribute and report them.
