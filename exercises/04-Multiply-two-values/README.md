@@ -1,3 +1,7 @@
+---
+video: "https://www.youtube.com/watch?v=0AstdiXq3sM"
+---
+
 # `04` Multiply two values
 
 Any programming language lets you do basic Math operations like multiplication, division, etc.
