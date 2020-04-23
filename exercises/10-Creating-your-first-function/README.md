@@ -1,3 +1,7 @@
+---
+video: "https://www.youtube.com/watch?v=41QZKUDS9Uw"
+---
+
 # `10` Creating Your First Function
 
 ## :pencil: Instructions:
