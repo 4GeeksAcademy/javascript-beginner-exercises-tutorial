@@ -1,3 +1,7 @@
+---
+video: "https://www.youtube.com/watch?v=qspNmnyqi-U"
+---
+
 # `07` String Concatenation
 
 One of JavaScript's main objectives is to generate HTML code. 
