@@ -1,3 +1,7 @@
+---
+video: "https://www.youtube.com/watch?v=prD2J3Ye-uA"
+---
+
 # `06` Constants
 
 
