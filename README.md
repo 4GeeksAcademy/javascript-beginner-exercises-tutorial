@@ -11,9 +11,7 @@
   </tr>
 </table>
 
-My name is Alejandro Sanchez @alesanchezr. I'm really excited to have you here !! 🎉 😂 Learning to code is hard, you need coaching! DM me on twitter if you have any question.
-
-Complete selection of auto-graded and interactive Javascript exercises for anyone interested in learning Python!
+Complete selection of auto-graded and interactive Javascript exercises for anyone interested in learning Javascript!
 
 <ol>
   <li><a href="https://github.com/4GeeksAcademy/javascript-beginner-exercises-tutorial">Javascript for Beginners</a> ← your are here now</li>
