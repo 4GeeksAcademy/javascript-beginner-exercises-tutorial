@@ -35,12 +35,12 @@ test('getRandomInt should return something', function () {
 
 });
 
-test('getRandomInt should return an interger (no decimals)', function () {
+test('getRandomInt should return an integer (no decimals)', function () {
 
     //then I import the index.js (which should have the alert() call inside)
     const file = rewire("./app.js");
     const getRandomInt = file.__get__('getRandomInt');
-    
+    const _int = getRandomInt();
     expect(Math.floor(_int)).toBe(_int);
 });
 
