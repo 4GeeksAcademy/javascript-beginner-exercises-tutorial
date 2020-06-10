@@ -1,5 +1,5 @@
 ---
-video: "https://www.youtube.com/watch?v=5NDv7NnSy6M"
+tutorial: "https://www.youtube.com/watch?v=5NDv7NnSy6M"
 ---
 
 # `08` Create a Basic HTML

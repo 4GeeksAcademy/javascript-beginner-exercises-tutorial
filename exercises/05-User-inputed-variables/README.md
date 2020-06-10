@@ -1,5 +1,5 @@
 ---
-video: "https://www.youtube.com/watch?v=NVOYUidj3Es"
+tutorial: "https://www.youtube.com/watch?v=NVOYUidj3Es"
 ---
 
 # `05` User Inputted Variables

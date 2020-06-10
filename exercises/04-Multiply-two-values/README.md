@@ -1,5 +1,5 @@
 ---
-video: "https://www.youtube.com/watch?v=0AstdiXq3sM"
+tutorial: "https://www.youtube.com/watch?v=0AstdiXq3sM"
 ---
 
 # `04` Multiply two values

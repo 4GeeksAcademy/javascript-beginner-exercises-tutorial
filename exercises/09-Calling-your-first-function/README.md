@@ -1,5 +1,5 @@
 ---
-video: "https://www.youtube.com/watch?v=1S3f_FsWaY8"
+tutorial: "https://www.youtube.com/watch?v=1S3f_FsWaY8"
 ---
 
 # `09` Calling Your First Function

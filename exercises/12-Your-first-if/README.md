@@ -1,5 +1,5 @@
 ---
-video: "https://www.youtube.com/watch?v=ISVA9y09Kx4"
+tutorial: "https://www.youtube.com/watch?v=ISVA9y09Kx4"
 ---
 
 # `12` Your First If Statement
