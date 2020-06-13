@@ -13,6 +13,6 @@ The game is almost working.
 * Please fill the function **fireGun** to make the game work (compare the bullet position against the chamber position.)
 
 ### :bulb: HINT:
-The function needs to return true or false depending on the result.
+- If the bullet position matches the chamber position, the function fireGun() should return `"You're dead!`
+- If the bullet position doesn't match the chamber position, the function fireGun() should return `"Keep playing!`
 
-If the bullet was at the same slot as the revolver chamber, then it will be fired (false).
