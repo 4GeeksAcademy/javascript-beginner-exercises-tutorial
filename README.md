@@ -37,7 +37,7 @@ We need you! These exercises are built and maintained in collaboration with cont
 $ npm i breathecode-cli -g
 ```
 
-2) Clone or download this repository. Once you downloading is complete, you will find a new folder with a subdirectory called "exercises" that contains all the exercises within.
+2) Clone or download this repository. Once downloading is complete, you will find a new folder with a subdirectory called "exercises" that contains all the exercises within.
 
 3) Start the tutorial/exercises by running the following command from the root of the project:
 
