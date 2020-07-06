@@ -4,7 +4,7 @@ tutorial: "https://www.youtube.com/watch?v=N95pm7kv0a4"
 
 # `11` Creating a New Function
 
-As you know, functions are a useful block of code that you can re-use as many times as you wish. In the last exercise, you had a function that received two parameters (two inputs) and returned the sum of those. 
+As you know, functions are a useful block of code that can be reused as many times as you need. In the last exercise, you had a function that received two arguments (two inputs) and returned their sum. 
 
 Like this:
 ```js
@@ -13,22 +13,21 @@ function addNumbers(a, b){
 }
 ```
 
-But Javascript comes with a bunch of "pre-defined" functions that you can use. 
+Javascript also comes with many "pre-defined" functions that you can use as well. 
 
 For example:
 ```js
 Math.random();
 ```
 
-You can use the **Math.random()** function to get a random decimal number between 0 and 1. Every time you call that function, it will return another random decimal number between 0 and 1.
+You can use the **Math.random()** function to get a pseudo-random decimal (also called a **floating-point**, **float**, or **double**) number.  This floating-point number will be between 0 and a number, n (inclusive of 0, but not of n). As a matter of fact, every time you call `Math.random()`, it will return another random float.
 
 ## :pencil: Instructions:
 
-* Please create a function called **generateRandom**, which generates a random number between 0 and 9 every time it is called.
+* Create a function called **generateRandom()**, which generates a pseudo-random number between 0 and 9 every time it is called.
 
 ### 💡 Hint:
 
-* One possible solution involves using two predefined functions: the **Math.random()** and **Math.floor()** functions.
-* You can find out more about this here:
+One possible solution involves using two predefined functions: the **Math.random()** and the **Math.floor()** functions. You can learn more about these two functions here:
 
     https://www.w3schools.com/jsref/jsref_random.asp
