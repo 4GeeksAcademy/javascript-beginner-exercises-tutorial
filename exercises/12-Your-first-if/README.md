@@ -21,4 +21,4 @@ Once the user inputs an amount, one of the following responses will be printed t
 * You can use `else if` within your conditional, if needed.
 * Print the corresponding message to the console.
 
-Use the following link can help you: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else
+Learn more: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else

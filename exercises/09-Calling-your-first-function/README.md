@@ -15,5 +15,5 @@ Functions are an amazing tool for programmers!  Think of functions like black bo
 ## :pencil: Instructions
 
 The already defined function **isOdd()** returns `true` if an odd number is passed as an argument, and `false` if the argument is an even number.
-* Call the function `isOdd()` by passing the number 45345 as its argument.
+* Call the function `isOdd()` and pass the number 45345 as its argument.
 * Print the output of the function to the console.

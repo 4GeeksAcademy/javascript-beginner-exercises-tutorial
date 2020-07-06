@@ -7,29 +7,29 @@ tutorial: "https://www.youtube.com/watch?v=41QZKUDS9Uw"
 Function definitions have a number of parts to them:
 
 ```js
-function function name (param1, param2, ...) {
-    return param1 + param2
+function function_name (param1, param2, ...) {
+    return param1 + param2;
 }
 ```
 Functions begin with the **keyword** `function`
 
-The `function name` is the name of the function
+The `function_name` is the name of the function
 
 `(param1, param2, ...)` are the **parameters** (variables) required by the function.  They can be integers, strings, doubles, or any combination thereof.  You can have zero or more parameters in a given function.  Parameters are assigned **arguments**, which are the user's input.
 
-Within the curly braces `{...}` is the function body.  Here is where the arguments are processed and some sort of output is provided. Output can include returning a value (as shown in the example above), printing to the console, calling another function, etc.
+The space within the curly braces `{...}` is the function body.  Here is where the arguments are processed and some sort of output is provided. Output can include returning a value (as shown in the example above), printing to the console, calling another function, etc.
 
 ## :pencil: Instructions:
 
-The function **addNumbers()** is supposed to return the sum of 2 given numbers.
-* Complete the needed code inside of the function to make it behave as expected.
+The function **addNumbers()** is supposed to return the sum of two given numbers.
+* Complete the necessary code with the function body to make it behave as expected.
 
-* The exercise should print the number `7` to the console.
+* The exercise should print `7` to the console.
 
 ### 💡 Hint:
-
-The function is receiving 2 arguments (stored in the parameters `a` and `b`). Provide the necessary code within the function body that will calculate the sum of these two arguments. The function should return the result of the operation as well.
-
+`<details><summary>`Click to reveal`</summary>`
+The function is receiving two arguments (stored in the parameters `a` and `b`). You can create a variable called `sum` within the function body that stores the total of both arguments. Use `console.log()` to print `sum` to the console.
+`</details>`
 ### :scroll: Note:
 
 *For more practice with functions, there is a specific repl.it class about functions created by 4Geeks Academy that has over 20 incremental exercises.*
