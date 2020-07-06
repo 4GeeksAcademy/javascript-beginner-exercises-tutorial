@@ -27,9 +27,9 @@ The function **addNumbers()** is supposed to return the sum of two given numbers
 * The exercise should print `7` to the console.
 
 ### 💡 Hint:
-`<details><summary>`Click to reveal`</summary>`
+<details><summary>Click to reveal</summary>
 The function is receiving two arguments (stored in the parameters `a` and `b`). You can create a variable called `sum` within the function body that stores the total of both arguments. Use `console.log()` to print `sum` to the console.
-`</details>`
+</details>
 ### :scroll: Note:
 
 *For more practice with functions, there is a specific repl.it class about functions created by 4Geeks Academy that has over 20 incremental exercises.*
