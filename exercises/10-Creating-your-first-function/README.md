@@ -4,17 +4,35 @@ tutorial: "https://www.youtube.com/watch?v=41QZKUDS9Uw"
 
 # `10` Creating Your First Function
 
+Function definitions have a number of parts to them:
+
+```js
+function function_name (param1, param2, ...) {
+    return param1 + param2;
+}
+```
+Functions begin with the **keyword** `function`
+
+The `function_name` is the name of the function
+
+`(param1, param2, ...)` are the **parameters** (variables) required by the function.  They can be integers, strings, doubles, or any combination thereof.  You can have zero or more parameters in a given function.  Parameters are assigned **arguments**, which are the user's input.
+
+The space within the curly braces `{...}` is the function body.  Here is where the arguments are processed and some sort of output is provided. Output can include returning a value (as shown in the example above), printing to the console, calling another function, etc.
+
 ## :pencil: Instructions:
 
-The function **addNumbers** is supposed to return the sum of 2 given numbers.
-* Please complete the needed code inside of the function to make it behave as expected.
+The function **addNumbers()** is supposed to return the sum of two given numbers.
+* Complete the necessary code with the function body to make it behave as expected.
 
-The exercise should print the number 7 in the console.
+* The exercise should print `7` to the console.
 
 ### 💡 Hint:
+<details><summary>Click to reveal</summary>
 
-The function is receiving 2 parameters (variables **a** and **b**). As a developer you were given a task to fill the function content with the code needed to sum these two variables and return the result of that operation.
+The function is receiving two arguments (stored in the parameters `a` and `b`). You can create a variable called `sum` within the function body that stores the total of both arguments. Use `console.log()` to print `sum` to the console.
+
+</details>
 
 ### :scroll: Note:
 
-*For practicing more with functions, there is a specific Repl.it class about functions created by 4Geeks Academy that has more than 20 incremental exercises.*
+*For more practice with functions, there is a specific repl.it class about functions created by 4Geeks Academy that has over 20 incremental exercises.*
