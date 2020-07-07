@@ -18,7 +18,7 @@ while (i < 10) {
     console.log("Goodbye!");
 }
 ```
-You may have experienced this yourself by now.  Do you notice something is missing?  We do not have an `incrementalExpression` in our loop.  This is a problem because we want to increment the variable `i` until we reach the desired value to exit the loop.  If we don't increment `i`, it stays stuck at `0`, leading to an infinite loop.  The program has crashed.
+You may have experienced this yourself by now.  Do you notice something is missing?  We do not have an *incrementalExpression* in our loop.  This is a problem because we want to increment the variable `i` until we reach the desired value to exit the loop.  If we don't increment `i`, it stays stuck at `0`, leading to an infinite loop.  The program has crashed.
 
 Fortunately, repl.it handles the infinite loop. For now...
 

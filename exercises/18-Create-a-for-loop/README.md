@@ -19,13 +19,9 @@ for (var i = 0; i < 10; i++) {
 ```
 
 ## :pencil: Instructions:
-Your Web Development instructor wants to make sure you understand that asking questions is important in your growth as a programmer. He/She wants you to type:
+Your Web Development instructor wants to make sure you understand that asking questions is important in your growth as a programmer. He/She wants you to type `I will write questions if I'm stuck` 300 times to the console!  Fortunately, you know a quick way to accomplish this - using a `for` loop!
 
-`I will write questions if I'm stuck`
-
-300 times to the console!  Fortunately, you know a quick way to accomplish this - using a `for` loop!
-
-Create a function called **standardsMaker()** that prints the phrase `I will write questions if I'm stuck` 300 times.
+* Create a function called **standardsMaker()** that prints the phrase `I will write questions if I'm stuck` 300 times.
 
 
 ### :scroll: Note:
