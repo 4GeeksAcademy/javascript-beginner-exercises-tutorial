@@ -1,9 +1,6 @@
 # `14` Your First Switch Statement
 
-Imagine your software is running the inventory of a shoe store. 
-The client needs to know what colors a particular shoe is available in.  
-
-We can use another form of conditional called a **switch statement**.  A swtich statement evaluates an expression and matches it to a `case` clause, executing the statements therein.  Here is a basic example:
+We can use another form of conditional called a **switch statement**.  A switch statement evaluates an expression and matches it to a `case` clause, executing the statements therein.  Here is a basic example:
 
 ```js
 const expr = 'One';
@@ -15,20 +12,22 @@ switch (expr) {
         console.log('0');
         break;
     default:
-        console.log(`I am not sure what ${expr} is.`);    
+        console.log(`Does not compute.`);    
 }
 ```
 
 ## :pencil: Instructions:
-* Complete this switch statement with 3 cases for a shoe coming in the following colors: `red`, `green` and `blue`.
+Imagine your software is running the inventory of a shoe store. The client needs to know what colors a particular shoe is available in.
+
+* Complete the switch statement with 3 cases for a shoe coming in the following colors: `red`, `green` and `blue`.
 
 * The function needs to return `true` if the user input matches one of the cases listed in the switch statement, `false` otherwise.
 
 ### 💡 Hint:
-* You may need to bring the user input to all lower case or all upper case to prevent discrepancies.  Click the following to help you accomplish this:
+You may need to convert the user input to all lowercase or all uppercase lettering to prevent discrepancies.  Click the following to help you accomplish this:
 
-For all uppercase: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase
+* For all uppercase: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase
 
-For all lowercase: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase
+* For all lowercase: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase
 
 * More on switch statements: http://www.w3schools.com/js/js_switch.asp

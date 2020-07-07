@@ -23,7 +23,7 @@ You may have experienced this yourself by now.  Do you notice something is missi
 Fortunately, repl.it handles the infinite loop. For now...
 
 ## :pencil: Instructions:
-* Fix the `while` loop so that it does not lead the program crashing via an infinite loop.
+* Fix the `while` loop so that it does not lead to the program crashing via an infinite loop.
 * Print `100` through `0` to the console. 
 * Return `counter` once it is `0`.
 

@@ -1,4 +1,4 @@
-# `13` How Much the Wedding Costs
+# `13` How Much Does the Wedding Cost?
 
 Here is a table of prices of a wedding catering company:
 
