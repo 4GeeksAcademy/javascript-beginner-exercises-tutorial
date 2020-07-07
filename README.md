@@ -49,7 +49,7 @@ $ breathecode run
 ## How are the exercises organized?
 
 Each exercise is a small react application containing the following files:
-
+|    |    |
 |:---|:---|
 | **app.js:** | Represents the entry python file that will be executed by the computer |
 | **README.md:** | Contains exercise instructions |
