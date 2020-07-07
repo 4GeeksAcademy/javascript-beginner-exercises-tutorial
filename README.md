@@ -51,9 +51,9 @@ $ breathecode run
 Each exercise is a small react application containing the following files:
 |    |    |
 |:---|:---|
-| **app.js:** | Represents the entry python file that will be executed by the computer |
-| **README.md:** | Contains exercise instructions |
-| **test.js:** | Contains the testing script for the exercise (you don't have to open this file) |
+| **app.js** | Represents the entry python file that will be executed by the computer |
+| **README.md** | Contains exercise instructions |
+| **test.js** | Contains the testing script for the exercise (you don't have to open this file) |
 
 ## Contributors
 
