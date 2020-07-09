@@ -23,8 +23,10 @@ The console should print the following:
 
 `98 bottles of milk on the wall, 98 bottles of milk.`
 `Take one down and pass it around, 97 bottles of milk on the wall.`
+
 ...
 ...
+
 `1 bottle of milk on the wall, 1 bottle of milk.`
 `Take one down and pass it around, no more bottles of milk on the wall.`
 
