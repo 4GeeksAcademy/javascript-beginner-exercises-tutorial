@@ -1,20 +1,21 @@
 # `20` Random Colors Loop
 
-We have created a function that returns a color based on a number between 1 and 4 (for any different number, it will return the color black).
+So far, we have learned about conditionals, random numbers, functions, and looping. Now we are going to tie all of them into one program!  Instead of simply returning random numbers, we can return a random selection of whatever we desire.  As many times as we want!
 
 ## :pencil: Instructions:
-Let's say that we are teachers in a 10-student classroom. We want to randomly assign ONE color (red, yellow, blue or green), to EACH student. 
+A function has been written that returns a color based on an integer between `1` and `4`, inclusive. For any integer beyond this range, the color `black` will be returned.
 
-(only ONE color PER student)
+Scenario: You are a teacher in a 10-student classroom. You want to randomly assign ONE color (`red`, `yellow`, `blue`, `green` or `black`), to EACH student. 
 
-* Change the function **getAllStudentColors** so it returns an array of 10 colors, with each item in the array representing the color assigned to each student.
+* Complete the function **getAllStudentColors()** so that it returns an array of 10 randomly selected colors, one per student.
 
 ### :bulb: Hint: 
 - You have 10 students, you need to loop 10 times.
-- Each time you loop, generate a random number between 1-4 using the **Math.random()** function which we saw on the last exercise.
-- Use the **getColor** function on this exercise to get the color name from the number you get.
-- Print the color on the console.
+- Each time you loop, generate a random number between 1-4 using the **Math.floor()** and **Math.random()** built-in functions which we learned about in previous exercises.
+- Within the loop, you must also call the **getColor()** function to pass the randomly generated number (as an argument) to obtain and return a color.
+- Print the color to the console.
 
 ### :exclamation: IMPORTANT:
-*If you feel you are not understanding looping, its a good idea to complete the Arrays Repl.it classroom and the come back here:*
+*If you feel you are not understanding looping, its a good idea to complete the Arrays repl.it classroom and then come back here:*
+
 https://repl.it/classroom/invite/BB4WDpk

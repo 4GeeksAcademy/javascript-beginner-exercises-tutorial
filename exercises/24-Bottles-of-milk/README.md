@@ -7,25 +7,28 @@ It is a great song - not boring at all... :laughing:
 Here you can hear it: https://www.youtube.com/watch?v=Xy-da43E6Lo
 
 ## :pencil: Instructions:
-* Please write an algorithm to print the exact same lyrics.
+* Write an algorithm to print the exact same lyrics.
 
 ### :bulb: HINT:
-* At the end of the song, the lyrics change because it is only one bottle (singular instead of plural).
-* Read the last lyrics and you will see how the last line changes to "go to the store and by some more".
 * Use loops to complete this task
+* The lyrics change slightly when there is one bottle left (singular instead of plural).
+* When there are no more bottles, the last verse changes to `go to the store and by some more`.
+
 
 ### :scroll: Note:
-The result should be something like this:
+The console should print the following:
 
-99 bottles of milk on the wall, 99 bottles of milk. 
-Take one down and pass it around, 98 bottles of milk on the wall.
+`99 bottles of milk on the wall, 99 bottles of milk.` 
+`Take one down and pass it around, 98 bottles of milk on the wall.`
 
-98 bottles of milk on the wall, 98 bottles of milk.
-Take one down and pass it around, 97 bottles of milk on the wall.
+`98 bottles of milk on the wall, 98 bottles of milk.`
+`Take one down and pass it around, 97 bottles of milk on the wall.`
+
 ...
 ...
-1 bottle of milk on the wall, 1 bottle of milk.
-Take one down and pass it around, no more bottles of milk on the wall.
 
-No more bottles of milk on the wall, no more bottles of milk. 
-Go to the store and buy some more, 99 bottles of milk on the wall.
+`1 bottle of milk on the wall, 1 bottle of milk.`
+`Take one down and pass it around, no more bottles of milk on the wall.`
+
+`No more bottles of milk on the wall, no more bottles of milk.` 
+`Go to the store and buy some more, 99 bottles of milk on the wall.`
