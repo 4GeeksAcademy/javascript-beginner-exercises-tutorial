@@ -32,7 +32,7 @@ Example output:
 `98` 
 `Fizz` 
 `Buzz`
-\
+/
 
 ### :scroll: Note: 
 *It is recommended that students complete the repl.it Array exercises before attempting this.*
