@@ -10,7 +10,7 @@ This is a typical beginner test that is required to complete interviews in Googl
 
 Example output:
 
-/
+\
 `1`
 `2`
 `Fizz`
@@ -32,7 +32,7 @@ Example output:
 `98` 
 `Fizz` 
 `Buzz`
-/
+\
 
 ### :scroll: Note: 
 *It is recommended that students complete the repl.it Array exercises before attempting this.*
