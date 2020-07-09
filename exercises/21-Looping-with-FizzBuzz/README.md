@@ -11,27 +11,28 @@ This is a typical beginner test that is required to complete interviews in Googl
 Example output:
 
 
-/`1`
-`2`
-`Fizz`
-`4`
-`Buzz`
-`Fizz`
-`7`
-`8`
-`Fizz`
-`Buzz`
-`11`
-`Fizz` 
-`13` 
-`14`
-`FizzBuzz`
-`16`  
-...
-...
-`98` 
-`Fizz` 
-`Buzz`
+/
+1  
+2  
+Fizz  
+4  
+Buzz  
+Fizz  
+7  
+8  
+Fizz  
+Buzz  
+11  
+Fizz  
+13  
+14  
+FizzBuzz  
+16  
+....
+....
+98  
+Fizz  
+Buzz  
 /
 
 ### :scroll: Note: 
