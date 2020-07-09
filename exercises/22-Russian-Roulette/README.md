@@ -10,7 +10,7 @@ FIRE!!!....... Are you dead?
 
 ## :pencil: Instructions:
 The game is almost working.
-* The **fireGun()** needs to be completes to make the game work. It needs to compare the bullet position against the chamber position.
+* The **fireGun()** function needs to be completed to make the game work. It should compare the bullet position against the chamber position.
 
 ### :bulb: HINT:
 - If the bullet position matches the chamber position, the function `fireGun()` should return `You're dead!`
