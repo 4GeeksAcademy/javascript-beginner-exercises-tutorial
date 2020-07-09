@@ -10,8 +10,8 @@ This is a typical beginner test that is required to complete interviews in Googl
 
 Example output:
 
-\
-`1`
+
+/`1`
 `2`
 `Fizz`
 `4`
