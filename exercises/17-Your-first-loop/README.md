@@ -48,4 +48,4 @@ Running the accompanying code will print the integers `0` through `99` to the co
 Change code to print the integers `0` to `100`. You will then see it followed by `101` in green text on the console.
 
 ### :exclamation: IMPORTANT: 
-*There is a whole series of dedicated to Arrays.  We encourage you to complete those exercises after finishing this lesson. Once you are more comfortable, return here to continue.*
+*There is a whole series of dedicated to Arrays.  We encourage you to complete those exercises before finishing this exercise. Once you are more comfortable, return here to continue.*
