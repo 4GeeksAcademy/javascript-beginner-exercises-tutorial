@@ -1,26 +1,65 @@
 
-const path = require('path');
-const fs = require('fs');
 var rewire = require('rewire');
 
-it('Test price', function () {
-
+it('The function getPrice must exist', function () {
+    
     const app = rewire('./app.js');
-    let price = app.__get__("price");
+    const getPrice = app.__get__('getPrice')
+    expect(getPrice).toBeTruthy();
+});
 
-    console.log('price', price);
-    console.log("Prompt", __stdin);
+it('When tested for 200 it should return 15000', function () {
+    
+    const app = rewire('./app.js');
+    const getPrice = app.__get__('getPrice')
+    expect(getPrice(200)).toBe(15000);
+});
 
-    if(__stdin > 200) {
-        expect(price).toEqual(20000);
-    }
-    else if (__stdin > 100) { 
-        expect(price).toEqual(15000);
-    }    
-    else if (__stdin > 50) { 
-        expect(price).toEqual(10000);
-    }    
-    else {
-        expect(price).toEqual(4000);
-    } 
+it('When tested for 201 it should return 20000', function () {
+    
+    const app = rewire('./app.js');
+    const getPrice = app.__get__('getPrice')
+    expect(getPrice(200)).toBe(15000);
+});
+
+it('When tested for 50 it should return 4000', function () {
+    
+    const app = rewire('./app.js');
+    const getPrice = app.__get__('getPrice')
+    expect(getPrice(50)).toBe(4000);
+});
+
+it('When tested for 51 it should return 10000', function () {
+    
+    const app = rewire('./app.js');
+    const getPrice = app.__get__('getPrice')
+    expect(getPrice(51)).toBe(10000);
+});
+it('When tested for 100 it should return 10000', function () {
+    
+    const app = rewire('./app.js');
+    const getPrice = app.__get__('getPrice')
+    expect(getPrice(100)).toBe(10000);
+});
+it('When tested for 101 it should return 15000', function () {
+    
+    const app = rewire('./app.js');
+    const getPrice = app.__get__('getPrice')
+    expect(getPrice(101)).toBe(15000);
+});
+it('When tested for 200 it should return 15000', function () {
+    
+    const app = rewire('./app.js');
+    const getPrice = app.__get__('getPrice')
+    expect(getPrice(200)).toBe(15000);
+});
+it('When tested for 201 it should return 20000', function () {
+    const app = rewire('./app.js');
+    const getPrice = app.__get__('getPrice')
+    expect(getPrice(201)).toBe(20000);
+});
+it('When tested for 400 it should return 20000', function () {
+    const app = rewire('./app.js');
+    const getPrice = app.__get__('getPrice')
+    expect(getPrice(400)).toBe(20000);
 });

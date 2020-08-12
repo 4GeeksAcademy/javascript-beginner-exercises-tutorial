@@ -10,11 +10,12 @@ Here is a table of prices of a wedding catering company:
 | More than 200 people | $20,000 |
 
 ## :pencil: Instructions:
-* Write an **algorithm** (a set of instructions that can be executed by a computer) that prompts the user for the number of people attending their wedding and prints the corresponding price to the console.
 
-_For example, if the user says that 20 people are attending the wedding, the console should display a price of $4,000 dollars._
+Write a function **getPrice** that receives the number of guests attending the wedding and returns the corresponding price to the console.
 
-**Divide and Conquer** - breaking a problem up into smaller pieces that are easier to solve
+_For example, if the user says that 20 people are attending the wedding, returned price should be 4000
+
 
 ### 💡 Hint:
-* Use a conditional `if...else` statement to divide your code and assign the variable `price` to the appropriate value.
+- Use a conditional `if...else` statement to divide your code and assign the variable `price` to the appropriate value.
+- Divide and Conquer: breaking a problem up into smaller pieces that are easier to solve
