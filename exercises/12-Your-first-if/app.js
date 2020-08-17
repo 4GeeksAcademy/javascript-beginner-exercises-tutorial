@@ -1,3 +1,3 @@
-var total = prompt('How much money do you have in your pocket?');
+var total = prompt('How many km are left to go?');
 
 // Your code below:
