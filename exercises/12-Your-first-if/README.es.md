@@ -1,15 +1,17 @@
 # `12` Tu Primer Condicional
 
-La aplicación actual tiene un mensaje que pregunta cuánto dinero tiene el usuario. 
+La aplicación actual tiene un mensaje que pregunta cuánto queda para llegar. 
 
 
 ## :pencil: Instrucciones:
-Una vez el usuario ingresa el monto, tenemos que imprimir una de las siguientes respuestas:
+Una vez el usuario ingresa la cantidad, tenemos que imprimir una de las siguientes respuestas:
 
-* Si el usuario tiene más de $100, nosotros respondemos: "Dame tu dinero!"
-* Si el usuario tiene más de $50, nosotros respondemos: "Cómprame un café, tramposo!"
-* Si el usuario tiene menos o igual que $50, nosotros respondemos: "Eres un tipo pobre, vete!"
+* Si quedan más de 100km, nosotros respondemos: `"Are we there yet?"`
+* Si quedan más de 50km, nosotros respondemos: `"We'll be there in 5 minutes"`
+* Si quedan menos o igual a 50km, nosotros respondemos: `"I'm parking, I see you right now"`
 
 ### 💡 Pista:
 * Usa un condicional If/else para verificar el valor "total" de la variable.
 * Imprime el mensaje correspondiente. 
+
+Learn more: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else
