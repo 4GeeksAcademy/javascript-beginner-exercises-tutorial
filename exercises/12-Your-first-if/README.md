@@ -1,20 +1,17 @@
----
-tutorial: "https://www.youtube.com/watch?v=ISVA9y09Kx4"
----
-
 # `12` Your First "If" Statement
 
 Your journey has now reached a crucial point: conditional statements. Conditionals allow a user to navigate through a program based upon their inputs. This is the beginnings of computer logic.
 
-The current application has a prompt asking how much money the user has.
+The current application has a prompt asking `How many km are left to go?`
 
 
 ## :pencil: Instructions:
 Once the user inputs an amount, one of the following responses will be printed to the console:
 
-* If the user has more than $100, we answer: `"Give me your money!"`
-* If the user has more than $50, we answer: `"Buy me some coffee, you cheapskate!"`
-* If the user has less than or equal to $50, we answer: `"You are a poor guy, go away!"`
+* If the user has more than $100, we answer: `"Are we there yet?"`
+* If the user has more than $50, we answer: `"We'll be there in 5 minutes"`
+* If the user has less than or equal to $50, we answer: `"I'm parking, I see you right now"`
+
 
 ### 💡 Hint:
 * Use an `if...else` statement to check the value of the `total` variable.
