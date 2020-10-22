@@ -11,7 +11,7 @@ global.console.log = console.log = jest.fn((text) => _buffer += text + "\n");
 const file = require("./app.js");
 
 test('Trying with 60', function () {
-    expect(console.log).toHaveBeenCalledWith("We'll be there in 5 minutes.");
+    expect(console.log).toHaveBeenCalledWith("We'll be there in 5 minutes");
 });
 test('At least 1 console.log() call', function () {
     expect(console.log.mock.calls.length).toBe(1);
