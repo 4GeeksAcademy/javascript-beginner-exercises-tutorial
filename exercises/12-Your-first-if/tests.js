@@ -13,6 +13,6 @@ const file = require("./app.js");
 test('Trying with 60', function () {
     expect(console.log).toHaveBeenCalledWith("We'll be there in 5 minutes");
 });
-test('At least 1 console.log() call', function () {
-    expect(console.log.mock.calls.length).toBe(1);
+test('Your algorithm should use console.log at least one time, if you believe you are using it make sure it\'s not being conditionally ignored', function () {
+    expect(console.log.mock.calls.length > 0).toBe(true);
 });
