@@ -2,7 +2,8 @@
 
 # Bienvenido a Javascript!
 
-Este es el primer grupo de ejericios y tutorial orientados a darte todos los conocimientos necesarios para tener exito en el mundo del codigo Javascript.
-Aprenderás: Console.log, Concatenación de Cadenas de Caraceters, Arreglos, Functiones, Loops, etc.
+Este es la serie de ejercicios y tutorial orientados a darte todos los conocimientos necesarios para tener exito en el mundo del codigo Javascript.
+
+Aprenderás: `console.log`, Concatenación de string, Arreglos, Functiones, Loops, etc. 
 
 Apreta el botón de `Next →`  en la pantalla superior derecha cuando estes listo para empezar los ejercicios.

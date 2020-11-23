@@ -1,11 +1,34 @@
 # `19` El Loop WHILE
 
-Este código está roto, produce un loop infinito. Replit maneja el loop infinito, por ahora.
+Como mencionamos en un ejercicio anterior, los bucles `while`son similares a los bucles `for`, solo están estructurados de manera diferente.
+Aqui está nuevamente:
+
+```js
+expresionInicial;
+while (condicional) {
+    ...declaraciones;
+    expresionIncremental;
+}
+```
+Digamos que tenemos el siguiente bucle `while`:
+
+```js
+// un bucle "while" 
+var i = 0;
+while (i < 10) {
+    console.log("Goodbye!");
+}
+```
+Puede que ya hayas experimentado esto tu mismo ¿Te das cuenta de que falta algo? No hay un expresiónIncremental en nuestro bucle. Esto es un problema porque queremos incrementar la variable `i` hasta alcanzar el valor deseado para salirnos del bucle. Si no incrementamos `i`, se queda atascado en `0`, lo que genera un bucle infinito. 
 
 ## :pencil: Instrucciones:
-* Arregla el problema, para imprimir del 100 - 0. 
-* Regresa 0.
+
+* Arregla el bucle `while` para que funcione y no genere un bucle infinito.
+
+* Imprime del 100 - 0. 
+
+* Regresa el `counter` a 0.
 
 ### :exclamation: IMPORTANTE: 
-*Hay un Classroom en Replit dedicado a Arrays (arreglos), te incetivamos a ir y finalizar esos ejercicios después de que termines tu primer ejercicio de Array. (Y luego, regresa).*
+*Hay ejercicios dedicados a Arrays (arreglos), te incetivamos a ir y finalizar esos ejercicios después de que termines tu primer ejercicio de Array. (Y luego, regresa).*
 

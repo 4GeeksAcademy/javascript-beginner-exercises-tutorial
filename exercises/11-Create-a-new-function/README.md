@@ -28,6 +28,6 @@ You can use the **Math.random()** function to get a pseudo-random decimal (also 
 
 ### 💡 Hint:
 
-One possible solution involves using two predefined functions: the **Math.random()** and the **Math.floor()** functions. You can learn more about these two functions here:
+One possible solution involves using two predefined functions: the **Math.random()** and the **Math.floor()** functions. You can learn more about these two functions [here](https://www.w3schools.com/jsref/jsref_random.asp).
 
-    https://www.w3schools.com/jsref/jsref_random.asp
+    

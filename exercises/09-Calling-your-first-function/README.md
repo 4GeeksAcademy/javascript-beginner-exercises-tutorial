@@ -10,7 +10,7 @@ Functions are an amazing tool for programmers!  Think of functions like black bo
 
 ### :exclamation: IMPORTANT: 
 
-*There is a repl.it classroom with plenty of exercises dedicated to functions. We encourage you to go and finish those after completing this exercise. Once you feel more comfortable with functions, return here.*
+*There are exercises dedicated to functions. We encourage you to go and finish those after completing this exercise. Once you feel more comfortable with [functions](https://github.com/4GeeksAcademy/javascript-functions-exercises-tutorial), return here.*
 
 ## :pencil: Instructions
 

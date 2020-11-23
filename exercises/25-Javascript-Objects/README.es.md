@@ -3,6 +3,7 @@
 Regularmente te encontrarás queriendo guardar más información en menos espacio, especialmente si está toda relacionada. 
 
 Por ejemplo, digamos que queremos representar autos dentro de variables:
+
 ```js
 var car1Model = "corolla";
 var car1Make = "Toyota";
@@ -36,7 +37,7 @@ var car1 = {
 };
 ```
 
-Parece una función, verdad? Pero no lo es.
+Parece una función ¿verdad? Pero no lo es.
 
 Ahora estamos guardando información de una forma más organizada, y si queremos obtener esa información podemos hacer:
 
@@ -44,7 +45,7 @@ Ahora estamos guardando información de una forma más organizada, y si queremos
 console.log(car1.model); //imprime el modelo del car1 en la consola
 ```
 
-Podemos tener todos los tipos de variables definidas conocidas como valor de cualquier key (incluyendo objectos!). Ahora imagina las posiblidades...
+Podemos tener todos los tipos de variables definidas conocidas como valor(value) de cualquier key (incluyendo objectos!). Ahora imagina las posiblidades...
 
 ```js
 var person = {
@@ -86,11 +87,17 @@ console.log( family.members[1].significant_other.lucky_numbers[2]);
 Cosas sencillas :)
 
 ## :pencil: Instrucciones:
+
 1. De forma automatizada, cambia el cuarto número de la suerte de John Doe a 33 (usa un comando, no cambies manualmente el código).
-1. De forma automatizada, crea una nueva persona y añádela al objeto familia. Jimmy Doe, 13, masculino, lucky numbers (números de la suerte): 1, 2, 3, 4; significant other: null. (usa un comando, no cambies manualmente el código).
-1. Ahora por favor imprime ( console.log() ) la SUMA de todos los números de la suerte (lucky numbers) de la familia Doe.
+
+2. De forma automatizada, crea una nueva persona y añádela al objeto familia. Jimmy Doe, 13, masculino, lucky numbers (números de la suerte): 1, 2, 3, 4; significant other: null. (usa un comando, no cambies manualmente el código).
+
+3. Ahora por favor imprime ( console.log() ) la SUMA de todos los números de la suerte (lucky numbers) de la familia Doe.
 
 ### :bulb: Pistas:
+
 * Puedes obtener cada arreglo (array) de números de la suerte (lucky numbers) desde el objeto de cada persona dentro del objeto familia.
+
 * Una vez obtengas cada arreglo solo has un loop sobre él añadiendo cada elemento (como hemos hecho hasta ahora). Y añade cada suma de los 3 miembros familiares.
+
 * Null también es un objeto.
