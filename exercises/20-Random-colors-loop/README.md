@@ -15,7 +15,3 @@ Scenario: You are a teacher in a 10-student classroom. You want to randomly assi
 - Within the loop, you must also call the **getColor()** function to pass the randomly generated number (as an argument) to obtain and return a color.
 - Print the color to the console.
 
-### :exclamation: IMPORTANT:
-*If you feel you are not understanding looping, its a good idea to complete the Arrays repl.it classroom and then come back here:*
-
-https://repl.it/classroom/invite/BB4WDpk

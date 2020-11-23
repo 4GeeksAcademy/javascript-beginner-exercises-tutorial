@@ -9,5 +9,5 @@ console.log(mySuperVariable);
 
 # :pencil: Instrucciones
 
-* Declara una nueva variable llamada **color** y asignale el valor 'red'.
+* Declara una nueva variable llamada **color** y asígnale el valor 'red'.
 * Luego, imprime su valor en la consola.

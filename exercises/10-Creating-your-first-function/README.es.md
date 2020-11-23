@@ -1,16 +1,34 @@
 # `10` Creando tu Primera Función
 
+Las definiciones de funciones tienen ciertas partes:
+
+```js
+function function_name (param1, param2, ...) {
+    return param1 + param2;
+}
+```
+La funciones comienzan con la **palabra reservada** `function`
+
+The `function_name` es el nombre de la función
+
+`(param1, param2, ...)` son los **parámetros** (variables) que la función requiere. Pueden ser números enteros, strings o cualquier otra combinación. Puedes tener cero o más parámetros en una función dada. Los parámetros tienen asignados **argumentos**, los cuáles son las entradas del usuario.
+
+El espacio entre llaves `{...}` es el cuerpo de la función. Ahí es donde se procesan los argumentos y provee una especie de resultado.
+El resultado puede incluir retornar un valor(como se muestra en el ejemplo anterior), imprimir en la consola, llamar a otra función, etc.
+
 ## :pencil: Instrucciones:
 
 La función **addNumbers** se supone que devuelve la suma de 2 números dados.
+
 * Por favor completa el código necesario dentro de la función para que se comporte como se espera.
 
-El ejercicio debe imprimir el número 7 en la consola.
+* El ejercicio debería imprimir `7` en la consola.
 
 ### 💡 Pista:
 
-La función está recibiendo 2 parámetros (variables **a** y **b**). Como desarrollador se te ha dado la tarea de completar el contenido de la función con el código necesario para sumar esas dos variables y devolver el resultado de esa operación.
+La función está recibiendo 2 parámetros (variables **a** y **b**). Puedes crear una variable llamada `sum` dentro del cuerpo de la función que guarde el total de ambos argumentos. Usa `console.log()` para imprimir `sum` en la consola.
+
 
 ### :scroll: Nota:
 
-*Para practicar más con funciones, hay un classroom específico en Repl.it acerca de funciones creado por 4Geeks Academy que contiene más de 20 ejercicios incrementales.*
+*Hay una serie de ejercicios dedicados a Funciones, te incentivamos a que vayas y termines esos después de que realices este ejercicio de [funciones](https://github.com/4GeeksAcademy/javascript-functions-exercises-tutorial)*

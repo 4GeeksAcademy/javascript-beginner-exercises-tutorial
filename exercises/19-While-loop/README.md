@@ -28,5 +28,5 @@ Fortunately, repl.it handles the infinite loop. For now...
 * Return `counter` once it is `0`.
 
 ### :exclamation: IMPORTANT: 
-*There is a repl.it classroom dedicated to Arrays.  We encourage you to complete those exercises after finishing this lesson. Once you are more comfortable, return here to continue.*
+*There are exercises dedicated to Arrays.  We encourage you to complete those exercises after finishing this lesson. Once you are more comfortable, return here to continue.*
 

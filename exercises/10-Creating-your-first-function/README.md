@@ -35,4 +35,4 @@ The function is receiving two arguments (stored in the parameters `a` and `b`). 
 
 ### :scroll: Note:
 
-*For more practice with functions, there is a specific repl.it class about functions created by 4Geeks Academy that has over 20 incremental exercises.*
+*There are exercises dedicated to functions. We encourage you to go and finish those after completing this exercise. Once you feel more comfortable with [functions](https://github.com/4GeeksAcademy/javascript-functions-exercises-tutorial), return here.*
