@@ -9,12 +9,12 @@ function function_name (param1, param2, ...) {
 ```
 La funciones comienzan con la **palabra reservada** `function`
 
-The `function_name` es el nombre de la función
+`function_name` es el nombre de la función
 
 `(param1, param2, ...)` son los **parámetros** (variables) que la función requiere. Pueden ser números enteros, strings o cualquier otra combinación. Puedes tener cero o más parámetros en una función dada. Los parámetros tienen asignados **argumentos**, los cuáles son las entradas del usuario.
 
 El espacio entre llaves `{...}` es el cuerpo de la función. Ahí es donde se procesan los argumentos y provee una especie de resultado.
-El resultado puede incluir retornar un valor(como se muestra en el ejemplo anterior), imprimir en la consola, llamar a otra función, etc.
+El resultado puede incluir devolver un valor(como se muestra en el ejemplo anterior), imprimir en la consola, llamar a otra función, etc.
 
 ## :pencil: Instrucciones:
 

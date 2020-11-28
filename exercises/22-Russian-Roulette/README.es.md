@@ -2,11 +2,11 @@
 
 ¿Alguna vez has jugado a la Ruleta Rusa? Es súper divertido! 
 
-Si logras sobrevivir (jajajjjajajajaj).
+Si logras sobrevivir (muajajajajaja).
 
-El revólver sólo tiene 6 espacios para balas. Tu insertas una bala en uno de los espacios, y giras la recámara del revolver para hacer el juego aleatorio, nadie sabe la posición de la bala.
+El revólver sólo tiene 6 espacios para balas. Tu insertas una bala en uno de los espacios, y giras la recámara del revólver para hacer el juego aleatorio. Nadie sabe la posición de la bala.
 
-¡¡¡¡FUEGO!!!....... ¿estás muerto?
+¡¡¡¡FUEGO!!!....... ¿has muerto?
 
 ## :pencil: Instruccioness:
 

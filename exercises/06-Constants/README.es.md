@@ -1,7 +1,7 @@
 # `06` Constantes
 
 Desde 2015, JavaScript también permite el uso de constantes. 
-Ellas se diferencian de las variables porque una vez declaradas, no se les puede cambiar el valor con el tiempo (como las variables).
+Ellas se diferencian de las variables porque, una vez declaradas, no se les puede cambiar el valor con el tiempo.
 
 Para declarar una constante, debes usar la palabra reservada **const** en vez de **var**, de esta forma:
 
@@ -9,7 +9,7 @@ Para declarar una constante, debes usar la palabra reservada **const** en vez de
 const VERSION = '1.2';
 ```
 
-Las constantes son súper útiles porque algunas veces como desarrolladores queremos asegurarnos que parte de nuestros datos sea solo para lectura.
+Las constantes son súper útiles porque algunas veces, al desarrollar, queremos asegurarnos que ciertos datos sea solo para lectura.
 
 
 ## :pencil: Instrucciones

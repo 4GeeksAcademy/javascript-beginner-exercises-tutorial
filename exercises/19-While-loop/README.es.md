@@ -1,7 +1,8 @@
 # `19` El Loop WHILE
 
-Como mencionamos en un ejercicio anterior, los bucles `while`son similares a los bucles `for`, solo están estructurados de manera diferente.
-Aqui está nuevamente:
+Como hemos mencionado en un ejercicio anterior, los bucles `while`son similares a los bucles `for`, solo que están estructurados de manera diferente.
+
+Aquí está nuevamente:
 
 ```js
 expresionInicial;
@@ -19,7 +20,7 @@ while (i < 10) {
     console.log("Goodbye!");
 }
 ```
-Puede que ya hayas experimentado esto tu mismo ¿Te das cuenta de que falta algo? No hay un expresiónIncremental en nuestro bucle. Esto es un problema porque queremos incrementar la variable `i` hasta alcanzar el valor deseado para salirnos del bucle. Si no incrementamos `i`, se queda atascado en `0`, lo que genera un bucle infinito. 
+Puede que ya hayas experimentado esto ¿Te das cuenta de que falta algo? No hay un expresión de incremento en nuestro bucle. Esto es un problema porque queremos incrementar la variable `i` hasta alcanzar el valor deseado para salirnos del bucle. Si no incrementamos `i`, queda permanentemente en `0`, lo que generará un bucle infinito. 
 
 ## :pencil: Instrucciones:
 

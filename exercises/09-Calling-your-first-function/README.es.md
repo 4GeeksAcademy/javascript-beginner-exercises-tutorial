@@ -2,7 +2,7 @@
 
 Las funciones son asombrosas por muchas razones, pero principalmente porque puedes encapsular tu código en piezas y reutilizar esas piezas muchas veces sin tener que escribir todo el código de nuevo. Las fortalezas de las funciones incluyen:
 
-* Encasulación del código del resto del programa (ocultar código). Este es un concepto importante sobre el cual aprenderás mientras vayas creciendo como desarrollador.
+* Encapsulamiento del código del resto del programa (ocultar código, no permitir acceso al mismo nivel). Este es un concepto importante sobre el cual aprenderás mientras vayas creciendo como desarrollador.
 
 * Reutilización del código en diferentes programas. Puedes crear funciones como herramientas dentro de una caja de herramientas. Esto hace que la programación sea más eficiente y ordenada.
 

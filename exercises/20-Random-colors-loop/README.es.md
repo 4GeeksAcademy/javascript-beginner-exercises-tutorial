@@ -1,6 +1,6 @@
 # `20` Loop de Colores Aleatorios
 
-Hasta ahora, hemos aprendido sobre condicionales, números aleatorios, funciones y bucles. Ahora vamos a unirlos todos en un programa. En vez de devolver simplemente números aleatorios, podemos devolver una selección de lo que queramos ¡Cuántas veces queramos!
+Hasta ahora, hemos aprendido sobre condicionales, números aleatorios,funciones y bucles. Ahora vamos a unirlos todos en un programa. En vez de devolver simplemente números aleatorios, podemos devolver una selección de lo que queramos ¡Cuántas veces queramos!
 
 ## :pencil: Instrucciones:
 
@@ -10,7 +10,7 @@ Escenario: Digamos que somos profesor en un aula de 10 estudiantes y quieres asi
 
 (sólo UN color POR estudiante)
 
-* Cambia la función **getAllStudentColors()** para que regrese un arreglo (array) de 10 colores aleatorios, con cada item en el arreglo representando el color asignado a cada estudiante.
+* Cambia la función **getAllStudentColors()** para que devuelva un listado(array) de 10 colores aleatorios, con cada item del conjunto representando el color asignado a cada estudiante.
 
 ### :bulb: Pista: 
 
@@ -23,4 +23,4 @@ Escenario: Digamos que somos profesor en un aula de 10 estudiantes y quieres asi
 - Imprime el color en la consola.
 
 ### :exclamation: IMPORTANTE:
-*Si sientes que no estás entendiendo looping, es una buena idea completar los ejercicios de arrays y luego regresar acá:*
+*Si sientes que no estás entendiendo los bucles, es una buena idea completar los ejercicios de arrays y luego regresar acá*

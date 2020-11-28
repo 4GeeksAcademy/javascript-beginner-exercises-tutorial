@@ -1,8 +1,8 @@
 # `05` Variables ingresadas por el usuario
 
-La otra cuestión genial sobre las variables es que tu no necesitas saber su valor para poder trabajar con ellas.
+La otra cuestión genial sobre las variables es que tú no necesitas saber su valor para poder trabajar con ellas.
 
-Por ejemplo, esta aplicación solicita originalmente al usuario su edad. Veamos si podemos cambiarlo.
+Por ejemplo, originalmente, esta aplicación solicita al usuario su edad. Veamos si podemos cambiarlo.
 
 
 ## :pencil: Instrucciones

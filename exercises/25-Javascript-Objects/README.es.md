@@ -37,7 +37,7 @@ var car1 = {
 };
 ```
 
-Parece una función ¿verdad? Pero no lo es.
+Parece una función, ¿verdad? Pero no lo es.
 
 Ahora estamos guardando información de una forma más organizada, y si queremos obtener esa información podemos hacer:
 
@@ -45,7 +45,7 @@ Ahora estamos guardando información de una forma más organizada, y si queremos
 console.log(car1.model); //imprime el modelo del car1 en la consola
 ```
 
-Podemos tener todos los tipos de variables definidas conocidas como valor(value) de cualquier key (incluyendo objectos!). Ahora imagina las posiblidades...
+Podemos tener todos los tipos de variables definidas conocidas como valor(value) de cualquier "key" (¡incluyendo objetos!). Ahora imagina las posiblidades...
 
 ```js
 var person = {
