@@ -15,7 +15,7 @@ Aquí está el resultado esperado en la consola:
 
     'let it be, let it be, let it be, let it be, words of wisdom, let it be, let it be, let it be, let it be, let it be, there will be an answer, let it be'
 
-(https://www.youtube.com/watch?v=2xDzVZcqtYI)
+(https://www.youtube.com/watch?v=QDYfEBY9NM4)
 
 ### :bulb: PISTA:
 

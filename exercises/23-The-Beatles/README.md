@@ -17,7 +17,7 @@ Here is the expected console output:
 
     `let it be, let it be, let it be, let it be, words of wisdom, let it be, let it be, let it be, let it be, let it be, there will be an answer, let it be`
 
-(https://www.youtube.com/watch?v=2xDzVZcqtYI)
+(https://www.youtube.com/watch?v=QDYfEBY9NM4)
 
 ### :bulb: HINT:
 * The words `let it be` are repeated in the string. Creating a loop would be a good idea.
