@@ -1,5 +1,28 @@
 {
+    "port": 3000,
+    "address": "https://d418fa25-06aa-4a29-814d-bb5c8516786c.ws-us03.gitpod.io",
+    "editor": "gitpod",
+    "configPath": {
+        "config": "bc.json",
+        "base": ".learn",
+        "exercises": "./exercises",
+        "output": ".learn/dist"
+    },
+    "outputPath": "./.learn/dist",
+    "publicPath": "/preview",
+    "grading": "isolated",
+    "ignoreRegex": null,
+    "webpack_template": null,
+    "disable_grading": false,
+    "onCompilerSuccess": null,
     "language": "node",
+    "compiler": "node",
+    "tester": "jest",
+    "actions": [
+        "run",
+        "test",
+        "reset"
+    ],
     "author": {
         "name": "Alejandro Sanchez"
     },
@@ -10,5 +33,283 @@
     "duration": 10,
     "difficulty": "easy",
     "video-solutions": true,
-    "graded": true
+    "graded": true,
+    "session": 1806811063147391000,
+    "exercises": [
+        {
+            "slug": "01-Welcome",
+            "title": "01-Welcome",
+            "done": false,
+            "path": "exercises/01-Welcome",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": false
+        },
+        {
+            "slug": "02-Hello-World",
+            "title": "02-Hello-World",
+            "done": false,
+            "path": "exercises/02-Hello-World",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "03-Print-variables-in-the-console",
+            "title": "03-Print-variables-in-the-console",
+            "done": false,
+            "path": "exercises/03-Print-variables-in-the-console",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "04-Multiply-two-values",
+            "title": "04-Multiply-two-values",
+            "done": false,
+            "path": "exercises/04-Multiply-two-values",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "05-User-inputed-variables",
+            "title": "05-User-inputed-variables",
+            "done": false,
+            "path": "exercises/05-User-inputed-variables",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "06-Constants",
+            "title": "06-Constants",
+            "done": false,
+            "path": "exercises/06-Constants",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "07-String-concatenation",
+            "title": "07-String-concatenation",
+            "done": false,
+            "path": "exercises/07-String-concatenation",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "08-Create-a-basic-HTML",
+            "title": "08-Create-a-basic-HTML",
+            "done": false,
+            "path": "exercises/08-Create-a-basic-HTML",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "09-Calling-your-first-function",
+            "title": "09-Calling-your-first-function",
+            "done": false,
+            "path": "exercises/09-Calling-your-first-function",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "10-Creating-your-first-function",
+            "title": "10-Creating-your-first-function",
+            "done": false,
+            "path": "exercises/10-Creating-your-first-function",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "11-Create-a-new-function",
+            "title": "11-Create-a-new-function",
+            "done": false,
+            "path": "exercises/11-Create-a-new-function",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "12-Your-first-if",
+            "title": "12-Your-first-if",
+            "done": false,
+            "path": "exercises/12-Your-first-if",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "13-How-much-the-wedding-costs",
+            "title": "13-How-much-the-wedding-costs",
+            "done": false,
+            "path": "exercises/13-How-much-the-wedding-costs",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "14-Your-first-switch",
+            "title": "14-Your-first-switch",
+            "done": false,
+            "path": "exercises/14-Your-first-switch",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "15-Random-numbers",
+            "title": "15-Random-numbers",
+            "done": false,
+            "path": "exercises/15-Random-numbers",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "16-Rand-from-one-to-six",
+            "title": "16-Rand-from-one-to-six",
+            "done": false,
+            "path": "exercises/16-Rand-from-one-to-six",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "17-Your-first-loop",
+            "title": "17-Your-first-loop",
+            "done": false,
+            "path": "exercises/17-Your-first-loop",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "18-Create-a-for-loop",
+            "title": "18-Create-a-for-loop",
+            "done": false,
+            "path": "exercises/18-Create-a-for-loop",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "19-While-loop",
+            "title": "19-While-loop",
+            "done": false,
+            "path": "exercises/19-While-loop",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "20-Random-colors-loop",
+            "title": "20-Random-colors-loop",
+            "done": false,
+            "path": "exercises/20-Random-colors-loop",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "21-Looping-with-FizzBuzz",
+            "title": "21-Looping-with-FizzBuzz",
+            "done": false,
+            "path": "exercises/21-Looping-with-FizzBuzz",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "22-Russian-Roulette",
+            "title": "22-Russian-Roulette",
+            "done": false,
+            "path": "exercises/22-Russian-Roulette",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "23-The-Beatles",
+            "title": "23-The-Beatles",
+            "done": false,
+            "path": "exercises/23-The-Beatles",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "24-Bottles-of-milk",
+            "title": "24-Bottles-of-milk",
+            "done": false,
+            "path": "exercises/24-Bottles-of-milk",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "25-Javascript-Objects",
+            "title": "25-Javascript-Objects",
+            "done": false,
+            "path": "exercises/25-Javascript-Objects",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        }
+    ]
 }
