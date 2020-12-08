@@ -5,12 +5,15 @@
 !.gitpod.yml
 !.gitpod.Dockerfile
 !bc.json
+!learn.json
 !README.md
 
 !/exercises
 !/exercises/*
 
-!/.breathecode
-/.breathecode/**
-!/.breathecode/resets
-!/.breathecode/resets/**
+!/.learn
+/.learn/**
+!/.learn/resets
+!/.learn/resets/**
+!/.learn/assets
+!/.learn/assets/**

@@ -1,4 +1,32 @@
 {
+    "config": {
+        "port": 3000,
+        "address": "http://localhost",
+        "editor": {
+            "mode": "standalone",
+            "version": "1.0.5"
+        },
+        "dirPath": "./.learn",
+        "configPath": "bc.json",
+        "outputPath": ".learn/dist",
+        "publicPath": "/preview",
+        "grading": "isolated",
+        "exercisesPath": "./exercises",
+        "webpackTemplate": null,
+        "actions": [
+            "build",
+            "test",
+            "reset"
+        ]
+    },
+    "entries": {
+        "html": "index.html",
+        "vanillajs": "index.js",
+        "react": "app.jsx",
+        "node": "app.js",
+        "python3": "app.py",
+        "java": "app.java"
+    },
     "port": 3000,
     "address": "https://d418fa25-06aa-4a29-814d-bb5c8516786c.ws-us03.gitpod.io",
     "editor": "gitpod",
@@ -37,279 +65,869 @@
     "session": 1806811063147391000,
     "exercises": [
         {
-            "slug": "01-Welcome",
-            "title": "01-Welcome",
-            "done": false,
+            "position": 0,
             "path": "exercises/01-Welcome",
-            "translations": [
-                "es",
-                "us"
+            "slug": "01-Welcome",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "node",
+            "title": "01-Welcome",
+            "graded": false,
+            "files": [
+                {
+                    "path": "exercises/01-Welcome/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/01-Welcome/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                }
             ],
-            "graded": false
+            "done": false
         },
         {
-            "slug": "02-Hello-World",
-            "title": "02-Hello-World",
-            "done": false,
+            "position": 1,
             "path": "exercises/02-Hello-World",
-            "translations": [
-                "es",
-                "us"
+            "slug": "02-Hello-World",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "node",
+            "title": "02-Hello-World",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/02-Hello-World/tests.js",
+                    "name": "tests.js",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/02-Hello-World/app.js",
+                    "name": "app.js",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/02-Hello-World/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/02-Hello-World/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                }
             ],
-            "graded": true
+            "done": false
         },
         {
-            "slug": "03-Print-variables-in-the-console",
-            "title": "03-Print-variables-in-the-console",
-            "done": false,
+            "position": 2,
             "path": "exercises/03-Print-variables-in-the-console",
-            "translations": [
-                "es",
-                "us"
+            "slug": "03-Print-variables-in-the-console",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "node",
+            "title": "03-Print-variables-in-the-console",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/03-Print-variables-in-the-console/tests.js",
+                    "name": "tests.js",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/03-Print-variables-in-the-console/app.js",
+                    "name": "app.js",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/03-Print-variables-in-the-console/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/03-Print-variables-in-the-console/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                }
             ],
-            "graded": true
+            "done": false
         },
         {
-            "slug": "04-Multiply-two-values",
-            "title": "04-Multiply-two-values",
-            "done": false,
+            "position": 3,
             "path": "exercises/04-Multiply-two-values",
-            "translations": [
-                "es",
-                "us"
+            "slug": "04-Multiply-two-values",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "node",
+            "title": "04-Multiply-two-values",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/04-Multiply-two-values/tests.js",
+                    "name": "tests.js",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/04-Multiply-two-values/app.js",
+                    "name": "app.js",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/04-Multiply-two-values/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/04-Multiply-two-values/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                }
             ],
-            "graded": true
+            "done": false
         },
         {
-            "slug": "05-User-inputed-variables",
-            "title": "05-User-inputed-variables",
-            "done": false,
+            "position": 4,
             "path": "exercises/05-User-inputed-variables",
-            "translations": [
-                "es",
-                "us"
+            "slug": "05-User-inputed-variables",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "node",
+            "title": "05-User-inputed-variables",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/05-User-inputed-variables/tests.js",
+                    "name": "tests.js",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/05-User-inputed-variables/app.js",
+                    "name": "app.js",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/05-User-inputed-variables/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/05-User-inputed-variables/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                }
             ],
-            "graded": true
+            "done": false
         },
         {
-            "slug": "06-Constants",
-            "title": "06-Constants",
-            "done": false,
+            "position": 5,
             "path": "exercises/06-Constants",
-            "translations": [
-                "es",
-                "us"
+            "slug": "06-Constants",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "node",
+            "title": "06-Constants",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/06-Constants/tests.js",
+                    "name": "tests.js",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/06-Constants/app.js",
+                    "name": "app.js",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/06-Constants/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/06-Constants/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                }
             ],
-            "graded": true
+            "done": false
         },
         {
-            "slug": "07-String-concatenation",
-            "title": "07-String-concatenation",
-            "done": false,
+            "position": 6,
             "path": "exercises/07-String-concatenation",
-            "translations": [
-                "es",
-                "us"
+            "slug": "07-String-concatenation",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "node",
+            "title": "07-String-concatenation",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/07-String-concatenation/tests.js",
+                    "name": "tests.js",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/07-String-concatenation/app.js",
+                    "name": "app.js",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/07-String-concatenation/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/07-String-concatenation/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                }
             ],
-            "graded": true
+            "done": false
         },
         {
-            "slug": "08-Create-a-basic-HTML",
-            "title": "08-Create-a-basic-HTML",
-            "done": false,
+            "position": 7,
             "path": "exercises/08-Create-a-basic-HTML",
-            "translations": [
-                "es",
-                "us"
+            "slug": "08-Create-a-basic-HTML",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "node",
+            "title": "08-Create-a-basic-HTML",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/08-Create-a-basic-HTML/tests.js",
+                    "name": "tests.js",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/08-Create-a-basic-HTML/app.js",
+                    "name": "app.js",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/08-Create-a-basic-HTML/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/08-Create-a-basic-HTML/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                }
             ],
-            "graded": true
+            "done": false
         },
         {
-            "slug": "09-Calling-your-first-function",
-            "title": "09-Calling-your-first-function",
-            "done": false,
+            "position": 8,
             "path": "exercises/09-Calling-your-first-function",
-            "translations": [
-                "es",
-                "us"
+            "slug": "09-Calling-your-first-function",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "node",
+            "title": "09-Calling-your-first-function",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/09-Calling-your-first-function/tests.js",
+                    "name": "tests.js",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/09-Calling-your-first-function/app.js",
+                    "name": "app.js",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/09-Calling-your-first-function/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/09-Calling-your-first-function/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                }
             ],
-            "graded": true
+            "done": false
         },
         {
-            "slug": "10-Creating-your-first-function",
-            "title": "10-Creating-your-first-function",
-            "done": false,
+            "position": 9,
             "path": "exercises/10-Creating-your-first-function",
-            "translations": [
-                "es",
-                "us"
+            "slug": "10-Creating-your-first-function",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "node",
+            "title": "10-Creating-your-first-function",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/10-Creating-your-first-function/tests.js",
+                    "name": "tests.js",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/10-Creating-your-first-function/app.js",
+                    "name": "app.js",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/10-Creating-your-first-function/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/10-Creating-your-first-function/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                }
             ],
-            "graded": true
+            "done": false
         },
         {
-            "slug": "11-Create-a-new-function",
-            "title": "11-Create-a-new-function",
-            "done": false,
+            "position": 10,
             "path": "exercises/11-Create-a-new-function",
-            "translations": [
-                "es",
-                "us"
+            "slug": "11-Create-a-new-function",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "node",
+            "title": "11-Create-a-new-function",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/11-Create-a-new-function/tests.js",
+                    "name": "tests.js",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/11-Create-a-new-function/app.js",
+                    "name": "app.js",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/11-Create-a-new-function/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/11-Create-a-new-function/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                }
             ],
-            "graded": true
+            "done": false
         },
         {
-            "slug": "12-Your-first-if",
-            "title": "12-Your-first-if",
-            "done": false,
+            "position": 11,
             "path": "exercises/12-Your-first-if",
-            "translations": [
-                "es",
-                "us"
+            "slug": "12-Your-first-if",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "node",
+            "title": "12-Your-first-if",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/12-Your-first-if/tests.js",
+                    "name": "tests.js",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/12-Your-first-if/app.js",
+                    "name": "app.js",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/12-Your-first-if/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/12-Your-first-if/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                }
             ],
-            "graded": true
+            "done": false
         },
         {
-            "slug": "13-How-much-the-wedding-costs",
-            "title": "13-How-much-the-wedding-costs",
-            "done": false,
+            "position": 12,
             "path": "exercises/13-How-much-the-wedding-costs",
-            "translations": [
-                "es",
-                "us"
+            "slug": "13-How-much-the-wedding-costs",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "node",
+            "title": "13-How-much-the-wedding-costs",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/13-How-much-the-wedding-costs/tests.js",
+                    "name": "tests.js",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/13-How-much-the-wedding-costs/app.js",
+                    "name": "app.js",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/13-How-much-the-wedding-costs/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/13-How-much-the-wedding-costs/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                }
             ],
-            "graded": true
+            "done": false
         },
         {
-            "slug": "14-Your-first-switch",
-            "title": "14-Your-first-switch",
-            "done": false,
+            "position": 13,
             "path": "exercises/14-Your-first-switch",
-            "translations": [
-                "es",
-                "us"
+            "slug": "14-Your-first-switch",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "node",
+            "title": "14-Your-first-switch",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/14-Your-first-switch/tests.js",
+                    "name": "tests.js",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/14-Your-first-switch/app.js",
+                    "name": "app.js",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/14-Your-first-switch/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/14-Your-first-switch/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                }
             ],
-            "graded": true
+            "done": false
         },
         {
-            "slug": "15-Random-numbers",
-            "title": "15-Random-numbers",
-            "done": false,
+            "position": 14,
             "path": "exercises/15-Random-numbers",
-            "translations": [
-                "es",
-                "us"
+            "slug": "15-Random-numbers",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "node",
+            "title": "15-Random-numbers",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/15-Random-numbers/tests.js",
+                    "name": "tests.js",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/15-Random-numbers/app.js",
+                    "name": "app.js",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/15-Random-numbers/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/15-Random-numbers/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                }
             ],
-            "graded": true
+            "done": false
         },
         {
-            "slug": "16-Rand-from-one-to-six",
-            "title": "16-Rand-from-one-to-six",
-            "done": false,
+            "position": 15,
             "path": "exercises/16-Rand-from-one-to-six",
-            "translations": [
-                "es",
-                "us"
+            "slug": "16-Rand-from-one-to-six",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "node",
+            "title": "16-Rand-from-one-to-six",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/16-Rand-from-one-to-six/tests.js",
+                    "name": "tests.js",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/16-Rand-from-one-to-six/app.js",
+                    "name": "app.js",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/16-Rand-from-one-to-six/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/16-Rand-from-one-to-six/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                }
             ],
-            "graded": true
+            "done": false
         },
         {
-            "slug": "17-Your-first-loop",
-            "title": "17-Your-first-loop",
-            "done": false,
+            "position": 16,
             "path": "exercises/17-Your-first-loop",
-            "translations": [
-                "es",
-                "us"
+            "slug": "17-Your-first-loop",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "node",
+            "title": "17-Your-first-loop",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/17-Your-first-loop/tests.js",
+                    "name": "tests.js",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/17-Your-first-loop/app.js",
+                    "name": "app.js",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/17-Your-first-loop/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/17-Your-first-loop/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                }
             ],
-            "graded": true
+            "done": false
         },
         {
-            "slug": "18-Create-a-for-loop",
-            "title": "18-Create-a-for-loop",
-            "done": false,
+            "position": 17,
             "path": "exercises/18-Create-a-for-loop",
-            "translations": [
-                "es",
-                "us"
+            "slug": "18-Create-a-for-loop",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "node",
+            "title": "18-Create-a-for-loop",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/18-Create-a-for-loop/tests.js",
+                    "name": "tests.js",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/18-Create-a-for-loop/app.js",
+                    "name": "app.js",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/18-Create-a-for-loop/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/18-Create-a-for-loop/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                }
             ],
-            "graded": true
+            "done": false
         },
         {
-            "slug": "19-While-loop",
-            "title": "19-While-loop",
-            "done": false,
+            "position": 18,
             "path": "exercises/19-While-loop",
-            "translations": [
-                "es",
-                "us"
+            "slug": "19-While-loop",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "node",
+            "title": "19-While-loop",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/19-While-loop/tests.js",
+                    "name": "tests.js",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/19-While-loop/app.js",
+                    "name": "app.js",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/19-While-loop/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/19-While-loop/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                }
             ],
-            "graded": true
+            "done": false
         },
         {
-            "slug": "20-Random-colors-loop",
-            "title": "20-Random-colors-loop",
-            "done": false,
+            "position": 19,
             "path": "exercises/20-Random-colors-loop",
-            "translations": [
-                "es",
-                "us"
+            "slug": "20-Random-colors-loop",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "node",
+            "title": "20-Random-colors-loop",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/20-Random-colors-loop/tests.js",
+                    "name": "tests.js",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/20-Random-colors-loop/app.js",
+                    "name": "app.js",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/20-Random-colors-loop/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/20-Random-colors-loop/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                }
             ],
-            "graded": true
+            "done": false
         },
         {
-            "slug": "21-Looping-with-FizzBuzz",
-            "title": "21-Looping-with-FizzBuzz",
-            "done": false,
+            "position": 20,
             "path": "exercises/21-Looping-with-FizzBuzz",
-            "translations": [
-                "es",
-                "us"
+            "slug": "21-Looping-with-FizzBuzz",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "node",
+            "title": "21-Looping-with-FizzBuzz",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/21-Looping-with-FizzBuzz/tests.js",
+                    "name": "tests.js",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/21-Looping-with-FizzBuzz/app.js",
+                    "name": "app.js",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/21-Looping-with-FizzBuzz/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/21-Looping-with-FizzBuzz/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                }
             ],
-            "graded": true
+            "done": false
         },
         {
-            "slug": "22-Russian-Roulette",
-            "title": "22-Russian-Roulette",
-            "done": false,
+            "position": 21,
             "path": "exercises/22-Russian-Roulette",
-            "translations": [
-                "es",
-                "us"
+            "slug": "22-Russian-Roulette",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "node",
+            "title": "22-Russian-Roulette",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/22-Russian-Roulette/tests.js",
+                    "name": "tests.js",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/22-Russian-Roulette/app.js",
+                    "name": "app.js",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/22-Russian-Roulette/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/22-Russian-Roulette/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                }
             ],
-            "graded": true
+            "done": false
         },
         {
-            "slug": "23-The-Beatles",
-            "title": "23-The-Beatles",
-            "done": false,
+            "position": 22,
             "path": "exercises/23-The-Beatles",
-            "translations": [
-                "es",
-                "us"
+            "slug": "23-The-Beatles",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "node",
+            "title": "23-The-Beatles",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/23-The-Beatles/tests.js",
+                    "name": "tests.js",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/23-The-Beatles/app.js",
+                    "name": "app.js",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/23-The-Beatles/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/23-The-Beatles/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                }
             ],
-            "graded": true
+            "done": false
         },
         {
-            "slug": "24-Bottles-of-milk",
-            "title": "24-Bottles-of-milk",
-            "done": false,
+            "position": 23,
             "path": "exercises/24-Bottles-of-milk",
-            "translations": [
-                "es",
-                "us"
+            "slug": "24-Bottles-of-milk",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "node",
+            "title": "24-Bottles-of-milk",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/24-Bottles-of-milk/tests.js",
+                    "name": "tests.js",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/24-Bottles-of-milk/app.js",
+                    "name": "app.js",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/24-Bottles-of-milk/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/24-Bottles-of-milk/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                }
             ],
-            "graded": true
+            "done": false
         },
         {
-            "slug": "25-Javascript-Objects",
-            "title": "25-Javascript-Objects",
-            "done": false,
+            "position": 24,
             "path": "exercises/25-Javascript-Objects",
-            "translations": [
-                "es",
-                "us"
+            "slug": "25-Javascript-Objects",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": "node",
+            "title": "25-Javascript-Objects",
+            "graded": true,
+            "files": [
+                {
+                    "path": "exercises/25-Javascript-Objects/tests.js",
+                    "name": "tests.js",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/25-Javascript-Objects/app.js",
+                    "name": "app.js",
+                    "hidden": false
+                },
+                {
+                    "path": "exercises/25-Javascript-Objects/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                },
+                {
+                    "path": "exercises/25-Javascript-Objects/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                }
             ],
-            "graded": true
+            "done": false
         }
     ]
 }
