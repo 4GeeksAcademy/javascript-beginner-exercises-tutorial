@@ -6,6 +6,7 @@ ports:
       onOpen: open-preview
 tasks:
     - command: >
+        learnpack plugins:install learnpack-node@0.0.13 &&
         learnpack start
 github:
     prebuilds:
