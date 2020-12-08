@@ -1,28 +1,7 @@
 {
-    "port": 3000,
-    "address": "https://d418fa25-06aa-4a29-814d-bb5c8516786c.ws-us03.gitpod.io",
-    "editor": "gitpod",
-    "configPath": {
-        "config": "bc.json",
-        "base": ".learn",
-        "exercises": "./exercises",
-        "output": ".learn/dist"
-    },
-    "outputPath": "./.learn/dist",
-    "publicPath": "/preview",
+    "slug": "javascript-beginner-exercises-tutorial",
     "grading": "isolated",
-    "disable_grading": false,
     "language": "node",
-    "compiler": "node",
-    "tester": "jest",
-    "actions": [
-        "run",
-        "test",
-        "reset"
-    ],
-    "author": {
-        "name": "Alejandro Sanchez"
-    },
     "repository": "https://github.com/4GeeksAcademy/javascript-beginner-exercises-tutorial",
     "title": "Javascript Beginner Tutorial (interactive)",
     "preview": "https://github.com/4GeeksAcademy/javascript-beginner-exercises-tutorial/blob/master/preview.png?raw=true",
