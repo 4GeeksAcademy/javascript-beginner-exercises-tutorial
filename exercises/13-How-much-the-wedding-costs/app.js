@@ -6,5 +6,5 @@ function getPrice(guests){
     return cost;
 }
 
-let price = getPrice(input);
+let price = getPrice(guests);
 console.log('Your wedding will cost '+price+' dollars');
