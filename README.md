@@ -15,7 +15,7 @@ Complete selection of auto-graded and interactive Javascript exercises for anyon
 
 <ol>
   <li><a href="https://github.com/4GeeksAcademy/javascript-beginner-exercises-tutorial">Javascript for Beginners</a> ← You are here</li>
-  <li><a href="https://github.com/4GeeksAcademy/javascript-beginner-exercises-tutorial">Looping with Javascript</a></li>
+  <li><a href="https://github.com/4GeeksAcademy/javascript-arrays-exercises-tutorial">Looping with Javascript</a></li>
   <li><a href="https://github.com/4GeeksAcademy/javascript-functions-exercises-tutorial">Javascript Functions</a></li>
 </ol>
 
