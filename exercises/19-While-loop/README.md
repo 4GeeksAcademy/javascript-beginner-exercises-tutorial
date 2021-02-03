@@ -28,5 +28,5 @@ Fortunately, repl.it handles the infinite loop. For now...
 * Return `counter` once it is `0`.
 
 ### :exclamation: IMPORTANT: 
-*There are exercises dedicated to Arrays.  We encourage you to complete those exercises after finishing this lesson. Once you are more comfortable, return here to continue.*
+*There are exercises dedicated to Arrays.  We encourage you to complete those exercises after finishing this lesson. Once you are more comfortable, return here to continue. [Click here to review the javascript arrays exercises](https://github.com/4GeeksAcademy/javascript-arrays-exercises-tutorial).*
 
