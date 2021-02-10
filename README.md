@@ -36,7 +36,7 @@ We need you! These exercises are built and maintained in collaboration with cont
 
 ```
 $ npm i learnpack -g
-$ learnpack plugins:install learnpack-python
+$ learnpack plugins:install learnpack-node
 ```
 
 2. Download this particular exercise using learnpack and `cd` into the folder:
