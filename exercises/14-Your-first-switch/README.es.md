@@ -28,6 +28,8 @@ La función debe regresar **true** si el color solicitado es uno de los colores 
 
 * Es posible que debas llevar la entrada (input) del usuario a minúsculas o mayúsculas para evitar discrepancias. Haz clic en lo siguiente para que lo logres:
 
+* Vas a necesitar utilizar trim() para el valor que recibas del prompt(): https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String/Trim
+
 * Para llevar todo a mayúsculas: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase
 
 * Para llevar todo a minúsculas: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase
