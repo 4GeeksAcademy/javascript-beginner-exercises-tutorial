@@ -26,8 +26,6 @@ Imagine your software is running the inventory of a shoe store. The client needs
 ### 💡 Hint:
 You may need to convert the user input to all lowercase or all uppercase lettering to prevent discrepancies.  Click the following to help you accomplish this:
 
-* You have to use trim() for the prompt() value: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/Trim
-
 * For all uppercase: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase
 
 * For all lowercase: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase
