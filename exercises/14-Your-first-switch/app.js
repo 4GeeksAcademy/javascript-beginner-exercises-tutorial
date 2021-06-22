@@ -8,7 +8,7 @@ function getColor(selection)
 	}
 }
 
-var colorname = prompt('What color do you want?');
+var colorname = prompt('What color do you want?').trim();
 var isAvailable = getColor(colorname);
 
 if(isAvailable)

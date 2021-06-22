@@ -21,7 +21,7 @@ describe('All the javascript should match', function () {
 
         const file = require("./app.js");
 
-        expect(console.log).toHaveBeenCalledWith("let it be, let it be, let it be, let it be, words of wisdom, let it be, let it be, let it be, let it be, let it be, there will be an answer, let it be");
+        expect(console.log).toHaveBeenCalledWith("let it be, let it be, let it be, let it be, whisper words of wisdom, let it be, let it be, let it be, let it be, let it be, there will be an answer, let it be");
 
         expect(console.log.mock.calls.length).toBe(1);
     });
