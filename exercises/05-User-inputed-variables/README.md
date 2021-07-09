@@ -9,12 +9,15 @@ Another cool feature about variables is that you don't need to know their value 
 For example, this application is prompting the user for his or her age. Let's see if we can change it.
 
 
-## :pencil: Instructions
+## :pencil: Instructions:
 
-* Please add 10 years to the value of the **age** variable.
-* Print the result to the console.
+1. Please add 10 years to the value of the `age` variable.
+
+2. Print the result to the console.
 
 
 ### 💡 Hint:
 
-* The content of a variable is determined by the user's inputs. The `prompt()` function saves the input value as a string. You will have to make sure that the variable is converted to an integer for the calculation to be successfully completed.  This is a good opportunity to work on your problem-solving skills by performing a google search.
+The content of a variable is determined by the user's inputs. The `prompt()` function saves the input value as a string. 
+
+You will have to make sure that the variable is converted to an integer for the calculation to be successfully completed.  This is a good opportunity to work on your problem-solving skills by performing a google search.

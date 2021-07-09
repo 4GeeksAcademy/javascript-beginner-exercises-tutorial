@@ -1,9 +1,16 @@
-![Javascript Preview](https://ucarecdn.com/b6fd7d5e-09ac-4f1f-8546-ce8732be63f9/)
+![Javascript Preview](https://github.com/4GeeksAcademy/javascript-beginner-exercises-tutorial/blob/master/.learn/assets/i-love-javascript.jpeg?raw=true)
 
-# Bienvenido a Javascript!
+# Bienvenido a los Ejercicios de Javascript!
 
-Este es la serie de ejercicios y tutorial orientados a darte todos los conocimientos necesarios para tener éxito en el mundo del código Javascript.
+Este es la primera serie de tutoriales interactivos orientados a entregarte todos los conocimientos necesarios para tener éxito en el mundo de Javascript.
 
-Aprenderás: `console.log`, Concatenación de string, Arrays, Funciones, Loops, etc. 
+## Aprenderás: 
 
-Apreta el botón de `Next →`  en la pantalla superior derecha cuando estes listo para empezar los ejercicios.
+- `console.log`,
+- Concatenación de string, 
+- Arrays, 
+- Funciones, 
+- Loops, 
+- ¡y mucho más! 
+
+Apreta el botón de `Next →`  en la esquina superior derecha de la pantalla cuando estes listo para empezar los ejercicios.

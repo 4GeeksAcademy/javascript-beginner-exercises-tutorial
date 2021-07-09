@@ -11,7 +11,8 @@ var mySuperVariable = 'hello';
 console.log(mySuperVariable);
 ```
 
-# :pencil: Instructions
+# :pencil: Instructions:
 
-* Declare a new variable called **color** and assign the value `'red'` to it.
-* Print its value to the console.
+1. Declare a new variable called `color` and assign the value `red` to it.
+
+2. Print its value to the console.
