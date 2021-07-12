@@ -20,9 +20,9 @@ switch (expr) {
 
 Imagine that your software is running the inventory of a shoe store. The client needs to know what colors a particular shoe is available in.
 
-* Complete the switch statement with 3 cases for a shoe coming in the following colors: `red`, `green` and `blue`.
+1. Complete the switch statement with 3 cases for a shoe coming in the following colors: `red`, `green` and `blue`.
 
-* The function needs to return `true` if the user input matches one of the cases listed in the switch statement, `false` otherwise.
+2. The function needs to return `true` if the user input matches one of the cases listed in the switch statement, `false` otherwise.
 
 ### 💡 Hint:
 You may need to convert the user input to all lowercase or all uppercase lettering to prevent discrepancies.  Click the following to help you accomplish this:

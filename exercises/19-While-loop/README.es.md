@@ -20,16 +20,23 @@ while (i < 10) {
     console.log("Goodbye!");
 }
 ```
-Puede que ya hayas experimentado esto ¿Te das cuenta de que falta algo? No hay un expresión de incremento en nuestro bucle. Esto es un problema porque queremos incrementar la variable `i` hasta alcanzar el valor deseado para salirnos del bucle. Si no incrementamos `i`, queda permanentemente en `0`, lo que generará un bucle infinito. 
+Puede que ya hayas experimentado con este bucle (loop) 
+
+¿Notas que falta algo? 
+
+No hay un *expresión de incremento* en nuestro bucle. Esto es un problema porque queremos incrementar la variable `i` hasta alcanzar el valor deseado para salirnos del bucle. Si no incrementamos `i`, queda permanentemente en `0`, lo que generará un bucle infinito. 
 
 ## :pencil: Instrucciones:
 
-* Arregla el bucle `while` para que funcione y no genere un bucle infinito.
+1. Arregla el bucle `while` para que funcione y no genere un bucle infinito.
 
-* Imprime del 100 - 0. 
+2. Imprime del 100 - 0. 
 
-* Regresa el `counter` a 0.
+3. Regresa el `counter` a 0.
 
-### :exclamation: IMPORTANTE: 
-*Hay ejercicios dedicados a Arrays (arreglos), te incetivamos a ir y finalizar esos ejercicios después de que termines tu primer ejercicio de Array. (Y luego, regresa).*
+### :mag_right: Importante: 
+
+*Hay ejercicios dedicados a Arrays, te recomendamos  realizar esos ![ejercicios] (https://gitpod.io/#https://github.com/4GeeksAcademy/javascript-arrays-exercises-tutorial) después de que termines este ejercicio.* 
+
+*Cuando te sientas cómodo con este contenido, regresa y continua con estos ejercicio.*
 
