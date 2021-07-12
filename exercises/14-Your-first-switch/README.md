@@ -17,7 +17,8 @@ switch (expr) {
 ```
 
 ## :pencil: Instructions:
-Imagine your software is running the inventory of a shoe store. The client needs to know what colors a particular shoe is available in.
+
+Imagine that your software is running the inventory of a shoe store. The client needs to know what colors a particular shoe is available in.
 
 * Complete the switch statement with 3 cases for a shoe coming in the following colors: `red`, `green` and `blue`.
 
