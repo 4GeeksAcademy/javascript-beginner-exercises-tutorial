@@ -1,8 +1,10 @@
 # `17` Tu Primer Bucle (Loop)
 
-Los bucles e iteraciones te permiten repetir un proceso rápida y eficientemente. Las dos formas más utilizadas son los blucles `for`y los bucles `while`.
+Los bucles e iteraciones te permiten repetir un proceso rápida y eficientemente. 
 
-Un bucle `for`se ve así:
+Las dos formas más utilizadas son los blucles `for`y `while`.
+
+1.  Un bucle `for`se ve así:
 
 ```js
 for (expresionInicial; condicional; expresionIncremental) {
@@ -19,7 +21,7 @@ for (var i = 0; i < 10; i++) {
 ```
 
 
-Los bucles `while` tienen una naturaleza similar. Se ven así: 
+2. Los bucles `while` tienen una naturaleza similar. Se ven así: 
 
 ```js
 expresionInicial;
@@ -45,11 +47,12 @@ Puedes usar `>` (mayor que), `<` (menor que), `>=` (mayor que o igual a), `<=` (
 
 ## :pencil: Instrucciones:
 
-Si corres este código verás un conteo del `0` al `99` (Caracteres blancos).  
+Si compilas este código verás un conteo del `0` al `99` (Caracteres blancos) en la consola.  
 
-Arregla el código para que cuente hasta el `100`. Luego lo verás seguido por el 101 en verde en la consola.
+1. Arregla el código para que cuente hasta el `100`. Luego lo verás seguido por el `101` en verde en la consola.
 
-### :exclamation: IMPORTANTE: 
-*Hay una serie de ejercicios dedicados a Arrays (arreglos),te invitamos a ir y terminar esos ejercicios luego de que finalices este primer ejercicio de Array. (Y luego, regresas aqui para continuar).*
+### :mag_right_: Importante:
+
+*Hay una serie de ejercicios dedicados a Arrays (arreglos). Te recomendamos hacer esos ![ejercicios](https://gitpod.io/#https://github.com/4GeeksAcademy/javascript-arrays-exercises-tutorial) antes de continuar con este este primer ejercicio de Array. Luego, regresa aquí para continuar con éstos.*
 
 

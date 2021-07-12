@@ -6,17 +6,20 @@ It is a great song - not boring at all... :laughing:
 
 Here you can hear it: https://www.youtube.com/watch?v=Xy-da43E6Lo
 
-## :pencil: Instructions:
-* Write an algorithm to print the exact same lyrics.
+### :pencil: Instructions:
 
-### :bulb: HINT:
-* Use loops to complete this task
+1. Write an algorithm to print the exact same lyrics.
+
+### :bulb: Hint:
+
+* Use loops to complete this task.
+
 * The lyrics change slightly when there is one bottle left (singular instead of plural).
+
 * When there are no more bottles, the last verse changes to `go to the store and by some more`.
 
 
-### :scroll: Note:
-The console should print the following:
+### Expected result:
 
 `99 bottles of milk on the wall, 99 bottles of milk.` 
 `Take one down and pass it around, 98 bottles of milk on the wall.`

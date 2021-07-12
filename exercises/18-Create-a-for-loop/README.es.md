@@ -1,8 +1,10 @@
-# `18` Crea un bucle FOR
+# `18` Crea un bucle `for`
 
-Como ya aprendimos, los bucles son muy útiles - con ellos no tienes que escribir las mismas líneas de código muchas veces. Mientras continuas en tu travesía para convertirte en desarrollador, el bucle `for` se convertirá en una herramienta indispensable.
+Como ya aprendimos, los bucles son muy útiles para repetir un tarea rápida y eficientemente usando muy pocas líneas de código. 
 
-Aqui tienes un bucle `for`:
+Mientras continuas en tu travesía para convertirte en desarrollador, el bucle `for` se convertirá en una herramienta indispensable.
+
+Aqui tienes un la estructura de un bucle `for`:
 
 
 ```js
@@ -21,10 +23,12 @@ for (var i = 0; i < 10; i++) {
 
 ## :pencil: Instrucciones:
 
-Queremos asegurarnos de que entiendas que hacer preguntas es importante para tu desarrollado. Escribe 300 veces "Haré preguntas si estoy atascado" ¡Afortunadamente ya conoces una forma rápida de hacer! ¡usa un bucle `for`¡
+Queremos asegurarnos de que has comprrendido que hacer preguntas es importante para tu desarrollo como programador. 
 
-* Crea una función llamada **standardsMaker** que imprima 300 veces la frase "Yo preguntaré si estoy atascado".
+1. Escribe 300 veces `Haré preguntas si estoy atascado` ¡Afortunadamente ya conoces una forma rápida de hacerlo! - usando un bucle` for`
 
-### :scroll: Nota:
-* Lee más acerca bucles aquí: 
-    https://www.w3schools.com/js/js_loop_for.asp
+2. Crea una función llamada `standardsMaker()` que imprima 300 veces la frase `Yo preguntaré si estoy atascado`.
+
+### :mag_right: Importante:
+
+Lee más acerca bucles aquí: https://www.w3schools.com/js/js_loop_for.asp
