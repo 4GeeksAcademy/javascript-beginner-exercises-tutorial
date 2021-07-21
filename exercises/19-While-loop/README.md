@@ -36,7 +36,7 @@ We do not have an *incrementalExpression* in our loop.  This is a problem becaus
 
 ### :mag_right: Important:
 
-*There are exercises dedicated to Arrays.  We encourage you to complete those ![exercises](https://gitpod.io/#https://github.com/4GeeksAcademy/javascript-arrays-exercises-tutorial) after finishing this one.* 
+*There are exercises dedicated to Arrays.  We encourage you to complete those [exercises](https://gitpod.io/#https://github.com/4GeeksAcademy/javascript-arrays-exercises-tutorial) after finishing this one.* 
 
 *Once you are more comfortable, return here to continue.*
 

@@ -30,5 +30,4 @@ Once the user inputs an amount, one of the following responses will be printed t
 
 ### :mag_right: Important:
 
-You can learn more about it ![here]
- (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
+You can learn more about it [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)

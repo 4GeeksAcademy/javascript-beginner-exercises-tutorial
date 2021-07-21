@@ -36,7 +36,7 @@ No hay un *expresión de incremento* en nuestro bucle. Esto es un problema porqu
 
 ### :mag_right: Importante: 
 
-*Hay ejercicios dedicados a Arrays, te recomendamos  realizar esos ![ejercicios] (https://gitpod.io/#https://github.com/4GeeksAcademy/javascript-arrays-exercises-tutorial) después de que termines este ejercicio.* 
+Hay ejercicios dedicados a Arrays, te recomendamos  realizar esos [ejercicios](https://gitpod.io/#https://github.com/4GeeksAcademy/javascript-arrays-exercises-tutorial) después de que termines este ejercicio. 
 
 *Cuando te sientas cómodo con este contenido, regresa y continua con estos ejercicio.*
 

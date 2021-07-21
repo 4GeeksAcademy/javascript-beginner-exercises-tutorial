@@ -53,6 +53,6 @@ Si compilas este código verás un conteo del `0` al `99` (Caracteres blancos) e
 
 ### :mag_right_: Importante:
 
-*Hay una serie de ejercicios dedicados a Arrays (arreglos). Te recomendamos hacer esos ![ejercicios](https://gitpod.io/#https://github.com/4GeeksAcademy/javascript-arrays-exercises-tutorial) antes de continuar con este este primer ejercicio de Array. Luego, regresa aquí para continuar con éstos.*
+*Hay una serie de ejercicios dedicados a Arrays (arreglos). Te recomendamos hacer esos [ejercicios](https://gitpod.io/#https://github.com/4GeeksAcademy/javascript-arrays-exercises-tutorial) antes de continuar con este este primer ejercicio de Array. Luego, regresa aquí para continuar con éstos.*
 
 

@@ -52,4 +52,4 @@ Running the accompanying code will print the integers `0` through `99` to the co
 
 ### :mag_right_: Important:
 
-*There is a whole series of dedicated to Arrays.  We encourage you to complete these ![exercises](https://gitpod.io/#https://github.com/4GeeksAcademy/ before finishing this exercise. Once you are more comfortable, return here to continue.*
+*There is a whole series of dedicated to Arrays.  We encourage you to complete these [exercises]https://gitpod.io/#https://github.com/4GeeksAcademy/javascript-arrays-exercises-tutorial)  before finishing this exercise. Once you are more comfortable, return here to continue.*
