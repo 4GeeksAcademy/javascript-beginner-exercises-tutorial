@@ -29,5 +29,4 @@ Una vez el usuario ingresa la cantidad, tenemos que imprimir una de las siguient
 
 ### :mag_right: Importante:
 
-Puedes aprender más al respecto ![aquí]
- (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
+Puedes aprender más al respecto [aquí](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)

@@ -8,11 +8,11 @@ Las fortalezas de las funciones incluyen:
 
 * Reutilización del código en diferentes programas. Puedes crear funciones como herramientas dentro de una caja de herramientas. Esto hace que la programación sea más eficiente y limpia.
 
-### :exclamation: IMPORTANTE: 
+### :mag_right: Importante: 
 
-*Hay una serie de ejercicios dedicados a Funciones, te recomendamos que vayas y los hagas esos después de que realices este ejercicio de [funciones](https://github.com/4GeeksAcademy/javascript-functions-exercises-tutorial)*
+Hay una serie de ejercicios dedicados a Funciones, te recomendamos que vayas y los hagas esos después de que realices este ejercicio de [funciones](https://github.com/4GeeksAcademy/javascript-functions-exercises-tutorial)
 
-. (Y luego, regresa y continua con estos).*
+(Y luego, regresa y continua con estos).*
 
 ## :pencil: Instrucciones
 

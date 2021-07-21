@@ -26,4 +26,4 @@ Escenario: Digamos que eres profesor en un aula de 10 estudiantes y quieres asig
 
 ### :mag_right: Importante:
 
-Si sientes que no estás entendiendo los bucles y estás atascado, haz primero estos ![ejercicios](https://gitpod.io/#https://github.com/4GeeksAcademy/javascript-arrays-exercises-tutorial).
+Si sientes que no estás entendiendo los bucles y estás atascado, haz primero estos [ejercicios](https://gitpod.io/#https://github.com/4GeeksAcademy/javascript-arrays-exercises-tutorial).
