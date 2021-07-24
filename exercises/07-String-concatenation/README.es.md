@@ -14,7 +14,7 @@ console.log(one+two); //esto imprimirá 'ab' en la consola.
 
 ## :pencil: Instrucciones:
 
-1. Establece los valores de `yVar1` y `myVar2` para que el código imprima 'Hello World' en la consola.
+1. Establece los valores de `myVar1` y `myVar2` para que el código imprima 'Hello World' en la consola.
 
 ### 💡 Pista:
 
