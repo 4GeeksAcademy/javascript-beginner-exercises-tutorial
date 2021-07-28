@@ -4,7 +4,7 @@ tried forcing it to int and then back to string, but none of that helps
 */
 
 //mock the prompt function
-const stdin = [].concat(__stdin);
+const stdin = ["40"];
 //this mock will pass one by one all the inputs
 global.prompt = jest.fn(() => __stdin.shift());
 
@@ -20,11 +20,9 @@ it('Declare age variable', function () {
 });
 
 
-it('Age is input + 10', function () {
+it('Testing with age = 40, and the console.log() should print 50', function () {
 
     const _ = require('./app');
-    var age = app.__get__("age");
-    var expected = parseInt(age) + 10;
 
-    expect(console.log).toHaveBeenCalledWith(expected);
+    expect(console.log).toHaveBeenCalledWith(50);
 });
