@@ -12,7 +12,7 @@ Escenario: Digamos que eres profesor en un aula de 10 estudiantes y quieres asig
 
 (sólo UN color POR estudiante)
 
-1. Cambia la función `getAllStudentColors()` para que devuelva un array de 10 colores aleatorios, un por cada estudiante.
+1. Cambia la función `getAllStudentColors()` para que imprima 10 colores aleatorios, un color por cada estudiante.
 
 ### :bulb: Pista: 
 
