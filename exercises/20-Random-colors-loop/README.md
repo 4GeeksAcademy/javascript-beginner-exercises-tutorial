@@ -12,7 +12,7 @@ Scenario: You are a teacher in a 10-student classroom. You want to randomly assi
 
 (just ONE color to EACH student)
 
-1. Complete the function `getAllStudentColors()` so that it returns an array of 10 randomly selected colors, one per student.
+1. Complete the function `getAllStudentColors()` so that it prints 10 randomly selected colors, one per student.
 
 ### :bulb: Hint: 
 
