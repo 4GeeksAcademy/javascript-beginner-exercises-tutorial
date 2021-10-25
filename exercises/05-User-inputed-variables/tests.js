@@ -6,7 +6,7 @@ tried forcing it to int and then back to string, but none of that helps
 //mock the prompt function
 const stdin = ["40"];
 //this mock will pass one by one all the inputs
-global.prompt = jest.fn(() => __stdin.shift());
+global.prompt = jest.fn(() => stdin.shift());
 
 const rewire = require('rewire');
 const fs = require('fs');
