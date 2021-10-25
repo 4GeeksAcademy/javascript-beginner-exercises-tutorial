@@ -25,9 +25,9 @@ for (var i = 0; i < 10; i++) {
 
 Queremos asegurarnos de que has comprrendido que hacer preguntas es importante para tu desarrollo como programador. 
 
-1. Escribe 300 veces `Haré preguntas si estoy atascado` ¡Afortunadamente ya conoces una forma rápida de hacerlo! - usando un bucle` for`
+1. Escribe 300 veces `Haré preguntas si estoy atascado` ¡Afortunadamente ya conoces una forma rápida de hacerlo! - usando un bucle `for`.
 
-2. Crea una función llamada `standardsMaker()` que imprima 300 veces la frase `Yo preguntaré si estoy atascado`.
+2. Crea una función llamada `standardsMaker()` que imprima 300 veces la frase `Haré preguntas si estoy atascado`.
 
 ### :mag_right: Importante:
 

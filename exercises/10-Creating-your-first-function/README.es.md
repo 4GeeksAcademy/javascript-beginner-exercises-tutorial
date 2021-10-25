@@ -16,7 +16,7 @@ function function_name (param1, param2, ...) {
 
 + El espacio entre llaves `{...}` es el cuerpo (body) de la función. Ahí es donde se procesan los argumentos y provee una especie de resultado.
 
-El resultado puede incluir devolver un valor(como se muestra en el ejemplo anterior), imprimir en la consola, llamar a otra función, etc.
+El resultado puede incluir devolver un valor (como se muestra en el ejemplo anterior), imprimir en la consola, llamar a otra función, etc.
 
 ## :pencil: Instrucciones:
 
@@ -28,7 +28,7 @@ La función `addNumbers` se supone que devuelve la suma de 2 números dados.
 
 ### 💡 Pista:
 
-La función está recibiendo 2 parámetros (variables `a` y  `b`). Puedes crear una variable llamada `sum` dentro del cuerpo de la función que guarde el total de ambos argumentos. Usa `console.log()` para imprimir `sum` en la consola.
+La función está recibiendo 2 parámetros (variables `a` y  `b`). Puedes crear una variable llamada `sum` dentro del cuerpo de la función que guarde el total de ambos argumentos. 
 
 
 ### :mag_right: Importante:

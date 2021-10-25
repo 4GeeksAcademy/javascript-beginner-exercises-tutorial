@@ -7,7 +7,6 @@ tutorial: "https://www.youtube.com/watch?v=41QZKUDS9Uw"
 To  define a function, you have to understand its structure fisrt. For example:
 
 ```js
-
 function function_name (param1, param2, ...) {
     return param1 + param2;
 }
@@ -24,7 +23,7 @@ The output can include returning a value (as shown in the example above), printi
 
 ## :pencil: Instructions:
 
-The function `addNumbers()` is supposed to return the sum of two given numbers.
+The function `addNumbers()` is supposed to return the sum of two given numbers:
 
 1. Complete the necessary code with the function body to make it behave as expected.
 
@@ -32,7 +31,7 @@ The function `addNumbers()` is supposed to return the sum of two given numbers.
 
 ### 💡 Hint:
 
-- The function is receiving two arguments (stored in the parameters `a` and `b`). You can create a variable called `sum` within the function body that stores the total of both arguments. Use `console.log()` to print `sum` to the console.
+- The function is receiving two arguments (stored in the parameters `a` and `b`). You can create a variable called `sum` within the function body that stores the total of both arguments.
 
 ### :mag_right: Important:
 
