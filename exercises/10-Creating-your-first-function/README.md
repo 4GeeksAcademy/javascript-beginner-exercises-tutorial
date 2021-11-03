@@ -11,6 +11,7 @@ function function_name (param1, param2, ...) {
     return param1 + param2;
 }
 ```
+
 + Functions begin with the **keyword** `function`
 
 + The `function_name` is the name of the function
