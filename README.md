@@ -36,19 +36,10 @@ $ npm i learnpack -g
 $ learnpack plugins:install learnpack-node
 ```
 
-2. Download this particular exercise using learnpack and `cd` into the folder:
-
-```
-$ learnpack download javascript-beginner-exercises-tutorial
-$ cd javascript-beginner-exercises-tutorial
-```
-
-Note: Once you finish downloading, you will find a "exercises" folder that contains all the exercises within.
-
-3. Start the tutorial/exercises by running the following command at the same level were your bc.json file is:
+2. Start the tutorial/exercises by running the following command at the same level were your bc.json file is:
 
 ```sh
-$ $ pip3 install pytest==4.4.2 pytest-testdox mock
+$ npm i jest@24.8.0 -g
 $ learnpack start
 ```
 
