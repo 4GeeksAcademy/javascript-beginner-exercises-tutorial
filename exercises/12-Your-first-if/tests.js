@@ -2,7 +2,6 @@
 let _buffer = "";
 let _log = console.log;
 
-const stdin = [].concat(__stdin);
 global.prompt = jest.fn(() => 60);
 // lets override the console.log function to mock it,
 // but we are also going to save what supposed to be the ouput of the console inside _buffer
