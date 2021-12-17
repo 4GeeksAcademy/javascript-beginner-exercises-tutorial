@@ -1,7 +1,6 @@
-
-
 const fs = require('fs');
 const path = require('path');
+const js = fs.readFileSync(path.resolve(__dirname, './app.js'), 'utf8');
 
 jest.dontMock('fs');
 //here we are going to store and accumulate (concatenate) all the console log's from the exercise
@@ -20,9 +19,11 @@ describe('All the javascript should match', function () {
     
     it('console.log() function should be called with proper lyrics for more than one bottle', function () {
         const file = require("./app.js");
-        expect(_buffer).toContain("98 bottles of milk on the wall, 98 bottles of milk. Take one down and pass it around, 97 bottles of milk on the wall.");
+        for(let i = 99; i >= 1; i--){
+            expect(_buffer).toContain(`${i} bottles of milk on the wall, ${i} bottles of milk. Take one down and pass it around, ${i-1} bottles of milk on the wall.`);
+        }
     });
-
+    
     it('console.log() function should be called with proper lyrics for one bottle', function () {
         const file = require("./app.js");
         expect(_buffer).toContain("1 bottle of milk on the wall, 1 bottle of milk. Take one down and pass it around, no more bottles of milk on the wall.");
@@ -32,5 +33,10 @@ describe('All the javascript should match', function () {
         const file = require("./app.js");
         expect(_buffer).toContain("No more bottles of milk on the wall, no more bottles of milk. Go to the store and buy some more, 99 bottles of milk on the wall.");
     });
-    
+
+    it('You should use a for loop to print the lyrics of the song', function () {
+        const file = require("./app.js");
+        let regex = /for\s*\(/gm
+        expect(regex.test(js.toString())).toBeTruthy();
+    });
 });
