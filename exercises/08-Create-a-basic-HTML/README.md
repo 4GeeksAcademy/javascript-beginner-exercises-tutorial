@@ -12,7 +12,7 @@ The code on the left contains 8 constants with different string values:
 
 1.  Combine the constants given using string concatenation. (This is the template of a typical HTML document with the HTML tags in the right order).
 
-2. Assign the value of the variable `tmlDocument` to this new string (This is the template of a typical HTML document with the HTML tags in the right order).
+2. Assign the value of the variable `htmlDocument` to this new string (This is the template of a typical HTML document with the HTML tags in the right order).
 
 3.  Print the value of **htmlDocument** to the console.
 
