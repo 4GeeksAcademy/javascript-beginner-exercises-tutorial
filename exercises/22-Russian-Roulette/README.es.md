@@ -16,6 +16,6 @@ El juego casi está funcionando.
 
 ### :bulb: Pista:
 
-- Si la posición de la bala coincide con la posición de la recámara, la función `fireGun()` debe devolver `you're dead!`.
+- Si la posición de la bala coincide con la posición de la recámara, la función `fireGun()` debe devolver `You're dead!`.
 
-- Si la posición de la bala coincide con la posición de la recámara, la función `fireGun()` debe devolver `Keep playing`.
+- Si la posición de la bala coincide con la posición de la recámara, la función `fireGun()` debe devolver `Keep playing!`.
