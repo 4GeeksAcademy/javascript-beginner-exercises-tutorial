@@ -26,7 +26,7 @@ describe('All the javascript should match', function () {
         //Expect the console log to have been called with "Hello World" at least one
         expect(console.log).toHaveBeenCalledWith(color);
         //and I expect the console.log to be already called just one time.
-        expect(console.log.mock.calls.length).toBe(2);
+        // expect(console.log.mock.calls.length).toBe(2);
 
         //You can also compare the entire console buffer (if there have been several console.log calls on the exercise)
         //expect(_buffer).toBe("Compare with the entire function buffer out");
