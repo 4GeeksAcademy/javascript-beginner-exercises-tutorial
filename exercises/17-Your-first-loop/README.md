@@ -40,6 +40,7 @@ while (i < 10) {
     i++;
 }
 ```
+
 As long as the *conditional* is true, the loop will continue to repeat.  If the *conditional* is false, the loop will exit.  Notice how both types of loops use the same pieces, just organized in a different manner.
 
 You can use `>` (greater than), `<` (less than), `>=` (greater than or equal to), `<=` (less than or equal to), `===` (equal to), `!==` (not equal to) in your conditionals.
