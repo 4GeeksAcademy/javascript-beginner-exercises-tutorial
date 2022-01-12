@@ -1,3 +1,7 @@
+---
+intro: "https://www.youtube.com/watch?v=GjQEotj3t6Y"
+---
+
 ![Javascript Preview](../../.learn/assets/i-love-javascript.jpeg?raw=true)
 
 # Bienvenido a los Ejercicios de Javascript!
@@ -6,11 +10,16 @@ Este es la primera serie de tutoriales interactivos orientados a entregarte todo
 
 ## Aprenderás: 
 
-- `console.log`,
+- `console.log`
+
 - Concatenación de string, 
+
 - Arrays, 
 - Funciones, 
+
+
 - Loops, 
+
 - ¡y mucho más! 
 
 Apreta el botón de `Next →`  en la esquina superior derecha de la pantalla cuando estes listo para empezar los ejercicios.
