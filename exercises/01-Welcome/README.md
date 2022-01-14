@@ -2,7 +2,7 @@
 intro: "https://www.youtube.com/watch?v=GjQEotj3t6Y"
 ---
 
-![Javascript Preview](https://github.com/4GeeksAcademy/javascript-beginner-exercises-tutorial/blob/master/.learn/assets/i-love-javascript.jpeg?raw=true)
+![Javascript Preview](../../.learn/assets/i-love-javascript.jpeg?raw=true)
 
 # Welcome to the Javascript Exercises!
 
