@@ -1,4 +1,5 @@
-const file = require("./app.js");
+
+const { assert } = require('console');
 const fs = require('fs');
 const path = require('path');
 
@@ -19,7 +20,7 @@ describe('All the javascript should match', function () {
 
     it('console.log() function to be called 300 times with a string', function () {
 
-        // const file = require("./app.js");
+        const file = require("./app.js");
 
         expect(console.log).toHaveBeenCalledWith(expect.any(String));
 
@@ -27,13 +28,16 @@ describe('All the javascript should match', function () {
     });
 
     // it('You need to use for loop', function () {
-    //     const forExists = file.__get__('for\n');
-    //     expect(forExists).toBeTruthy();
+    //     const file = rewire('./app.js');
+    //     const forExists = file.__get__('standardsMaker');
+    //     expect(forExists).toContain(/for\s/);
     // });
 
-    // it('The output is not what we expect', function (){
-    //     expect(_buffer.includes("I will write questions if I'm stuck")).toBe(true);
-    // });
+    it('The output is not what we expect', function (){
+        const app = require('./app.js');
+        const text = "I will write questions if I'm stuck";
+        expect(console.log).toHaveBeenCalledWith(text);
+    });
 
 
 });
