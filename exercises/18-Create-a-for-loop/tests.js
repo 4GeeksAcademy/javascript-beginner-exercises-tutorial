@@ -1,4 +1,4 @@
-
+const file = require("./app.js");
 const fs = require('fs');
 const path = require('path');
 
@@ -19,7 +19,7 @@ describe('All the javascript should match', function () {
 
     it('console.log() function to be called 300 times with a string', function () {
 
-        const file = require("./app.js");
+        // const file = require("./app.js");
 
         expect(console.log).toHaveBeenCalledWith(expect.any(String));
 
