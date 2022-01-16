@@ -26,4 +26,14 @@ describe('All the javascript should match', function () {
         expect(console.log.mock.calls.length).toBe(300);
     });
 
+    // it('You need to use for loop', function () {
+    //     const forExists = file.__get__('for\n');
+    //     expect(forExists).toBeTruthy();
+    // });
+
+    // it('The output is not what we expect', function (){
+    //     expect(_buffer.includes("I will write questions if I'm stuck")).toBe(true);
+    // });
+
+
 });
