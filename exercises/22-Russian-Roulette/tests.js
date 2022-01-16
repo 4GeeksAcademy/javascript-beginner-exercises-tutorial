@@ -27,5 +27,10 @@ global.console.log = console.log = jest.fn((text) => _buffer += text + "\n");
                 }
             }
         });
+
+        // it('fireGun() most contain the spinner position as parameter', function (){
+        //     const file = rewire('./app.js')
+        //     expect(_log).toHaveBeenCalledWith(/fireGun\W\d*\W/)
+        // });
     });
     
