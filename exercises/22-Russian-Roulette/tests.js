@@ -29,7 +29,7 @@ global.console.log = console.log = jest.fn((text) => _buffer += text + "\n");
         });
 
         it('fireGun() most contain the spinner position as parameter', function (){
-            const file = require('./app.js')
+            const file = rewire('./app.js')
             expect(console.log).toHaveBeenCalledWith(expect.stringMatching(/fireGun\W\d*\W/gm));
         });
     });
