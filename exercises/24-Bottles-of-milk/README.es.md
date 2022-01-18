@@ -6,19 +6,19 @@ Es una gran canción - para nada aburrida... :laughing:
 
 Aquí la puedes escuchar: https://www.youtube.com/watch?v=Xy-da43E6Lo
 
-### :pencil: Instrucciones:
+## :pencil: Instrucciones:
 
 1. Escribe un algoritmo para imprimir la misma letra.
 
 2. Debes usar un for loop.
 
-### :bulb: Pista:
+## :bulb: Pista:
 
-* Al final de la canción, la letra cambia porque es sólo una botella (singular en vez de plural).
++ Al final de la canción, la letra cambia porque es sólo una botella (singular en vez de plural).
 
-* Lee la última parte de la letra y verás como la última línea cambia a `go to the store and by some more`(anda a comprar más leche).
++ Lee la última parte de la letra y verás como la última línea cambia a `go to the store and by some more` (anda a comprar más leche).
 
-### Resultado esperado:
+## Resultado esperado:
 
 `99 bottles of milk on the wall, 99 bottles of milk.` 
 `Take one down and pass it around, 98 bottles of milk on the wall.`
