@@ -1,4 +1,4 @@
-
+const rewire = require("rewire");
 const { assert } = require('console');
 const fs = require('fs');
 const path = require('path');
@@ -16,28 +16,36 @@ describe('All the javascript should match', function () {
     beforeEach(() => {
         //here I import the HTML into the document
     });
+    
     afterEach(() => { jest.resetModules(); });
-
-    it('console.log() function to be called 300 times with a string', function () {
-
-        const file = require("./app.js");
-
-        expect(console.log).toHaveBeenCalledWith(expect.any(String));
-
-        expect(console.log.mock.calls.length).toBe(300);
+    
+    
+    it('Function standardsMaker should exist', function () {
+        const app = require("./app.js")
+        const _app = rewire("./app.js")
+        const functionExists = _app.__get__('standardsMaker');
+        expect(functionExists).toBeTruthy();
+    })
+    
+    
+    
+    it('Use a for loop', function () {
+        const app_content = fs.readFileSync(path.resolve(__dirname, './app.js'), 'utf8');
+        expect(app_content).toMatch(/for(\s*)\(/);
     });
-
-    // it('You need to use for loop', function () {
-    //     const file = rewire('./app.js');
-    //     const forExists = file.__get__('standardsMaker');
-    //     expect(forExists).toContain(/for\s/);
-    // });
-
-    it('The output is not what we expect', function (){
+    
+    it('console.log() function to be called 300 times with a string', function () {
+    
+        const file = require("./app.js");
+    
+        expect(console.log).toHaveBeenCalledWith(expect.any(String)) && expect(console.log.mock.calls.length).toBe(300);
+    
+        
+    });
+    it('The output is not what we expect', function () {
         const app = require('./app.js');
         const text = "I will write questions if I'm stuck";
         expect(console.log).toHaveBeenCalledWith(text);
     });
-
-
+    
 });
