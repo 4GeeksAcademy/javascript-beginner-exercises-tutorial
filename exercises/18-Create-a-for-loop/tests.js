@@ -1,5 +1,4 @@
 const rewire = require("rewire");
-const { assert } = require('console');
 const fs = require('fs');
 const path = require('path');
 
@@ -12,6 +11,7 @@ let _log = console.log;
 // but we are also going to save what supposed to be the ouput of the console inside _buffer
 global.console.log = console.log = jest.fn((text) => _buffer += text + "\n");
 
+const file = require("./app.js");
 describe('All the javascript should match', function () {
     beforeEach(() => {
         //here I import the HTML into the document
@@ -19,33 +19,24 @@ describe('All the javascript should match', function () {
     
     afterEach(() => { jest.resetModules(); });
     
-    
     it('Function standardsMaker should exist', function () {
-        const app = require("./app.js")
         const _app = rewire("./app.js")
         const functionExists = _app.__get__('standardsMaker');
         expect(functionExists).toBeTruthy();
     })
     
-    
+    it('console.log() function to be called 300 times with a string', function () {
+        expect(console.log.mock.calls.length).toBe(300);
+    });
     
     it('Use a for loop', function () {
         const app_content = fs.readFileSync(path.resolve(__dirname, './app.js'), 'utf8');
         expect(app_content).toMatch(/for(\s*)\(/);
     });
-    
-    it('console.log() function to be called 300 times with a string', function () {
-    
-        const file = require("./app.js");
-    
-        expect(console.log).toHaveBeenCalledWith(expect.any(String)) && expect(console.log.mock.calls.length).toBe(300);
-    
-        
-    });
+
     it('The output is not what we expect', function () {
         const app = require('./app.js');
         const text = "I will write questions if I'm stuck";
         expect(console.log).toHaveBeenCalledWith(text);
     });
-    
 });
