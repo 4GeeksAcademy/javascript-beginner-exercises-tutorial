@@ -21,7 +21,7 @@ describe('All the javascript should match', function () {
     });
 
     it('The function fireGun should return something', function () {
-        expect(fireGun()).toBeTruthy(); // or not.toBe(undefined)
+        expect(fireGun()).not.toBe(undefined)
     });
 
     it('If fireGun() is false, message should be "Keep playing :)"', function () {
@@ -35,9 +35,5 @@ describe('All the javascript should match', function () {
         // }
         expect(fireGun(bulletPosition)).toBe("You're dead!") && expect(fireGun(!bulletPosition)).toBe("Keep Playing!")
     });
-
-    // test("Function return the expected", function(){
-    //     expect(fireGun()).toMatch(/Keep\sPlaying\!/gm) || expect(fireGun()).toMatch(/You\'re\sdead\!/gm)
-    //   });
 
 });
