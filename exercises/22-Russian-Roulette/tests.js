@@ -5,7 +5,7 @@ const rewire = require('rewire');
 jest.dontMock('fs');
 let _buffer = "";
 let _log = console.log;
-
+const app_content = fs.readFileSync(path.resolve(__dirname, './app.js'), 'utf8');
 global.console.log = console.log = jest.fn((text) => _buffer += text + "\n");
 
 
@@ -34,6 +34,10 @@ describe('All the javascript should match', function () {
         //     }
         // }
         expect(fireGun(bulletPosition)).toBe("You're dead!") && expect(fireGun(!bulletPosition)).toBe("Keep Playing!")
+    });
+
+    it("console.log() should been called with the function 'fireGun()' with an integer between 1 and 6 as parameter ", function () {
+        expect(app_content).toMatch(/console\.log\(\s*fireGun\(\s*[1-6]\s*\)\s*\)\;/gm);
     });
 
 });
