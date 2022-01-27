@@ -25,6 +25,14 @@ describe('All the javascript should match', function () {
     });
 
     it('If fireGun() is false, message should be "Keep playing :)"', function () {
-        expect(fireGun(4)).toBe("You're dead!") && expect(fireGun(5)).toBe("Keep Playing!")
+            // for (var i = 1; i <= 6; i++) {
+            //     if (i === bulletPosition) {
+            //         expect(fireGun(i)).toContain("You're dead!");
+            //     }
+            //     else {
+            //         expect(fireGun(i)).toContain("Keep playing!");
+            //     }
+            // }
+        expect(fireGun(bulletPosition)).toBe("You're dead!") && expect(fireGun(!bulletPosition)).toBe("Keep Playing!")
     });
 });
