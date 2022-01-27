@@ -25,19 +25,6 @@ describe('All the javascript should match', function () {
     });
 
     it('If fireGun() is false, message should be "Keep playing :)"', function () {
-        // for (var i = 1; i <= 6; i++) {
-        //     if (i === bulletPosition) {
-        //         expect(fireGun(i)).toContain("You're dead!");
-        //     }
-        //     else {
-        //         expect(fireGun(i)).toContain("Keep playing!");
-        //     }
-        // }
-        expect(fireGun(bulletPosition)).toBe("You're dead!") && expect(fireGun(!bulletPosition)).toBe("Keep Playing!")
+        expect(fireGun(4)).toBe("You're dead!") && expect(fireGun(5)).toBe("Keep Playing!")
     });
-
-    it("console.log() should been called with the function 'fireGun()' with an integer between 1 and 6 as parameter ", function () {
-        expect(app_content).toMatch(/console\.log\(\s*fireGun\(\s*[1-6]\s*\)\s*\)\;/gm);
-    });
-
 });
