@@ -8,7 +8,8 @@ intro: "https://www.youtube.com/watch?v=GjQEotj3t6Y"
 
 This is the first in a series interactive tutorials meant to provide everything you need to start your journey into the world of Javascript.
 
-## You will learn: 
+## You will learn:
+
 - `console.log()`, 
 - string concatenation, 
 - arrays, 
