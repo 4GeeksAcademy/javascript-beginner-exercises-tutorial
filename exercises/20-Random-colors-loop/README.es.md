@@ -8,7 +8,7 @@ Hasta ahora, hemos aprendido sobre condicionales, números aleatorios, funciones
 
 Hemos creado una función llamada `getColor` que regresa un color basado en un número entero entre `1` y `4`(incluido). Cualquier número diferente, regresará el color `black`(negro).
 
-Escenario: Digamos que eres profesor en un aula de 10 estudiantes y quieres asignar de forma aleatoria **UN** color (`red`, `yellow` , `blue` o `black`), a **CADA** estudiante. 
+Escenario: Digamos que eres profesor en un aula de 10 estudiantes y quieres asignar de forma aleatoria **UN** color (`red`, `yellow` , `blue` o `green`), a **CADA** estudiante. 
 
 (sólo UN color POR estudiante)
 
