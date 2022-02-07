@@ -6,9 +6,9 @@ Now we are going to tie all of them into one program!  Instead of simply returni
 
 ## :pencil: Instructions
 
-A function has been written that returns a color based on an integer between `1` and `4`, inclusive. For any integer beyond this range, the color `black` will be returned.
+A function called `getColor` has been written that returns a color based on an integer between `1` and `4`, inclusive. For any integer beyond this range, the color `black` will be returned.
 
-Scenario: You are a teacher in a 10-student classroom. You want to randomly assign **ONE** color (`red`, `yellow`, `blue`, `green` or `black`), to **EACH** student. 
+Scenario: You are a teacher in a 10-student classroom. You want to randomly assign **ONE** color (`red`, `yellow`, `blue` or `green`), to **EACH** student. 
 
 (just ONE color to EACH student)
 
