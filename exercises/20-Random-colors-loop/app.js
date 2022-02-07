@@ -1,4 +1,4 @@
-function getColor(colorNumber)
+function getColor(colorNumber=0)
 {
 	//make sure parameter is a number and not a string by converting the value to int:
 	colorNumber = parseInt(colorNumber);
