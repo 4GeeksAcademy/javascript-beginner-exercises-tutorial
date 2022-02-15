@@ -19,7 +19,7 @@ describe('All the javascript should match', function () {
     
     it('console.log() function should be called with proper lyrics for more than one bottle', function () {
         const file = require("./app.js");
-        for(let i = 99; i >= 1; i--){
+        for(let i = 99; i > 1; i--){
             expect(_buffer).toContain(`${i} bottles of milk on the wall, ${i} bottles of milk. Take one down and pass it around, ${i-1} bottles of milk on the wall.`);
         }
     });
