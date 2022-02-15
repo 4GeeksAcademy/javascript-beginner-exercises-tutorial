@@ -33,6 +33,5 @@ describe('All the javascript should match', function () {
                     expect(fireGun(i)).toContain("Keep playing!");
                 }
             }
-        // expect(fireGun(bulletPosition)).toBe("You're dead!") && expect(fireGun(!bulletPosition)).toBe("Keep Playing!")
     });
 });
