@@ -14,7 +14,7 @@ global.console.log = console.log = jest.fn((text) => _buffer += text + "\n");
 describe('All the javascript should match', function () {
     it('console.log() function should be called 99 or 100 times (depending on your approach)', function () {
         const file = require("./app.js");
-        expect([100,99,98].includes(console.log.mock.calls.length)).toBeTruthy();
+        expect([100,99].includes(console.log.mock.calls.length)).toBeTruthy();
     });
     
     it('console.log() function should be called with proper lyrics for more than one bottle', function () {
