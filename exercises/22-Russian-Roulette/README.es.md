@@ -19,6 +19,6 @@ El juego casi está funcionando.
 
 - Si la posición de la bala `firePosition` coincide con la posición de la recámara dada por la función `spinChamber`, la función `fireGun()` debe devolver `you're dead!`.
 
-- Si la posición de la bala `firePosition` no coincide con la posición de la recámara dada por la función `spinChamber` (`firePosition`), la función `fireGun()` debe devolver `Keep playing`.
+- Si la posición de la bala `firePosition` no coincide con la posición de la recámara dada por la función `spinChamber`, la función `fireGun()` debe devolver `Keep playing`.
 
-- La funcion `spinChamber` retorna un numero entero entre 1 y 6.
+- La funcion `spinChamber` retorna un número entero aleatorio entre 1 y 6.
