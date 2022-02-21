@@ -14,9 +14,12 @@ The game is almost working.
 
 1. The `fireGun()` function needs to be completed to make the game work. It should compare the bullet position against the chamber position.
 
+
+
 ### :bulb: Hint:
 
-- If the bullet position matches the chamber position, the function `fireGun()` should return `You're dead!`.
+- The function `spinChamber` returns a number between 1 and 6.
 
-- If the bullet position doesn't match the chamber position, the function `fireGun()` should return `Keep playing!`.
+- If the bullet position `firePosition` matches the chamber position given by the function `spinChamber` , the function `fireGun()` should return `You're dead!`.
 
+- If the bullet position `firePosition` doesn't match the chamber position given by the function `spinChamber`, the function `fireGun()` should return `Keep playing!`.

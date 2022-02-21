@@ -1,6 +1,5 @@
 let firePosition = 0; // firePosition will be the position in which the gun will fire.
-
-// The output of spinChamber will a number and it can be passed as a parameter to the fireGun function.
+// The output of spinChamber will be a number and it can be passed as a parameter to the fireGun function.
 const spinChamber = () => {
 	let chamberPosition = Math.floor((Math.random() * 6) + 1);
 	return chamberPosition;
