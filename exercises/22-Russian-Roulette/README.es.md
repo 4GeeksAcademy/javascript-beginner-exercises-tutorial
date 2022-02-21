@@ -14,8 +14,10 @@ El juego casi está funcionando.
 
 1. Por favor completa la función `fireGun()` para hacer que el juego funcione. Debes comparar la posición de la bala contra la posición de la recámara.
 
-### :bulb: Pista:
+## :bulb: Pista:
 
-- Si la posición de la bala coincide con la posición de la recámara, la función `fireGun()` debe devolver `You're dead!`.
+- Si la posición de la bala `firePosition` coincide con la posición de la recámara dada por la función `spinChamber`, la función `fireGun()` debe devolver `You're dead!`.
 
-- Si la posición de la bala coincide con la posición de la recámara, la función `fireGun()` debe devolver `Keep playing!`.
+- Si la posición de la bala `firePosition` no coincide con la posición de la recámara dada por la función `spinChamber`, la función `fireGun()` debe devolver `Keep playing!`.
+
+- La funcion `spinChamber` retorna un número entero aleatorio entre 1 y 6.
