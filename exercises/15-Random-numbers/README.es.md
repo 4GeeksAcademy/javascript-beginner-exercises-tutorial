@@ -10,7 +10,7 @@ La función `Math.random()` devolverá un número decimal aleatorio entre el 0 y
 
 * Math.random solo devuelve números decimales del 0 al 1, y nosotros necesitamos números enteros del 1 al 10. 
 
-* Multiplica la función `Math.random()` por 10 para mover el decimal 2 espacios a la derecha.
+* Multiplica la función `Math.random()` por 10 para mover el decimal 1 espacio a la derecha.
 
 * Usa la función  `Math.floor()` para eliminar el resto de los decimales y tener sólo los enteros.
 

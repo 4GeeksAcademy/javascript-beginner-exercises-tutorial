@@ -1,4 +1,4 @@
-![Javascript Preview](https://github.com/4GeeksAcademy/javascript-beginner-exercises-tutorial/blob/master/.learn/assets/i-love-javascript.jpeg?raw=true)
+![Javascript Preview](../../.learn/assets/i-love-javascript.jpeg?raw=true)
 
 # Bienvenido a los Ejercicios de Javascript!
 

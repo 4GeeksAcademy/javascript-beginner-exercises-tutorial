@@ -50,6 +50,6 @@ Running the accompanying code will print the integers `0` through `99` to the co
 
 1. Change code to print the integers `0` to `100`. You will then see it followed by `101` in green text on the console.
 
-### :mag_right_: Important:
+### :mag_right: Important:
 
-*There is a whole series of dedicated to Arrays.  We encourage you to complete these [exercises]https://gitpod.io/#https://github.com/4GeeksAcademy/javascript-arrays-exercises-tutorial)  before finishing this exercise. Once you are more comfortable, return here to continue.*
+*There is a whole series of dedicated to Arrays.  We encourage you to complete these [exercises](https://gitpod.io/#https://github.com/4GeeksAcademy/javascript-arrays-exercises-tutorial)  before finishing this exercise. Once you are more comfortable, return here to continue.*
