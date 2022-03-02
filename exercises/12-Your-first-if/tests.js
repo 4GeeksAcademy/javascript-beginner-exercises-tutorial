@@ -26,7 +26,7 @@ describe('All tests', () => {
         });
     })
 
-    describe('Testing with 40', () => {
+    describe('Testing with 49', () => {
         beforeEach(() => {
             //here we are going to store and accumulate (concatenate) all the console log's from the exercise
             let _buffer = "";
@@ -34,7 +34,7 @@ describe('All tests', () => {
             // lets override the console.log function to mock it,
             // but we are also going to save what supposed to be the ouput of the console inside _buffer
             global.console.log = console.log = jest.fn((text) => _buffer += text + "\n");
-            const stdin = ["40"]
+            const stdin = ["49"]
             global.prompt = jest.fn(() => stdin.shift());
             const file = require("./app.js");
         })
@@ -44,7 +44,7 @@ describe('All tests', () => {
         });
     })
 
-    describe('Testing with 60', () => {
+    describe('Testing with 99', () => {
         beforeEach(() => {
             //here we are going to store and accumulate (concatenate) all the console log's from the exercise
             let _buffer = "";
@@ -52,11 +52,28 @@ describe('All tests', () => {
             // lets override the console.log function to mock it,
             // but we are also going to save what supposed to be the ouput of the console inside _buffer
             global.console.log = console.log = jest.fn((text) => _buffer += text + "\n");
-            const stdin = ["60"]
+            const stdin = ["99"]
             global.prompt = jest.fn(() => stdin.shift());
             const file = require("./app.js");
         })
         it("If there are more than 50 km, but less or equal to 100 km (60), we answer:  We'll be there in 5 minutes", function () {
+
+            expect(console.log).toHaveBeenCalledWith("We'll be there in 5 minutes");
+        });
+    })
+    describe('Testing with 100', () => {
+        beforeEach(() => {
+            //here we are going to store and accumulate (concatenate) all the console log's from the exercise
+            let _buffer = "";
+            let _log = console.log;
+            // lets override the console.log function to mock it,
+            // but we are also going to save what supposed to be the ouput of the console inside _buffer
+            global.console.log = console.log = jest.fn((text) => _buffer += text + "\n");
+            const stdin = ["100"]
+            global.prompt = jest.fn(() => stdin.shift());
+            const file = require("./app.js");
+        })  
+        it('If there are more than 100 km left to go, we answer:  We still have a bit of driving left to go', function () {
 
             expect(console.log).toHaveBeenCalledWith("We'll be there in 5 minutes");
         });
@@ -70,6 +87,23 @@ describe('All tests', () => {
             // but we are also going to save what supposed to be the ouput of the console inside _buffer
             global.console.log = console.log = jest.fn((text) => _buffer += text + "\n");
             const stdin = ["101"]
+            global.prompt = jest.fn(() => stdin.shift());
+            const file = require("./app.js");
+        })  
+        it('If there are more than 100 km left to go, we answer:  We still have a bit of driving left to go', function () {
+
+            expect(console.log).toHaveBeenCalledWith("We still have a bit of driving left to go");
+        });
+    })
+    describe('Testing with 200', () => {
+        beforeEach(() => {
+            //here we are going to store and accumulate (concatenate) all the console log's from the exercise
+            let _buffer = "";
+            let _log = console.log;
+            // lets override the console.log function to mock it,
+            // but we are also going to save what supposed to be the ouput of the console inside _buffer
+            global.console.log = console.log = jest.fn((text) => _buffer += text + "\n");
+            const stdin = ["200"]
             global.prompt = jest.fn(() => stdin.shift());
             const file = require("./app.js");
         })  
