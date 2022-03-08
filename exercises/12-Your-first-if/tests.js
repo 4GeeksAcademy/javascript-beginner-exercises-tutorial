@@ -38,7 +38,7 @@ describe('All tests', () => {
             global.prompt = jest.fn(() => stdin.shift());
             const file = require("./app.js");
         })
-        it("If there are less than or equal to 50 km (40), we answer: I'm parking. I'll see you right now", function () {
+        it("If there are less than or equal to 50 km (49), we answer: I'm parking. I'll see you right now", function () {
 
             expect(console.log).toHaveBeenCalledWith("I'm parking. I'll see you right now");
         });
@@ -56,7 +56,7 @@ describe('All tests', () => {
             global.prompt = jest.fn(() => stdin.shift());
             const file = require("./app.js");
         })
-        it("If there are more than 50 km, but less or equal to 100 km (60), we answer:  We'll be there in 5 minutes", function () {
+        it("If there are more than 50 km, but less or equal to 100 km (99), we answer:  We'll be there in 5 minutes", function () {
 
             expect(console.log).toHaveBeenCalledWith("We'll be there in 5 minutes");
         });
@@ -73,7 +73,7 @@ describe('All tests', () => {
             global.prompt = jest.fn(() => stdin.shift());
             const file = require("./app.js");
         })  
-        it('If there are more than 100 km left to go, we answer:  We still have a bit of driving left to go', function () {
+        it("If there 100 km left to go, we answer:  We'll be there in 5 minutes", function () {
 
             expect(console.log).toHaveBeenCalledWith("We'll be there in 5 minutes");
         });
