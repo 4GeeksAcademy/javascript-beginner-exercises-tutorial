@@ -6,7 +6,7 @@ tutorial: "https://www.youtube.com/watch?v=5NDv7NnSy6M"
 
 Let's continue using string concatenation to generate HTML.
 
-## :pencil: Instructions:
+## 📝  Instructions:
 
 The code on the left contains 8 constants with different string values: 
 
@@ -16,10 +16,10 @@ The code on the left contains 8 constants with different string values:
 
 3.  Print the value of **htmlDocument** to the console.
 
-### 💡 Hint:
+## 💡 Hint:
 
++ The output should look like this:
 
-The output should look like this:
 ```js
 <html><head><title></title></head><body></body></html>
 ```
