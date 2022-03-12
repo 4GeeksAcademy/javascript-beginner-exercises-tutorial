@@ -1,4 +1,4 @@
-# `14` Your First Switch Statement
+# `013` Your First Switch Statement
 
 We can use another form of conditional called a **switch statement**.  A switch statement evaluates an expression and matches it to a `case` clause, executing the statements therein.  Here is a basic example:
 
@@ -16,7 +16,7 @@ switch (expr) {
 }
 ```
 
-## :pencil: Instructions:
+## 📝 Instructions:
 
 Imagine that your software is running the inventory of a shoe store. The client needs to know what colors a particular shoe is available in.
 
@@ -24,11 +24,12 @@ Imagine that your software is running the inventory of a shoe store. The client 
 
 2. The function needs to return `true` if the user input matches one of the cases listed in the switch statement, `false` otherwise.
 
-### 💡 Hint:
-You may need to convert the user input to all lowercase or all uppercase lettering to prevent discrepancies.  Click the following to help you accomplish this:
+## 💡 Hints:
 
-* For all uppercase: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase
++ You may need to convert the user input to all lowercase or all uppercase lettering to prevent discrepancies.  Click the following to help you accomplish this:
 
-* For all lowercase: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase
++ For all uppercase: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase
 
-* More on switch statements: http://www.w3schools.com/js/js_switch.asp
++ For all lowercase: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase
+
++ More on switch statements: http://www.w3schools.com/js/js_switch.asp

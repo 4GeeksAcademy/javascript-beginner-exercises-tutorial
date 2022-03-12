@@ -1,8 +1,6 @@
-# `18` Creating a `for` loop
+# `017` Creating a `for` loop
 
-As we just learned, loops are useful to repeat a task quickly and efficiently using little code.  
-
-As you continue on your journey as a developer, the `for` loop will become an indispensible tool.
+As we just learned, loops are useful to repeat a task quickly and efficiently using little code. As you continue on your journey as a developer, the `for` loop will become an indispensible tool.
 
 Here again is the structure of a `for` loop:
 
@@ -20,7 +18,7 @@ for (var i = 0; i < 10; i++) {
 }
 ```
 
-## :pencil: Instructions:
+## 📝 Instructions:
 
 Your teacher wants to make sure you understand that asking questions is important in your growth as a programmer. 
 
@@ -28,7 +26,6 @@ Your teacher wants to make sure you understand that asking questions is importan
 
 2. Then, create a function called `standardsMaker()` that prints the phrase `I will write questions if I'm stuck` 300 times.
 
+## 💡 Hints:
 
-### :mag_right: Important:
-
-Read more on loops here: https://www.w3schools.com/js/js_loop_for.asp
++ Read more on loops here: https://www.w3schools.com/js/js_loop_for.asp

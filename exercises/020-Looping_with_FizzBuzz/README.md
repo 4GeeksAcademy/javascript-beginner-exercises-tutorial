@@ -2,7 +2,7 @@
 
 This is a typical beginner test that is required to complete interviews in Google, Facebook and all other big tech unicorns.
 
-## :pencil: Instructions:
+## 📝 Instructions:
 
 1. Write the code needed to print to the console all the numbers from `1` to `100`. 
 
@@ -12,9 +12,9 @@ This is a typical beginner test that is required to complete interviews in Googl
 
 4. For numbers which are multiples of both 3 and 5, print `FizzBuzz`.
 
-Example output:
+## Example output:
 
-
+```js
 /
 1  
 2  
@@ -38,9 +38,8 @@ FizzBuzz
 Fizz  
 Buzz  
 /
+```
 
+## 🔎 Important:
 
-
-### :mag_right: Important:
-
-If you feel stuck and you don't understand loops, go back to these [exercises](https://gitpod.io/#https://github.com/4GeeksAcademy/javascript-arrays-exercises-tutorial) .
++ If you feel stuck and you don't understand loops, go back to these [exercises](https://gitpod.io/#https://github.com/4GeeksAcademy/javascript-arrays-exercises-tutorial) .
