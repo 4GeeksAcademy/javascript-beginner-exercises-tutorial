@@ -1,9 +1,8 @@
-# `04` Variables ingresadas por el usuario
+# `04` User Inputted Variables
 
 La otra cuestión genial sobre las variables es que tú no necesitas saber su valor para poder trabajar con ellas.
 
 Por ejemplo, originalmente, esta aplicación solicita al usuario su edad. Veamos si podemos cambiarlo.
-
 
 ## 📝  Instrucciones
 

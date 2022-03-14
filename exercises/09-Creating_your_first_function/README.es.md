@@ -1,4 +1,4 @@
-# `09` Creando tu Primera Función
+# `09` Creating Your First Function
 
 Para definir una función, debes entender cómo se estructura. Por ejemplo:
 

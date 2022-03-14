@@ -2,7 +2,7 @@
 tutorial: "https://www.youtube.com/watch?v=qspNmnyqi-U"
 ---
 
-# `07` String Concatenation
+# `06` String Concatenation
 
 One of JavaScript's strengths is generating HTML code. 
 

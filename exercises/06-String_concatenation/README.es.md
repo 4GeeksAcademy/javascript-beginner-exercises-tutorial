@@ -1,4 +1,4 @@
-# `06` Concatenación de Strings
+# `06` String Concatenation
 
 Uno de los objetivos principales de JavaScript es generar código HTML. 
 

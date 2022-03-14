@@ -1,4 +1,4 @@
-# `03` Imprime Variables en la consola
+# `02`  Print Variables to the Console
 
 También puedes utilizar la función `console.log` para imprimir variables en la consola. Es una buena forma de conocer su contenido.
 

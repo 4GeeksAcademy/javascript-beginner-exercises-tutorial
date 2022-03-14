@@ -1,4 +1,4 @@
-# `07` Crea un HTML básico
+# `07` Creating Basic HTML Code
 
 Continuemos utilizando concatenación de strings para generar HTML.
 

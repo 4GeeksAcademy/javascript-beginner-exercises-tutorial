@@ -1,4 +1,4 @@
-# `04` Multiplica dos valores
+# `03` Multiply Two Values
 
 Cualquier lenguaje de programación como javascript te permite hacer operaciones matemáticas básicas (multiplicación, división, etc.) a ejecutarse en expresiones.
 

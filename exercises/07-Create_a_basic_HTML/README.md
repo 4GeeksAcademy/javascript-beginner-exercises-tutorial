@@ -2,7 +2,7 @@
 tutorial: "https://www.youtube.com/watch?v=5NDv7NnSy6M"
 ---
 
-# `08` Creating Basic HTML Code
+# `07` Creating Basic HTML Code
 
 Let's continue using string concatenation to generate HTML.
 

@@ -1,4 +1,4 @@
-# `05` Constantes
+# `05` Constants
 
 Desde 2015, JavaScript también permite el uso de **constantes**.
 

@@ -1,4 +1,4 @@
-# `10` Creando una Nueva Función
+# `10` Creating a New Function
 
 Como ya sabes, las funciones son un bloque útil de código que puedes reutilizar las veces que desees. En el último ejercicio, tuviste una función que recibía dos argumentos (dos entradas o inputs) y devolvía la suma de ellas. 
 

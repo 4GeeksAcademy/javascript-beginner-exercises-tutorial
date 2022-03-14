@@ -2,7 +2,7 @@
 tutorial: "https://www.youtube.com/watch?v=0AstdiXq3sM"
 ---
 
-# `04` Multiply Two Values
+# `03` Multiply Two Values
 
 Programming languages, such as Javascript, allow for basic math operations (multiplication, division, etc.) to be performed on expressions.
 
