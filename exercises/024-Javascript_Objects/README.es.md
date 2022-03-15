@@ -1,4 +1,4 @@
-# `25` Objetos de JavaScript 
+# `024` JavaScript Objects
 
 A menudo te encontrarás queriendo guardar más información en menos espacio, especialmente si está toda relacionada. 
 
@@ -15,12 +15,12 @@ var car2Make = "Hyundai";
 var car2Color = "purple";
 var car2Year = 2013;
 
-//... (entiende la idea)
+//... (¿entiendes la idea?)
 
 ```
 
 
-Hay un acercamiento óptimo para esto, se llama **Objects**. Los **objetos (objects)** son un tipo de variable que contiene información (otras variables) en forma de `key:value`.
+Hay un enfoque óptimo para esto, son los **objetos**. Los **objetos (objects)** son un tipo de variable que contienen información (otras variables) en forma de `key:value`.
 
 Entonces si queremos traducir (y optimizar) las variables desde car (auto) a un Object, hacemos:
 
@@ -30,7 +30,7 @@ var car1 = { model: "corolla", make: "toyota", color: "green",  year: 2015};
 
 Puedes ver el `key:value` separado por una coma. 
 
-Y para nosotros (desarrolladores) leerlas más fácilmente las escribimos así:
+Y para nosotros (los desarrolladores) podamos leerlas más fácilmente las escribimos así:
 
 ```js
 var car1 = {
@@ -55,10 +55,10 @@ Podemos tener todos los tipos de variables definidas conocidas como valor(value)
 var person = {
     name: "John",                    //String
     lastname: "Doe",
-    age: 35,                         //Number
+    age: 35,                         //Numero
     gender: "male",
     lucky_numbers: [ 7, 11, 13, 17], //Array
-    significant_other: person2       //Object, si la misma variable/object definida después
+    significant_other: person2       //Objeto, si la misma variable/objeto definida después
 };
 
 var person2 = {
@@ -72,7 +72,7 @@ var person2 = {
 
 var family = {
     lastname: "Doe",
-    members: [person, person2]       //Array of objects
+    members: [person, person2]       //Array de objetos
 };
 ```
 
@@ -90,7 +90,7 @@ console.log( family.members[1].significant_other.lucky_numbers[2]);
 
 Cosas sencillas :)
 
-## :pencil: Instrucciones:
+## 📝 Instrucciones:
 
 1. De forma automatizada, cambia el cuarto número de la suerte de John Doe(`lucky number`) a `33` (usa un comando, no cambies manualmente el código).
 
@@ -98,10 +98,10 @@ Cosas sencillas :)
 
 3. Ahora por favor imprime (`console.log()`) la SUMA de todos los números de la suerte (`lucky numbers`) de la familia Doe.
 
-### :bulb: Pista:
+## 💡 Pistas:
 
-* Puedes obtener cada arreglo (array) de números de la suerte (`lucky numbers`) desde el objeto de cada persona dentro del objeto familia.
++ Puedes obtener cada array de números de la suerte (`lucky numbers`) desde el objeto de cada persona dentro del objeto familia.
 
-* Una vez obtengas cada arreglo solo has un loop sobre él añadiendo cada elemento (como hemos hecho hasta ahora). Y añade la suma de cada unos de los 3 miembros de la familia.
++ Una vez obtengas cada array, solo has un loop sobre él añadiendo cada elemento (como hemos hecho hasta ahora). Y añade la suma de cada unos de los 3 miembros de la familia.
 
-* Null también es un objeto.
++ `Null` también es un objeto.
