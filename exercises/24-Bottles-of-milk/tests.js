@@ -26,7 +26,7 @@ describe('All the javascript should match', function () {
     
     it('console.log() function should be called with proper lyrics for two bottle', function () {
         const file = require("./app.js");
-        expect(_buffer).toContain("2 bottles of milk on the wall, 1 bottle of milk. Take one down and pass it around, 1 bottle of milk on the wall.");
+        expect(_buffer).toContain("2 bottles of milk on the wall, 2 bottles of milk. Take one down and pass it around, 1 bottle of milk on the wall.");
     });
 
     it('console.log() function should be called with proper lyrics for one bottle', function () {
