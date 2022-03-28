@@ -2,15 +2,25 @@
 let firePosition = 1;
 
 // The output of spinChamber will be a number and it can be passed as a parameter to the fireGun function.
-const spinChamber = () => {
-	let chamberPosition = Math.floor((Math.random() * 6) + 1);
-	return chamberPosition;
+  const spinChamber = () => {
+  let chamberPosition = Math.floor((Math.random() * 6) + 1);
+  //console.log(chamberPosition)
+  //console.log(firePosition)
+  return chamberPosition;
+    
 };
-
-// Remove the // below and complete the commented lines
+//console.log(spinChamber)
+//const spinChamber = 1;
+// Remove the  below and complete the commented lines
 const fireGun = (bulletPosition) => {
-    // if (...) return ("You're dead!");
-    // else return ("Keep playing!");
+       a=spinChamber();
+     if (firePosition==a) {
+         return ("You're dead!");
+        }    
+        else if (firePosition!=a){
+            return ("Keep playing!");
+        }
+    
 };
 
 console.log(fireGun(spinChamber()));
