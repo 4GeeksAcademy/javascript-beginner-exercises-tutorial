@@ -10,6 +10,7 @@
 
 ¡Selección completa de ejercicios de Javascript interactivos autograduados para cualquier persona interesada en aprender Javascript!
 
+## Antes de empezar...algunos tutoriales relacionados
 <ol>
   <li><a href="https://github.com/4GeeksAcademy/javascript-beginner-exercises-tutorial">Javascript para Principiantes</a> ← Estás aquí</li>
   <li><a href="https://github.com/4GeeksAcademy/javascript-arrays-exercises-tutorial">Looping con Javascript</a></li>
