@@ -10,10 +10,12 @@
 
 Complete selection of auto-graded and interactive Javascript exercises for anyone interested in learning Javascript!
 
+## Before you start...some related tutorials:
 <ol>
   <li><a href="https://github.com/4GeeksAcademy/javascript-beginner-exercises-tutorial">Javascript for Beginners</a> ← You are here</li>
   <li><a href="https://github.com/4GeeksAcademy/javascript-arrays-exercises-tutorial">Looping with Javascript</a></li>
   <li><a href="https://github.com/4GeeksAcademy/javascript-functions-exercises-tutorial">Javascript Functions</a></li>
+  <li><a href="(https://github.com/4GeeksAcademy/master-javascript-programming-exercises">Master Javascripts</a></li>
 </ol>
 
 We need you! These exercises are built and maintained in collaboration with contributors such as yourself. If you find any bugs or misspellings please contribute and/or report them.
