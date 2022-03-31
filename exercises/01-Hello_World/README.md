@@ -16,8 +16,6 @@ Today, printing to the `console` is mainly used as a monitoring tool, ideally to
 
 ## Example:
 
-This is an example of how to use it:
-
 ```js
 console.log('How are you?');
 ```
