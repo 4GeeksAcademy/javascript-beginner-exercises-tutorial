@@ -12,8 +12,6 @@ Actualmente, imprimir en la `consola` se usa mayormente como una herramienta de 
 
 ## Ejemplo:
 
-Esto es un ejemplo de cómo utilizarlo:
-
 ```js
 console.log("How are you?");
 ```
