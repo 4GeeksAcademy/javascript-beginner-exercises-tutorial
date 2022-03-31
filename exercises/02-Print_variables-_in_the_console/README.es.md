@@ -1,10 +1,10 @@
-# `02`  Print Variables to the Console
+# `02` Print Variables to the Console
 
 También puedes utilizar la función `console.log` para imprimir variables en la consola. Es una buena forma de conocer su contenido.
 
 ## 📝 Instrucciones:
 
-1. Declara una nueva variable llamada `color` y asígnale el valor `red`.
+1. Declara una nueva variable llamada `color` y asígnale el valor `"red"`.
 
 2. Luego, imprime su valor en la consola.
 
