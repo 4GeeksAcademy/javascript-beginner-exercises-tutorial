@@ -1,25 +1,16 @@
-# `24` Bottles of Milk
+# `23` Bottles of Milk
 
-¿Has escuchado la canción acerca 99 botellas de leche (99 bottles of milk)? 
-
-Es una gran canción - para nada aburrida... :laughing: 
+¿Has escuchado la canción acerca 99 botellas de leche (99 bottles of milk)?  Es una gran canción - para nada aburrida...😆
 
 Aquí la puedes escuchar: https://www.youtube.com/watch?v=Xy-da43E6Lo
 
-## :pencil: Instrucciones:
+## 📝 Instrucciones:
 
-1. Escribe un algoritmo para imprimir la misma letra.
+1. Escribe un algoritmo para imprimir la misma letra. Debes usar un for loop.
 
-2. Debes usar un for loop.
+## Ejemplo de salida:
 
-## :bulb: Pista:
-
-+ Al final de la canción, la letra cambia porque es sólo una botella (singular en vez de plural).
-
-+ Lee la última parte de la letra y verás como la última línea cambia a `go to the store and by some more` (anda a comprar más leche).
-
-## Resultado esperado:
-
+```js
 `99 bottles of milk on the wall, 99 bottles of milk.` 
 `Take one down and pass it around, 98 bottles of milk on the wall.`
 
@@ -33,3 +24,10 @@ Aquí la puedes escuchar: https://www.youtube.com/watch?v=Xy-da43E6Lo
 
 `No more bottles of milk on the wall, no more bottles of milk.`
 `Go to the store and buy some more, 99 bottles of milk on the wall.`
+```
+
+## 💡 Pistas:
+
++ Al final de la canción, la letra cambia porque es sólo una botella (singular en vez de plural).
+
++ Lee la última parte de la letra y verás como la última línea cambia a `go to the store and by some more` (anda a comprar más leche).

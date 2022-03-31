@@ -1,8 +1,9 @@
-# `25` JavaScript Objects 
+# `24` JavaScript Objects 
 
 Often you'll find yourself wanting to save more information in less space, especially if it's all related. 
 
 For example, let's say that we want to represent cars into variables:
+
 ```js
 var car1Model = "corolla";
 var car1Make = "Toyota";
@@ -24,9 +25,7 @@ So if we want to translate (and optimize) the variables from the car into an Obj
 var car1 = { model: "corolla", make: "toyota", color: "green",  year: 2015};
 ```
 
-You can see the `key:value` separated by a comma. 
-
-And for us (developers) to read it easier we write it like this:
+You can see the `key:value` separated by a comma.  And for us (developers) to read it easier we write it like this:
 
 ```js
 var car1 = {
@@ -86,7 +85,7 @@ console.log( family.members[1].significant_other.lucky_numbers[2]);
 
 Easy stuff :)
 
-## :pencil: Instructions:
+## 📝 Instructions:
 
 1. Programmatically, change the fourth `lucky number` of John Doe to `33` (use a command, don't manually change the code).
 
@@ -94,10 +93,10 @@ Easy stuff :)
 
 3. Now please print (`console.log()`) the SUM of all of the `lucky numbers` of the Doe family.
 
-### :bulb: Hint:
+## 💡 Hint:
 
-* You can get each array of `lucky numbers` from each person object inside the family object.
++ You can get each array of `lucky numbers` from each person object inside the family object.
 
-* Once you get each array just loop over it adding every element (like we've been doing so far). And then add each sum of the 3 family members.
++ Once you get each array just loop over it adding every element (like we've been doing so far). And then add each sum of the 3 family members.
 
-* Null is also an object.
++ `Null` is also an object.
