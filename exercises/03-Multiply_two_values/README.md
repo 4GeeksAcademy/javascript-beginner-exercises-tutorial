@@ -16,6 +16,6 @@ In this instance, we stored the product of `2 * 3` into a variable called `resul
 
 ## 📝  Instructions:
 
-1. Store the product of 2345 times 7323 in a variable called **variablesAreCool**.
+1. Store the product of 2345 times 7323 in a variable called `variablesAreCool`.
 
 2. Print the result to the console.
