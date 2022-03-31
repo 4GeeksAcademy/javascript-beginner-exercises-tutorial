@@ -10,9 +10,9 @@ Para declarar una constante, debes usar la palabra reservada `const` en vez de `
 const VERSION = '1.2';
 ```
 
-Las constantes extremadamente útiles porque algunas veces, como programadores, queremos asegurárnos de que ciertos datos sean solo para lectura.
+Las constantes son extremadamente útiles porque algunas veces, como programadores, queremos asegurárnos de que ciertos datos sean solo para lectura.
 
-## 📝  Instrucciones:
+## 📝 Instrucciones:
 
 1. Compila el ejercicio y arregla el error que se mostrará en la consola. 
 
