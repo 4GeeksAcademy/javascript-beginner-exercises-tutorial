@@ -12,6 +12,6 @@ En esta instancia, estamos guardando el producto de multiplicar `2 * 3` dentro d
 
 ## 📝  Instrucciones:
 
-1. Por favor guarda el producto de 2345 por 7323 en una variable llamada **variablesAreCool**.
+1. Por favor guarda el producto de 2345 por 7323 en una variable llamada `variablesAreCool`.
 
 2. Imprime el resultado en la consola.
