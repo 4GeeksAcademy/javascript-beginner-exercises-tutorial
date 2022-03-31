@@ -1,4 +1,4 @@
-# `015` Random numbers from one to six
+# `15` Random numbers from one to six
 
 ## 📝 Instructions:
 
@@ -9,4 +9,3 @@
 + It should print between 1 and 6, not between 0 and 6.
 
 + This exercise is super simple, don't over complicate things...
-

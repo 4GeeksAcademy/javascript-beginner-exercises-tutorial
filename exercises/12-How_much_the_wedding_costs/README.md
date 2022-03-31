@@ -1,4 +1,4 @@
-# `012` How Much Does the Wedding Cost?
+# `12` How Much Does the Wedding Cost?
 
 Here is a table of prices of a wedding catering company:
 

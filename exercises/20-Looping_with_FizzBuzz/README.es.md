@@ -1,4 +1,4 @@
-# `21` Looping con FizzBuzz
+# `20` Looping con FizzBuzz
 
 Este es un test típico para principiantes que es requerido para completar entrevistas en Google, Facebook y todos los otros grandes unicornios tecnológicos.
 

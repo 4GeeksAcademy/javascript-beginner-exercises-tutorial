@@ -1,4 +1,4 @@
-# `015` Random numbers from one to six
+# `15` Random numbers from one to six
 
 ## 📝 Instrucciones:
 

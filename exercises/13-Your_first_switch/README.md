@@ -1,4 +1,4 @@
-# `013` Your First Switch Statement
+# `13` Your First Switch Statement
 
 We can use another form of conditional called a **switch statement**.  A switch statement evaluates an expression and matches it to a `case` clause, executing the statements therein.  Here is a basic example:
 

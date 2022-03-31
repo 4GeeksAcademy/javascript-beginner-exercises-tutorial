@@ -1,4 +1,4 @@
-# `018` The "while" Loop
+# `18` The "while" Loop
 
 Como hemos mencionado en un ejercicio anterior, los bucles `while`son similares a los bucles `for`, solo que están estructurados de manera diferente.
 
@@ -31,7 +31,7 @@ No hay un *expresión de incremento* en nuestro bucle. Esto es un problema porqu
 
 1. Arregla el bucle `while` para que funcione y no genere un bucle infinito.
 
-2. Imprime del 100 - 0. 
+2. Imprime del 100 al 0. 
 
 3. Regresa el `counter` a 0.
 

@@ -1,14 +1,12 @@
-# `019` Random Colors Loop
+# `19` Random Colors Loop
 
 Hasta ahora, hemos aprendido sobre condicionales, números aleatorios, funciones y bucles ¡Ahora vamos a unirlos todos en un programa! En vez de devolver simplemente números aleatorios, podemos devolver una selección aleatoria de lo que queramos ¡Cuántas veces queramos!
 
-## 📝 Instrucciones:
-
 Hemos creado una función llamada `getColor` que regresa un color basado en un número entero entre `1` y `4`(incluido). Cualquier número diferente, regresará el color `black`(negro).
 
-Escenario: Digamos que eres profesor en un aula de 10 estudiantes y quieres asignar de forma aleatoria **UN** color (`red`, `yellow` , `blue` o `green`), a **CADA** estudiante. 
+Escenario: Digamos que eres profesor en un aula de 10 estudiantes y quieres asignar de forma aleatoria **UN** color (`red`, `yellow` , `blue` o `green`), a **CADA** estudiante.  (sólo UN color POR estudiante)
 
-(sólo UN color POR estudiante)
+## 📝 Instrucciones:
 
 1. Completa la función `getAllStudentColors()` para que imprima 10 colores aleatorios, un color por cada estudiante.
 

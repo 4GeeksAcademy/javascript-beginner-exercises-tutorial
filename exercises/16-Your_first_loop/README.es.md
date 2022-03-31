@@ -1,4 +1,4 @@
-# `016` Your First Loop
+# `16` Your First Loop
 
 Los bucles e iteraciones te permiten repetir un proceso rápida y eficientemente. 
 
@@ -46,14 +46,12 @@ Mientras el *condicional* sea true, el bucle continuará repitiéndose. Si el *c
 
 Puedes usar `>` (mayor que), `<` (menor que), `>=` (mayor que o igual a), `<=` (menor que o igual a), `===` (igual a), `!==` (distinto) en tus condicionales.
 
-## 📝 Instrucciones:
-
 Si compilas este código verás un conteo del `0` al `99` (caracteres blancos) en la consola.  
+
+## 📝 Instrucciones:
 
 1. Arregla el código para que cuente hasta el `100`. Luego lo verás seguido por el `101` en verde en la consola.
 
 ## 🔎 Importante:
 
 + Hay una serie de ejercicios dedicados a Arrays (arreglos). Te recomendamos hacer esos [ejercicios](https://gitpod.io/#https://github.com/4GeeksAcademy/javascript-arrays-exercises-tutorial) antes de continuar con este este primer ejercicio de Array. Luego, regresa aquí para continuar con éstos.
-
-

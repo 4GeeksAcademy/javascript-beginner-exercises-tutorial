@@ -1,4 +1,4 @@
-# `21` Looping with FizzBuzz
+# `20` Looping with FizzBuzz
 
 This is a typical beginner test that is required to complete interviews in Google, Facebook and all other big tech unicorns.
 

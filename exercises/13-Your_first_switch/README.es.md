@@ -1,4 +1,4 @@
-# `013` Your First Switch Statement
+# `13` Your First Switch Statement
 
 Podemos usar otra forma de condicional llamada **switch**. Un switch evalúa una expresión y la iguala a claúsula `case`, ejecutando la declaraciones que hay dentro de ella. Aquí hay un ejemplo básico:
 

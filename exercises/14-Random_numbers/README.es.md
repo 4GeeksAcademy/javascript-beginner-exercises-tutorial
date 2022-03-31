@@ -1,4 +1,4 @@
-# `014` Random Numbers
+# `14` Random Numbers
 
 La función `Math.random()` devolverá un número decimal aleatorio entre el 0 y 1, compila el ejercicio tal como está varias veces para probarlo.
 

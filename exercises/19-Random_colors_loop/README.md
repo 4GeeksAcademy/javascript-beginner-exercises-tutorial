@@ -1,14 +1,14 @@
-# `019` Random Colors Loop
+# `19` Random Colors Loop
 
 So far, we have learned about conditionals, random numbers, functions, and looping. Now we are going to tie all of them into one program!  Instead of simply returning random numbers, we can return a random selection of whatever we desire.  As many times as we want!
-
-## 📝 Instructions
 
 A function called `getColor` has been written that returns a color based on an integer between `1` and `4`, inclusive. For any integer beyond this range, the color `black` will be returned.
 
 Scenario: You are a teacher in a 10-student classroom. You want to randomly assign **ONE** color (`red`, `yellow`, `blue` or `green`), to **EACH** student. 
 
 (just ONE color to EACH student)
+
+## 📝 Instructions
 
 1. Complete the function `getAllStudentColors()` so that it prints 10 randomly selected colors, one per student.
 

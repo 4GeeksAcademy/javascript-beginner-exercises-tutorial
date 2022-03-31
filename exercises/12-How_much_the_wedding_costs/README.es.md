@@ -1,4 +1,4 @@
-# `012` How Much Does the Wedding Cost?
+# `12` How Much Does the Wedding Cost?
 
 Aquí está la tabla de precios de una empresa de catering de bodas:
 
