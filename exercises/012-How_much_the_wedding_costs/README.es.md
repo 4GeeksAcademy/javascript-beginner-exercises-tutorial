@@ -2,10 +2,12 @@
 
 Aquí está la tabla de precios de una empresa de catering de bodas:
 
-* Hasta 50 personas                     $4,000
-* Hasta 100 personas                   $10,000
-* Hasta 200 personas                   $15,000
-* Más de 200 personas                  $20,000
+| No. de Personas | Precio |
+|:---|---:|
+| Hasta 50 people  | $4,000 |
+| Hasta 100 people | $10,000 |
+| Hasta 200 people | $15,000  |
+| Más de 200 people | $20,000 |
 
 ## 📝 Instrucciones:
 
