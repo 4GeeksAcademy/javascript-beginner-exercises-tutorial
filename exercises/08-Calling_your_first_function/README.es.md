@@ -8,14 +8,13 @@ Las fortalezas de las funciones incluyen:
 
 - Reutilización del código en diferentes programas. Puedes crear funciones como herramientas dentro de una caja de herramientas. Esto hace que la programación sea más eficiente y limpia.
 
-## 📝  Instrucciones
+- La función ya definida `isOdd`, devuelve `true` si un número impar se pasa como parámetro, y `false` si el número es par. 
 
-La función ya definida `isOdd`, devuelve `true` si un número impar se pasa como parámetro, y `false` si el número es par. 
+## 📝  Instrucciones:
 
 1. Por favor llama a la función `isOdd` pasandole el número 45345 como parámetro.
 
 2. Imprime el resultado de la función llamada en la consola.
-
 
 ## 🔎 Importante: 
 
