@@ -16,9 +16,9 @@ switch (expr) {
 }
 ```
 
-## 📝 Instrucciones:
-
 Imagina que tu software está manejando el inventario de una tienda de zapatos. El cliente necesita saber qué colores tienes disponible en un modelo específico de zapatos.
+
+## 📝 Instrucciones:
 
 1. Completa este condicional switch con 3 casos para un zapato disponible en 3 colores: rojo, verde y azul.
 
