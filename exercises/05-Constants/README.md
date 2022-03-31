@@ -2,7 +2,7 @@
 tutorial: "https://www.youtube.com/watch?v=prD2J3Ye-uA"
 ---
 
-# `06` Constants
+# `05` Constants
 
 
 Since 2015, JavaScript has allowed the use of **constants**.
@@ -17,13 +17,12 @@ const VERSION = '1.2';
 
 Constants are extremely useful. As a developer you may want to make sure parts of your data are read-only.
 
-
-## :pencil: Instructions:
+## 📝  Instructions:
 
 1. Run the exercise and fix the error that is shown on the console.
 
 2.  Make the code output `0.9` on the console when fixed.
 
-### 💡 Hint:
+## 💡 Hint:
 
- Search for  "TypeError assignment to constant variable" on Google.com to learn how to fix it.
++ Search for  "TypeError assignment to constant variable" on Google.com to learn how to fix it.
