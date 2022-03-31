@@ -13,7 +13,7 @@ Aquí está la tabla de precios de una empresa de catering de bodas:
 
 ## Ejemplo:
 
-Por ejemplo, si el usuario dice que **20 personas** van a asistir a la boda, el resultado en la consola debe ser `Your wedding will cost 4000 dollars'`.
+Por ejemplo, si el usuario dice que **20 personas** van a asistir a la boda, el resultado en la consola debe ser `'Your wedding will cost 4000 dollars'`.
 
 ## 💡 Pista:
 
