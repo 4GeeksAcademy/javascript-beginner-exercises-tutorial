@@ -20,17 +20,17 @@ function function_name (param1, param2, ...) {
 
 + The space within the curly brackets `{...}` is the function body.  Here is where the arguments are processed and some sort of output is provided. 
 
-The output can include returning a value (as shown in the example above), printing to the console, calling another function, etc.
++ The output can include returning a value (as shown in the example above), printing to the console, calling another function, etc.
 
-## 📝  Instructions:
++ The function `addNumbers()` is supposed to return the sum of two given numbers:
 
-The function `addNumbers()` is supposed to return the sum of two given numbers:
+## 📝 Instructions:
 
 1. Complete the necessary code with the function body to make it behave as expected.
 
 2. The exercise should print `7` to the console.
 
-### 💡 Hint:
+## 💡 Hint:
 
 - The function is receiving two arguments (stored in the parameters `a` and `b`). You can create a variable called `sum` within the function body that stores the total of both arguments.
 
