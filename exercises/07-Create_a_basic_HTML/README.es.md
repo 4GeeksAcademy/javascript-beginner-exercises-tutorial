@@ -1,16 +1,14 @@
 # `07` Creating Basic HTML Code
 
-Continuemos utilizando concatenación de strings para generar HTML.
+Continuemos utilizando concatenación de strings para generar HTML. El código de la izquierda contiene 8 constantes con diferentes valores de string
 
 ## 📝  Instrucciones:
-
-El código a la izquierda contiene 8 constantes con diferentes valores de string:
 
 1. Concatena las constantes. 
 
 2. Establece el valor de la variable `htmlDocument` en una nuevo string que tenga el típico contenido de un documento HTML (con las etiquetas de HTML en el orden correcto).
 
-3. Asígnale el valor de la variable **htmlDocument** a este nuevo string e imprime su valor en la consola.
+3. Asígnale el valor de la variable `htmlDocument` a este nuevo string e imprime su valor en la consola.
 
 ## 💡 Pista:
 
