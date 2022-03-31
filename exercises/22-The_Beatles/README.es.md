@@ -15,7 +15,7 @@ Abajo está el coro de una de las canciones más famosas de Los Beatles, *Let it
 ## Ejemplo de salida:
 
 ```js
-    'let it be, let it be, let it be, let it be, whisper words of wisdom, let it be, let it be, let it be, let it be, let it be, there will be an answer, let it be'
+'let it be, let it be, let it be, let it be, whisper words of wisdom, let it be, let it be, let it be, let it be, let it be, there will be an answer, let it be'
 ```
 
 ## 💡 Pistas:

@@ -1,4 +1,4 @@
-# `023` Bottles of Milk
+# `23` Bottles of Milk
 
 ¿Has escuchado la canción acerca 99 botellas de leche (99 bottles of milk)?  Es una gran canción - para nada aburrida...😆
 
@@ -31,4 +31,3 @@ Aquí la puedes escuchar: https://www.youtube.com/watch?v=Xy-da43E6Lo
 + Al final de la canción, la letra cambia porque es sólo una botella (singular en vez de plural).
 
 + Lee la última parte de la letra y verás como la última línea cambia a `go to the store and by some more` (anda a comprar más leche).
-

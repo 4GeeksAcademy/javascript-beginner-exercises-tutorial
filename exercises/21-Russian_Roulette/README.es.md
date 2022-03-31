@@ -1,4 +1,4 @@
-# `021` Russian Roulette
+# `21` Russian Roulette
 
 ¿Alguna vez has jugado a la Ruleta Rusa? ¡Es muy divertido! Si logras sobrevivir... (muajajajajaja).
 
