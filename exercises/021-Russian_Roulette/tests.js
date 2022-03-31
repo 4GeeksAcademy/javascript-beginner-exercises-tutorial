@@ -14,7 +14,7 @@ describe('All the javascript should match', function () {
 
     const app = rewire("./app");
     const fireGun = app.__get__("fireGun");
-    const bulletPosition = app.__get__("bulletPosition");
+    const firePosition = app.__get__("firePosition");
 
     it('The function fireGun should exist', function () {
         expect(fireGun).toBeTruthy();
@@ -26,7 +26,7 @@ describe('All the javascript should match', function () {
 
     it('If fireGun() is false, message should be "Keep playing :)"', function () {
             for (var i = 1; i <= 6; i++) {
-                if (i === bulletPosition) {
+                if (i === firePosition) {
                     expect(fireGun(i)).toContain("You're dead!");
                 }
                 else {
