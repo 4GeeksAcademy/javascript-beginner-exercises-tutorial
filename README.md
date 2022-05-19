@@ -31,7 +31,7 @@ We need you! These exercises are built and maintained in collaboration with cont
 
 ## Local Installation
 
-1. Install learnpack, the package manager for learning tutorials and the html compiler plugin for learnpack, make sure you also have node.js 14+:
+1. Install learnpack, the package manager for learning tutorials, and the HTML compiler plugin for learnpack, make sure you also have node.js 14+:
 
 ```
 $ npm i learnpack -g
@@ -45,15 +45,15 @@ $ npm i jest@24.8.0 -g
 $ learnpack start
 ```
 
-Note: The exercises have automatic grading but its very rigid and string, my recommendation is to ignore the tests and use them only as a recommendation or you can get frustrated.
+Note: The exercises have automatic grading but it's very rigid and string, my recommendation is to ignore the tests and use them only as a recommendation or you can get frustrated.
 
 ## How are the exercises organized?
 
 Each exercise is a small react application containing the following files:
 |    |    |
 |:---|:---|
-| **app.js** | Represents the entry javascript file that will be executed by the computer |
-| **README.md** | Contains exercise instructions |
+| **app.js** | Represents the entry javascript file that the computer will execute |
+| **README.MD** | Contains exercise instructions |
 | **test.js** | Contains the testing script for the exercise (you don't have to open this file) |
 
 ## Contributors
