@@ -32,7 +32,7 @@
 
 1. Instala learnpack, el package manager para los tutoriales interactivos y el html compiler plugin para learnpack, asegúrate también de tener node.js 14+:
 
-```
+```sh
 $ npm i learnpack -g
 $ learnpack plugins:install learnpack-node
 ```
