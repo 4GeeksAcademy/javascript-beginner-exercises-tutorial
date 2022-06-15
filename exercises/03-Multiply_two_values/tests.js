@@ -1,6 +1,9 @@
 
 const fs = require('fs');
 const path = require('path');
+var rewire = require("rewire");
+
+const app = rewire('./app.js');
 
 jest.dontMock('fs');
 //here we are going to store and accumulate (concatenate) all the console log's from the exercise
@@ -16,6 +19,18 @@ describe('All the javascript should match', function () {
         //here I import the HTML into the document
     });
     afterEach(() => { jest.resetModules(); });
+    
+    it('The variable `variablesAreCool` should exist', () => {
+        
+        const variablesAreCool = app.__get__('variablesAreCool');
+        expect(variablesAreCool).toBeTruthy();
+    })
+        
+    it('The variable `variablesAreCool` should have the correct value', () => {
+        const variablesAreCool = app.__get__('variablesAreCool');
+        expect(variablesAreCool).toBe(17172435);
+    })
+    
 
     it('console.log() function should be called with variablesAreCool', function () {
 
