@@ -1,6 +1,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const rewire = require('rewire');
 
 jest.dontMock('fs');
 //here we are going to store and accumulate (concatenate) all the console log's from the exercise
@@ -11,13 +12,25 @@ let _log = console.log;
 // but we are also going to save what supposed to be the ouput of the console inside _buffer
 global.console.log = console.log = jest.fn((text) => _buffer += text + "\n");
 
+test("variable color should exist", function(){
+    const file = rewire("./app.js");
+    const color = file.__get__('color');
+    expect(color).toBeTruthy();
+  });
+  test("variable 'color' should return value 'red'", function(){
+    const app = rewire('./app.js');
+    const color = app.__get__('color');
+    expect(color).toBe('red');
+  });
+  
+
 describe('All the javascript should match', function () {
     beforeEach(() => {
         //here I import the HTML into the document
     });
     afterEach(() => { jest.resetModules(); });
 
-    it('console.log() function should be called with variable color', function () {
+    it('console.log() function should be called with variable "color" which its value should be "red" ', function () {
 
         //then I import the index.js (which should have the alert() call inside)
         const file = require("./app.js");
