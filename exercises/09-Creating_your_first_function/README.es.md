@@ -15,7 +15,7 @@ function function_name (param1, param2, ...) {
 
 - El espacio entre llaves `{...}` es el cuerpo (body) de la función. Ahí es donde se procesan los argumentos y provee una especie de resultado.
 
-- El resultado puede incluir devolver un valor (como se muestra en el ejemplo anterior), imprimir en la consola, llamar a otra función, etc.
+- El resultado puede incluir: devolver un valor (como se muestra en el ejemplo anterior), imprimir en la consola, llamar a otra función, etc.
 
 - La función `addNumbers` se supone que devuelve la suma de 2 números dados.
 
@@ -31,4 +31,4 @@ function function_name (param1, param2, ...) {
 
 ## 🔎 Importante: 
 
-+  Hay una serie de ejercicios dedicados a Funciones, te recomendamos a que vayas y termines esos después de que realices este ejercicio de [funciones](https://github.com/4GeeksAcademy/javascript-functions-exercises-tutorial), luego continua con éstos.
++  Hay una serie de ejercicios dedicados a Funciones, te recomendamos a que vayas y termines a los mismos después de que realices este ejercicio de [funciones](https://github.com/4GeeksAcademy/javascript-functions-exercises-tutorial), luego continua con éstos.
