@@ -20,7 +20,7 @@ it('Declare age variable', function () {
 });
 
 
-it('Testing with age = 40, and the console.log() should print 50', function () {
+it('console.log() should add 10 to the age inputted', function () {
 
     const _ = require('./app');
 
