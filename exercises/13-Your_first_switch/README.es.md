@@ -26,10 +26,10 @@ Imagina que tu software está manejando el inventario de una tienda de zapatos. 
 
 ## 💡 Pista:
 
-+ Es posible que debas lleletla entrada (input) del usuario a minúsculas o mayúsculas para evitar discrepancias. Haz clic en lo siguiente para que aprendas a hacerlo:
++ Es posible que debas llevar la entrada (input) del usuario a minúsculas o mayúsculas para evitar discrepancias. Haz clic en lo siguiente para que aprendas a hacerlo:
 
-+ Para llelettodo a mayúsculas (uppercase): https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase
++ Para llevar todo a mayúsculas (uppercase): https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase
 
-+ Para llelettodo a minúsculas (lowercase): https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase
++ Para llevar todo  a minúsculas (lowercase): https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase
 
 + Más sobre condicionales switch: http://www.w3schools.com/js/js_switch.asp

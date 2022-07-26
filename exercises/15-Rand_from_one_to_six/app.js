@@ -1,6 +1,6 @@
 function getRandomInt()
 {
-	letrandomNumber = Math.random();
+	let randomNumber = Math.random();
 	return randomNumber;
 }
 console.log(getRandomInt());

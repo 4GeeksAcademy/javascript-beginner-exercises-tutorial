@@ -2,13 +2,13 @@
 
 Who doesn't like The Beatles? A BBC study reported that 90% of kids today don't know the band. Heartbreaking... :worried:
 
-Below is the chorus of one of the most famous Beatles songs, *Let It Be*:
+Below is the chorus of one of the most famous Beatles songs, *let It Be*:
 
-> Let it be, let it be, let it be, let it be
+> let it be, let it be, let it be, let it be
 
 > Whisper words of wisdom
 
-> Let it be
+> let it be
 
 ## 📝 Instructions:
 
