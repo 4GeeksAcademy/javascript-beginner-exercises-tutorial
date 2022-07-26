@@ -37,7 +37,7 @@ describe('All the javascript should match', function () {
         const color = 'red';
 
         //Expect the console log to have been called with "Hello World" at least one
-        expect(console.log).toHaveBeenCalledWith(color);
+        expect(console.log).toHaveBeenCalledWith("red");
         //and I expect the console.log to be already called just one time.
         // expect(console.log.mock.calls.length).toBe(2);
 

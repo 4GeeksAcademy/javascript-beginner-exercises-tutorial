@@ -1,6 +1,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const rewire = require('rewire');
 
 jest.dontMock('fs');
 //here we are going to store and accumulate (concatenate) all the console log's from the exercise
@@ -11,17 +12,48 @@ let _log = console.log;
 // but we are also going to save what supposed to be the ouput of the console inside _buffer
 global.console.log = console.log = jest.fn((text) => _buffer += text + "\n");
 
-describe('All the javascript should match', function () {
-    beforeEach(() => {
-    });
-    afterEach(() => { jest.resetModules(); });
 
-    it('console.log() call should result between 1 and 6', function () {
+test('function getRandomInt should exist', function () {
 
-        const file = require("./app.js");
+    //then I import the index.js (which should have the alert() call inside)
+    const file = rewire("./app.js");
+    const getRandomInt = file.__get__('getRandomInt');
+    
+    //Expect the console log to have been called with a random 0-9 number at least once
+    expect(getRandomInt).toBeTruthy();
 
-        expect(parseInt(console.log())).toBeGreaterThanOrEqual(1);
+});
 
-        expect(parseInt(console.log())).toBeLessThanOrEqual(6);
-    });
+test('getRandomInt should return something', function () {
+
+    //then I import the index.js (which should have the alert() call inside)
+    const file = rewire("./app.js");
+    const getRandomInt = file.__get__('getRandomInt');
+    
+    //Expect the console log to have been called with a random 0-9 number at least once
+    expect(getRandomInt()).toBeTruthy();
+
+});
+
+test('getRandomInt should return an integer (no decimals)', function () {
+
+    //then I import the index.js (which should have the alert() call inside)
+    const file = rewire("./app.js");
+    const getRandomInt = file.__get__('getRandomInt');
+    const _int = getRandomInt();
+    expect(Math.floor(_int)).toBe(_int);
+});
+
+test('getRandomInt should return random between 1,6', function () {
+
+    //then I import the index.js (which should have the alert() call inside)
+    const file = rewire("./app.js");
+    const getRandomInt = file.__get__('getRandomInt');
+    
+    //Expect the console log to have been called with a random 0-9 number at least once
+    [0,1,2,3,4,5,6,7,8,9].forEach(() => {
+        const _int = getRandomInt();
+        expect(_int).toBeGreaterThanOrEqual(1);
+        expect(_int).toBeLessThanOrEqual(6);
+    })
 });

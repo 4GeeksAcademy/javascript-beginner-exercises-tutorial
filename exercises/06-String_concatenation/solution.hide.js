@@ -1,9 +1,9 @@
 //Set the values here
-var myVar1 = 'Hello';
-var myVar2 = 'World';
+letmyVar1 = 'Hello';
+letmyVar2 = 'World';
 
 
 
 //Don't change any code below
-var theNewString = myVar1+' '+myVar2;
+lettheNewString = myVar1+' '+myVar2;
 console.log(theNewString);

@@ -1,5 +1,5 @@
 /*
-var age keeps being received as NaN and breaks the test; 
+letage keeps being received as NaN and breaks the test; 
 tried forcing it to int and then back to string, but none of that helps 
 */
 
@@ -15,7 +15,7 @@ global.console.log = console.log = jest.fn(text => null);
 
 it('Declare age variable', function () {
 
-    var age = app.__get__("age");
+    let age = app.__get__("age");
     expect(age).toEqual(expect.anything());
 });
 

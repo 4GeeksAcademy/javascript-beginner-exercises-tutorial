@@ -1,7 +1,7 @@
 
 const fs = require('fs');
 const path = require('path');
-var rewire = require('rewire');
+letrewire = require('rewire');
 
 const js = fs.readFileSync(path.resolve(__dirname, './app.js'), 'utf8');
 

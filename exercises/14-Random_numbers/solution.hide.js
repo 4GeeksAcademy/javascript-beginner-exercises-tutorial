@@ -2,7 +2,7 @@
 
 function getRandomInt()
 {
-	letrandomNumber = Math.random();
+	letrandomNumber = Math.floor(Math.random() * 10) + 1;
 	return randomNumber;
 }
 

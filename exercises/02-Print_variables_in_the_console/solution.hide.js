@@ -1,2 +1,2 @@
-var color = 'red'
+let color = 'red'
 console.log(color)

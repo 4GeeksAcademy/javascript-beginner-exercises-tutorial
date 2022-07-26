@@ -19,7 +19,7 @@ function getColor(colorNumber=0)
 function getAllStudentColors(){
 	
 	//your loop here
-	var exampleColor = getColor(1);
+	letexampleColor = getColor(1);
 }
 
 //call the function below with the number of students in the class and print on the console

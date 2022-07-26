@@ -5,15 +5,15 @@ A menudo te encontrarás queriendo guardar más información en menos espacio, e
 Por ejemplo, digamos que queremos representar autos dentro de variables:
 
 ```js
-var car1Model = "corolla";
-var car1Make = "Toyota";
-var car1Color = "green";
-var car1Year = 2015;
+letcar1Model = "corolla";
+letcar1Make = "Toyota";
+letcar1Color = "green";
+letcar1Year = 2015;
 
-var car2Model = "santa fe";
-var car2Make = "Hyundai";
-var car2Color = "purple";
-var car2Year = 2013;
+letcar2Model = "santa fe";
+letcar2Make = "Hyundai";
+letcar2Color = "purple";
+letcar2Year = 2013;
 
 //... (¿entiendes la idea?)
 
@@ -25,7 +25,7 @@ Hay un enfoque óptimo para esto, son los **objetos**. Los **objetos (objects)**
 Entonces si queremos traducir (y optimizar) las variables desde car (auto) a un Object, hacemos:
 
 ```js
-var car1 = { model: "corolla", make: "toyota", color: "green",  year: 2015};
+letcar1 = { model: "corolla", make: "toyota", color: "green",  year: 2015};
 ```
 
 Puedes ver el `key:value` separado por una coma. 
@@ -33,7 +33,7 @@ Puedes ver el `key:value` separado por una coma.
 Y para nosotros (los desarrolladores) podamos leerlas más fácilmente las escribimos así:
 
 ```js
-var car1 = {
+letcar1 = {
     model: "corolla", 
     make: "toyota", 
     color: "green",  
@@ -52,7 +52,7 @@ console.log(car1.model); //imprime el modelo del car1 en la consola
 Podemos tener todos los tipos de variables definidas conocidas como valor(value) de cualquier `key` (¡incluyendo objetos!). Ahora imagina las posiblidades...
 
 ```js
-var person = {
+letperson = {
     name: "John",                    //String
     lastname: "Doe",
     age: 35,                         //Numero
@@ -61,7 +61,7 @@ var person = {
     significant_other: person2       //Objeto, si la misma variable/objeto definida después
 };
 
-var person2 = {
+letperson2 = {
     name: "Jane",
     lastname: "Doe",
     age: 38,
@@ -70,7 +70,7 @@ var person2 = {
     significant_other: person
 };
 
-var family = {
+letfamily = {
     lastname: "Doe",
     members: [person, person2]       //Array de objetos
 };
