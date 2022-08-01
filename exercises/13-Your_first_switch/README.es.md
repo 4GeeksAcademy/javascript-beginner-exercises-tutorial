@@ -20,7 +20,7 @@ Imagina que tu software está manejando el inventario de una tienda de zapatos. 
 
 ## 📝 Instrucciones:
 
-1. Completa este condicional switch con 3 casos para un zapato disponible en 3 colores: rojo, verde y azul.
+1. Completa este condicional switch con 3 casos para un zapato disponible en 3 colores: 'red', 'green' y 'blue'.
 
 2. La función debe regresar `true` si el color solicitado es uno de los colores disponibles de arriba o `false` si el color no está disponible.
 
