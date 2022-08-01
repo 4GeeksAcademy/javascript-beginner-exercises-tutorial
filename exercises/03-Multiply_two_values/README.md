@@ -9,7 +9,7 @@ Programming languages, such as Javascript, allow for basic math operations (mult
 To multiply two values in Javascript, use the asterisk (*) operator like this:
 
 ```js
-letresultingValue = 2 * 3;
+let resultingValue = 2 * 3;
 ```
 
 In this instance, we stored the product of `2 * 3` into a variable called `resultingValue`.

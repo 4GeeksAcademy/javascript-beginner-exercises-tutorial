@@ -2,18 +2,18 @@
 
 Often you'll find yourself wanting to save more information in less space, especially if it's all related. 
 
-For example, let's say that we want to represent cars into variables:
+For example, let 's say that we want to represent cars into variables:
 
 ```js
-letcar1Model = "corolla";
-letcar1Make = "Toyota";
-letcar1Color = "green";
-letcar1Year = 2015;
+let car1Model = "corolla";
+let car1Make = "Toyota";
+let car1Color = "green";
+let car1Year = 2015;
 
-letcar2Model = "santa fe";
-letcar2Make = "Hyundai";
-letcar2Color = "purple";
-letcar2Year = 2013;
+let car2Model = "santa fe";
+let car2Make = "Hyundai";
+let car2Color = "purple";
+let car2Year = 2013;
 //... (you get the idea)
 ```
 
@@ -22,13 +22,13 @@ There's an optimized approach to this, it is called **Objects**. **Objects** are
 So if we want to translate (and optimize) the variables from the car into an Object, we do:
 
 ```js
-letcar1 = { model: "corolla", make: "toyota", color: "green",  year: 2015};
+let car1 = { model: "corolla", make: "toyota", color: "green",  year: 2015};
 ```
 
 You can see the `key:value` separated by a comma.  And for us (developers) to read it easier we write it like this:
 
 ```js
-letcar1 = {
+let car1 = {
     model: "corolla", 
     make: "toyota", 
     color: "green",  
@@ -47,7 +47,7 @@ console.log(car1.model); //prints the model of car1 in the console
 We can have all of the known type of variables defined as value of any `key` (including objects!). Now imagine the possibilities...
 
 ```js
-letperson = {
+let person = {
     name: "John",                    //String
     lastname: "Doe",
     age: 35,                         //Number
@@ -56,7 +56,7 @@ letperson = {
     significant_other: person2       //Object, yes the same variable/object defined after
 };
 
-letperson2 = {
+let person2 = {
     name: "Jane",
     lastname: "Doe",
     age: 38,
@@ -65,7 +65,7 @@ letperson2 = {
     significant_other: person
 };
 
-letfamily = {
+let family = {
     lastname: "Doe",
     members: [person, person2]       //Array de objetos
 };

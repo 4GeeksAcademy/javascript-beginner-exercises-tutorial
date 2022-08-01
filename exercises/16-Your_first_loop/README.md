@@ -14,7 +14,7 @@ Here is an example `for` statement:
 
 ```js
 // a "for" loop
-for (leti = 0; i < 10; i++) {
+for (let i = 0; i < 10; i++) {
     console.log("Hello!")
 }
 ```
@@ -33,7 +33,7 @@ And here is an example:
 
 ```js
 // a "while" loop
-leti = 0;
+let i = 0;
 while (i < 10) {
     console.log("Goodbye!");
     i++;
