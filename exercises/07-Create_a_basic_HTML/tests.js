@@ -1,6 +1,5 @@
-
 const fs = require('fs');
-const path = require('path');
+const rewire = require('rewire');
 
 jest.dontMock('fs');
 //here we are going to store and accumulate (concatenate) all the console log's from the exercise
@@ -11,13 +10,32 @@ let _log = console.log;
 // but we are also going to save what supposed to be the ouput of the console inside _buffer
 global.console.log = console.log = jest.fn((text) => _buffer += text + "\n");
 
+test("The variable 'htmlDocument' should exist", function(){
+    const file = rewire("./app.js");
+    const htmlDocument = file.__get__('htmlDocument');
+    expect(htmlDocument).toBeTruthy();
+});
+
+test('Use string concatenation for the expected output', function(){
+    const data = fs.readFileSync('./exercises/07-Create_a_basic_HTML/app.js');
+    const regex = /htmlDocument\s*=\s*e\s*\+\s*c\s*\+\s*g\s*\+\s*a\s*\+\s*f\s*\+\s*h\s*\+\s*d\s*\+\s*b/gm;
+    expect(regex.exec(data)).toBeTruthy();
+
+});
+
+test("The variable 'htmlDocument' should have the expected output", function(){
+    const file = rewire("./app.js");
+    const htmlDocument = file.__get__('htmlDocument');
+    expect(htmlDocument).toBe('<html><head><title></title></head><body></body></html>');
+});
+
 describe('All the javascript should match', function () {
     beforeEach(() => {
         //here I import the HTML into the document
     });
     afterEach(() => { jest.resetModules(); });
 
-    it('console.log() function should display <html><head><title></title></head><body></body></html>', function () {
+    it('console.log() function should display <html><head><title></title></head><body></body></html> by string concatenation', function () {
         const file = require("./app.js");
 
         //Expect the console log to have been called with "<html><head><title></title></head><body></body></html>" at least once
