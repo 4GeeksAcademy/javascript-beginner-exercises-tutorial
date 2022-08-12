@@ -1,10 +1,7 @@
 /*Exercise closely resembles 11 - consider introducing another concept here? */
 
-function getRandomInt()
-{
-	var randomNumber = Math.random();
-	return randomNumber;
+const getRandomNumber = () => {
+	return Math.random();
 }
 
-
-console.log(getRandomInt());
+console.log(getRandomNumber());
