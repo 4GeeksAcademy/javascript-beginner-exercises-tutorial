@@ -30,6 +30,6 @@ Imagina que tu software está manejando el inventario de una tienda de zapatos. 
 
 + Para llevar todo a mayúsculas (uppercase): https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase
 
-+ Para llevar todo  a minúsculas (lowercase): https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase
++ Para llevar todo a minúsculas (lowercase): https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase
 
 + Más sobre condicionales switch: http://www.w3schools.com/js/js_switch.asp

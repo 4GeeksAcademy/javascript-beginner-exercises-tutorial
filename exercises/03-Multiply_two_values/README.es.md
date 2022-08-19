@@ -5,7 +5,7 @@ Cualquier lenguaje de programación como javascript te permite hacer operaciones
 Para multiplicar 2 valores en javascript, debes utilizar el asterisco (*) de esta forma:
 
 ```js
-let resultingValue = 2 * 3;
+var resultingValue = 2 * 3;
 ```
 
 En esta instancia, estamos guardando el producto de multiplicar `2 * 3` dentro de una variable llamada `resultingValue`.

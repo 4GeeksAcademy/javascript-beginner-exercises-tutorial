@@ -2,11 +2,11 @@
 
 ¿A quién no le gustan Los Beatles? Un estudio del BBC ha mostrado que el 90% de los niños de ahora no conocen la banda.. Que triste.. :worried:
 
-Abajo está el coro de una de las canciones más famosas de Los Beatles, *let it be*:
+Abajo está el coro de una de las canciones más famosas de Los Beatles, *Let it be*:
 
-> let it be, let it be, let it be, let it be
+> Let it be, let it be, let it be, let it be
 > Whisper words of wisdom
-> let it be
+> Let it be
 
 ## 📝 Instrucciones:
 

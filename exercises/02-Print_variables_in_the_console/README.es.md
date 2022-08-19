@@ -11,6 +11,6 @@ También puedes utilizar la función `console.log` para imprimir variables en la
 ## Ejemplo:
 
 ```js
-let mySuperVariable = 'hello';
+var mySuperVariable = 'hello';
 console.log(mySuperVariable);
 ```

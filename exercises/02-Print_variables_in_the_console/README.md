@@ -15,6 +15,6 @@ You can also use the `console.log()` function to print variables in the console.
 ## Example:
 
 ```js
-let mySuperVariable = 'hello';
+var mySuperVariable = 'hello';
 console.log(mySuperVariable);
 ```
