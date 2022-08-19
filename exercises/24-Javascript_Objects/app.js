@@ -1,4 +1,4 @@
-let person = {
+var person = {
     name: "John",                //String
     lastname: "Doe",
     age: 35,                     //Number
@@ -7,7 +7,7 @@ let person = {
     significant_other: person2   //Object, yes the same variable/object defined after
 };
 
-let person2 = {
+var person2 = {
     name: "Jane",
     lastname: "Doe",
     age: 38,
@@ -16,14 +16,14 @@ let person2 = {
     significant_other: person
 };
 
-let family = {
+var family = {
     lastname: "Doe",
     members: [person, person2]   //Array of objects, don't forget to add Jimmy
 };
 
 
 function addAllFamilyLuckyNumbers(anArray){
-  let sumOfAllLuckyNumbers = 0; //sumOfAllLuckyNumbers is a number, the sum of all lucky numbers.
+  var sumOfAllLuckyNumbers = 0; //sumOfAllLuckyNumbers is a number, the sum of all lucky numbers.
 
   //To-Do: loop and add; consider nested loops
   //Hint: use the anArray variable to get all of the lucky numbers

@@ -11,8 +11,8 @@ La concatenación es útil porque puedes crear y añadir strings a strings de HT
 ## Ejemplo:
 
 ```js
-let one = 'a';
-let two = 'b';
+var one = 'a';
+var two = 'b';
 console.log(one+two); //esto imprimirá 'ab' en la consola.
 ```
 

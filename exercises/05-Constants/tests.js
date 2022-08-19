@@ -1,7 +1,6 @@
 
 const fs = require('fs');
 const path = require('path');
-const rewire = require('rewire');
 
 jest.dontMock('fs');
 //here we are going to store and accumulate (concatenate) all the console log's from the exercise
@@ -12,25 +11,13 @@ let _log = console.log;
 // but we are also going to save what supposed to be the ouput of the console inside _buffer
 global.console.log = console.log = jest.fn((text) => _buffer += text + "\n");
 
-test("The variable 'VERSION' should exist", function(){
-    const file = rewire("./app.js");
-    const VERSION = file.__get__('VERSION');
-    expect(VERSION).toBeTruthy();
-  });
-test("The variable 'VERSION' should have the value '0.9' ", function(){
-    const file = rewire("./app.js");
-    const VERSION = file.__get__('VERSION');
-    expect(VERSION).toBe('0.9');
-  });
-  
-
 describe('All the javascript should match', function () {
     beforeEach(() => {
         //here I import the HTML into the document
     });
     afterEach(() => { jest.resetModules(); });
 
-    it('console.log() should display the value of "VERSION" ', function () {
+    it('console.log() should display 0.9', function () {
 
 
         //then I import the index.js (which should have the alert() call inside)

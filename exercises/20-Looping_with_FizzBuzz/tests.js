@@ -1,7 +1,7 @@
 
 const fs = require('fs');
 const path = require('path');
-const rewire = require('rewire');
+var rewire = require('rewire');
 
 jest.dontMock('fs');
 //here we are going to store and accumulate (concatenate) all the console log's from the exercise

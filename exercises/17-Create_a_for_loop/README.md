@@ -13,7 +13,7 @@ for (initialExpression; conditional; incrementalExpression) {
 
 ```js
 // a "for" loop
-for (leti = 0; i < 10; i++) {
+for (var i = 0; i < 10; i++) {
     console.log("Hello!")
 }
 ```

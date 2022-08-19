@@ -15,7 +15,7 @@ Digamos que tenemos el siguiente bucle `while`:
 
 ```js
 // un bucle "while" 
-let i = 0;
+var i = 0;
 while (i < 10) {
     console.log("Goodbye!");
 }

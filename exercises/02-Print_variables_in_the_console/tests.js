@@ -1,7 +1,6 @@
 
 const fs = require('fs');
 const path = require('path');
-const rewire = require('rewire');
 
 jest.dontMock('fs');
 //here we are going to store and accumulate (concatenate) all the console log's from the exercise
@@ -11,18 +10,6 @@ let _log = console.log;
 // lets override the console.log function to mock it,
 // but we are also going to save what supposed to be the ouput of the console inside _buffer
 global.console.log = console.log = jest.fn((text) => _buffer += text + "\n");
-
-test("The variable color should exist", function(){
-    const file = rewire("./app.js");
-    const color = file.__get__('color');
-    expect(color).toBeTruthy();
-  });
-
-  test("The variable color should have the value 'red' ", function(){
-    const file = rewire("./app.js");
-    const color = file.__get__('color');
-    expect(color).toBe('red');
-  });
 
 describe('All the javascript should match', function () {
     beforeEach(() => {
@@ -37,7 +24,7 @@ describe('All the javascript should match', function () {
         const color = 'red';
 
         //Expect the console log to have been called with "Hello World" at least one
-        expect(console.log).toHaveBeenCalledWith("red");
+        expect(console.log).toHaveBeenCalledWith(color);
         //and I expect the console.log to be already called just one time.
         // expect(console.log.mock.calls.length).toBe(2);
 

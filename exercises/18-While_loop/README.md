@@ -15,7 +15,7 @@ while (conditional) {
 Now, let's say we write the following `while` loop:
 
 ```js
-let i = 0;
+var i = 0;
 while (i < 10) {
     console.log("Goodbye!");
 }

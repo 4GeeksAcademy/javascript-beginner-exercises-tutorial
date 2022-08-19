@@ -15,8 +15,8 @@ Concatenation comes in handy because you can create and add to existing HTML str
 ## Example:
 
 ```js
-let one = 'a';
-let two = 'b';
+var one = 'a';
+var two = 'b';
 console.log(one+two); //this will print 'ab' on the console.
 ```
 

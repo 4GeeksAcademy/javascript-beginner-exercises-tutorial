@@ -4,10 +4,10 @@ const js = fs.readFileSync(path.resolve(__dirname, './app.js'), 'utf8');
 
 jest.dontMock('fs');
 //here we are going to store and accumulate (concatenate) all the console log's from the exercise
-let  _buffer = "";
-let  _log = console.log;
+let _buffer = "";
+let _log = console.log;
 
-// let s override the console.log function to mock it,
+// lets override the console.log function to mock it,
 // but we are also going to save what supposed to be the ouput of the console inside _buffer
 global.console.log = console.log = jest.fn((text) => _buffer += text + "\n");
 
@@ -19,7 +19,7 @@ describe('All the javascript should match', function () {
     
     it('console.log() function should be called with proper lyrics for more than one bottle', function () {
         const file = require("./app.js");
-        for(let  i = 99; i > 2; i--){
+        for(let i = 99; i > 2; i--){
             expect(_buffer).toContain(`${i} bottles of milk on the wall, ${i} bottles of milk. Take one down and pass it around, ${i-1} bottles of milk on the wall.`);
         }
     });
@@ -41,7 +41,7 @@ describe('All the javascript should match', function () {
 
     it('You should use a for loop to print the lyrics of the song', function () {
         const file = require("./app.js");
-        let  regex = /for\s*\(/gm
+        let regex = /for\s*\(/gm
         expect(regex.test(js.toString())).toBeTruthy();
     });
 });
