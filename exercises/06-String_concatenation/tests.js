@@ -1,6 +1,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const rewire = require('rewire');
 
 jest.dontMock('fs');
 //here we are going to store and accumulate (concatenate) all the console log's from the exercise
@@ -11,13 +12,34 @@ let _log = console.log;
 // but we are also going to save what supposed to be the ouput of the console inside _buffer
 global.console.log = console.log = jest.fn((text) => _buffer += text + "\n");
 
+test("The variable myVar1 should exist", function(){
+    const file = rewire("./app.js");
+    const myVar1 = file.__get__('myVar1');
+    expect(myVar1).toBeTruthy();
+  });
+test("The variable myVar2 should exist", function(){
+    const file = rewire("./app.js");
+    const myVar2 = file.__get__('myVar2');
+    expect(myVar2).toBeTruthy();
+  });
+test("The variable myVar1 should have the value 'Hello' ", function(){
+    const file = rewire("./app.js");
+    const myVar1 = file.__get__('myVar1');
+    expect(myVar1).toBe('Hello');
+  });
+test("The variable myVar2 should have the value 'World' ", function(){
+    const file = rewire("./app.js");
+    const myVar2 = file.__get__('myVar2');
+    expect(myVar2).toBe('World');
+  });
+
 describe('All the javascript should match', function () {
     beforeEach(() => {
         //here I import the HTML into the document
     });
     afterEach(() => { jest.resetModules(); });
 
-    it('console.log() function should display Hello World', function () {
+    it('console.log() function should display "Hello World" ', function () {
 
         //then I import the index.js (which should have the alert() call inside)
         const file = require("./app.js");
