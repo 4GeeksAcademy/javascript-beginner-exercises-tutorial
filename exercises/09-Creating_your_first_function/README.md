@@ -4,7 +4,7 @@ tutorial: "https://www.youtube.com/watch?v=41QZKUDS9Uw"
 
 # `09` Creating Your First Function
 
-To define a function, you have to understand its structure fisrt. For example:
+To define a function, you have to understand its structure first. For example:
 
 ```js
 function function_name (param1, param2, ...) {
