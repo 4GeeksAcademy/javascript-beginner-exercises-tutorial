@@ -17,12 +17,12 @@ test(" The variable 'variablesAreCool' should exist", function(){
     const variablesAreCool = file.__get__('variablesAreCool');
     expect(variablesAreCool).toBeTruthy();
   });
+
 test("The variable 'variablesAreCool' should store the value of '2345 * 7323'", function(){
     const file = rewire("./app.js");
     const variablesAreCool = file.__get__('variablesAreCool');
     expect(variablesAreCool).toBe(2345*7323);
   });
-  
 
 describe('All the javascript should match', function () {
     beforeEach(() => {
