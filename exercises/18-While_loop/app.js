@@ -2,7 +2,7 @@
 //fix this function:
 function startCounting()
 {
-	var counter = 100;
+	let counter = 100;
 	while(counter <= 100)
 	{
 		counter --;

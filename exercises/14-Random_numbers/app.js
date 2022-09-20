@@ -2,7 +2,7 @@
 
 function getRandomInt()
 {
-	var randomNumber = Math.random();
+	let randomNumber = Math.random();
 	return randomNumber;
 }
 

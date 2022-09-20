@@ -14,8 +14,8 @@ function getColor(selection)
 	}
 }
 
-var colorname = prompt('What color do you want?').trim();
-var isAvailable = getColor(colorname);
+let colorname = prompt('What color do you want?').trim();
+let isAvailable = getColor(colorname);
 
 if(isAvailable)
 	console.log('Good news! That color is available');
@@ -36,8 +36,8 @@ else
 	}
 }
 
-var colorname = prompt('What color do you want?').trim();
-var isAvailable = getColor(colorname);
+let colorname = prompt('What color do you want?').trim();
+let isAvailable = getColor(colorname);
 
 if(isAvailable)
 	console.log('Good news! That color is available');
