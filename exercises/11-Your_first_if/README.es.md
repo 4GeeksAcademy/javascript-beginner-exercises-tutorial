@@ -12,7 +12,7 @@ Una vez el usuario ingresa la cantidad, tenemos que imprimir una de las siguient
 
 2. Si quedan más de 50km, nosotros respondemos: `"We'll be there in 5 minutes"`.
 
-3. Si quedan menos o igual a 50km, nosotros respondemos: `"I'm parking, I'll see you right now"`.
+3. Si quedan menos o igual a 50km, nosotros respondemos: `"I'm parking. I'll see you right now"`.
 
 ## 💡 Pista:
 
