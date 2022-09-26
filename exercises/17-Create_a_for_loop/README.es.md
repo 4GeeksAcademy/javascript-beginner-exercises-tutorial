@@ -14,7 +14,7 @@ Aquí hay un ejemplo de la declaración `for`:
 
 ```js
 // Un bucle "for"
-for (var i = 0; i < 10; i++) {
+for (let i = 0; i < 10; i++) {
     console.log("Hello!")
 }
 ```
