@@ -16,7 +16,7 @@ const app = fs.readFileSync(path.resolve(__dirname, './app.js'), 'utf8');
 global.console.log = console.log = jest.fn(text => null);
 
 it('Declare age variable', function () {
-    const regex = /\s*let\s*age\s*=\s*prompt\s*\(.*\)\s*;\s*/gm
+    const regex = /let\s*age\s*=\s*prompt\s*\(.*\)/gm
 
     expect(regex.test(app.toString())).toBeTruthy();
 });
