@@ -25,7 +25,7 @@ describe('All the javascript should match', function () {
     });
 
     it('If fireGun() is false, message should be "Keep playing :)"', function () {
-            for (var i = 1; i <= 6; i++) {
+            for (let i = 1; i <= 6; i++) {
                 if (i === firePosition) {
                     expect(fireGun(i)).toContain("You're dead!");
                 }

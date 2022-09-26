@@ -1,5 +1,5 @@
 /*
-var age keeps being received as NaN and breaks the test; 
+let age keeps being received as NaN and breaks the test; 
 tried forcing it to int and then back to string, but none of that helps 
 */
 
@@ -17,14 +17,10 @@ global.console.log = console.log = jest.fn(text => null);
 
 it('Declare age variable', function () {
     const regex = /let\s*age\s*=\s*prompt\s*\(.*\)/gm
-
     expect(regex.test(app.toString())).toBeTruthy();
 });
 
-
 it('Testing with age = 40, and the console.log() should print 50', function () {
-
     const _ = require('./app');
-
     expect(console.log).toHaveBeenCalledWith(50);
 });

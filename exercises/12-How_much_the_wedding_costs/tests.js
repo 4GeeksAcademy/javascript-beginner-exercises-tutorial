@@ -1,5 +1,5 @@
 
-var rewire = require('rewire');
+let rewire = require('rewire');
 
 it('The function getPrice must exist', function () {
     
