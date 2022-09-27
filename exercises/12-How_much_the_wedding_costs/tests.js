@@ -1,6 +1,7 @@
 
 let rewire = require('rewire');
 let fs = require('fs');
+let path = require('path');
 
 it("Create an if statement", function () {
     const app_content = fs.readFileSync(path.resolve(__dirname, './app.js'), 'utf8');
