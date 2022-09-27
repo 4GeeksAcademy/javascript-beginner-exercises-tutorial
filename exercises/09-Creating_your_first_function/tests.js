@@ -11,6 +11,12 @@ let _log = console.log;
 // but we are also going to save what supposed to be the ouput of the console inside _buffer
 global.console.log = console.log = jest.fn((text) => _buffer += text + "\n");
 
+test("Function addNumbers should exist", function(){
+    const file = rewire("./app.js");
+    const addNumbers = file.__get__('addNumbers');
+    expect(addNumbers).toBeTruthy();
+  });
+
 describe('All the javascript should match', function () {
     beforeEach(() => {
         //here I import the HTML into the document
@@ -25,6 +31,8 @@ describe('All the javascript should match', function () {
 
         //Expect the console log to have been called with the sum of 3 + 4 at least once
         expect(console.log).toHaveBeenCalledWith(3+4);
+        expect(console.log).toHaveBeenCalledWith(2+5);
+        expect(console.log).toHaveBeenCalledWith(1+6);
         //and I expect the console.log to be already called just one time.
         expect(console.log.mock.calls.length).toBe(1);
 

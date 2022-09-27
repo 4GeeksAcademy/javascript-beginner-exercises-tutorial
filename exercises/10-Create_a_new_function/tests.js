@@ -31,4 +31,8 @@ describe('All the javascript should match', function () {
         const regex = /Math\s*\.\s*random/gm
         expect(regex.test(js.toString())).toBeTruthy();
     })
+    it("You must use Math.floor() to generate a rounded random number (not a decimal) between 0 and 9", () => {
+        const regex = /Math\s*\.\s*floor/gm
+        expect(regex.test(js.toString())).toBeTruthy();
+    })
 });

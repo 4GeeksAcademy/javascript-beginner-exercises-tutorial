@@ -1,5 +1,11 @@
 
 let rewire = require('rewire');
+let fs = require('fs');
+
+it("Create an if statement", function () {
+    const app_content = fs.readFileSync(path.resolve(__dirname, './app.js'), 'utf8');
+    expect(app_content).toMatch(/if\s*/);
+  });
 
 it('The function getPrice must exist', function () {
     

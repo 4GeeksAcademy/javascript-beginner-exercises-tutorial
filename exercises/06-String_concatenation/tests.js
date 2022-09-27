@@ -1,6 +1,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const rewire = require('rewire');
 
 jest.dontMock('fs');
 //here we are going to store and accumulate (concatenate) all the console log's from the exercise
@@ -10,6 +11,17 @@ let _log = console.log;
 // lets override the console.log function to mock it,
 // but we are also going to save what supposed to be the ouput of the console inside _buffer
 global.console.log = console.log = jest.fn((text) => _buffer += text + "\n");
+
+test("Variable 'myVar1' should exist with the value 'Hello' ", function(){
+    const file = rewire("./app.js");
+    const myVar1 = file.__get__('myVar1');
+    expect(myVar1).toBe("Hello");
+  });
+test("Variable 'myVar2' should exist with the value 'World' ", function(){
+    const file = rewire("./app.js");
+    const myVar2 = file.__get__('myVar2');
+    expect(myVar2).toBe("World");
+  });
 
 describe('All the javascript should match', function () {
     beforeEach(() => {
