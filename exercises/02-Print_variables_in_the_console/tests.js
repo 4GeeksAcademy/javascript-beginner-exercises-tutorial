@@ -11,6 +11,8 @@ let _log = console.log;
 // but we are also going to save what supposed to be the ouput of the console inside _buffer
 global.console.log = console.log = jest.fn((text) => _buffer += text + "\n");
 
+const rewire = require('rewire');
+
 describe('All the javascript should match', function () {
     beforeEach(() => {
         //here I import the HTML into the document

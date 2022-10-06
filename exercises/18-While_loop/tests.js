@@ -1,6 +1,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const rewire = require('rewire');
 
 jest.dontMock('fs');
 //here we are going to store and accumulate (concatenate) all the console log's from the exercise
@@ -10,6 +11,13 @@ let _log = console.log;
 // lets override the console.log function to mock it,
 // but we are also going to save what supposed to be the ouput of the console inside _buffer
 global.console.log = console.log = jest.fn((text) => _buffer += text + "\n");
+
+test("Function startCounting should exist", function(){
+    const file = rewire("./app.js");
+    const startCounting = file.__get__('startCounting');
+    expect(startCounting).toBeTruthy();
+  });
+  
 
 describe('All the javascript should match', function () {
     const file = require("./app.js");
