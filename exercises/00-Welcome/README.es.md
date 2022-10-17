@@ -13,4 +13,4 @@ Este es la primera serie de tutoriales interactivos orientados a entregarte todo
 - Loops, 
 - ¡y mucho más! 
 
-Apreta el botón de `Next →`  en la esquina superior derecha de la pantalla cuando estes listo para empezar los ejercicios.
+Apreta el botón de `Next →`  en la esquina superior derecha de la pantalla cuando estés listo para empezar los ejercicios.
