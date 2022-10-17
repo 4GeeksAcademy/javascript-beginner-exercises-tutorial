@@ -23,8 +23,10 @@ describe('All the javascript should match', function () {
 
     it("Function generateRandom() should return a random number between 0 and 9", function(){
         const generateRandom = file.__get__('generateRandom');
-        expect(generateRandom()).toBeGreaterThanOrEqual(0);
-        expect(generateRandom()).toBeLessThanOrEqual(9);
+        for(let i = 0; i < 100; i++){
+            expect(generateRandom()).toBeGreaterThanOrEqual(0);
+            expect(generateRandom()).toBeLessThanOrEqual(9);
+        }
     });
 
     it("You must use Math.random() to generate the random number between 0 and 9", () => {

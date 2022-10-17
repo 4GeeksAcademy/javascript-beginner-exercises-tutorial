@@ -15,20 +15,6 @@ it('The function getPrice must exist', function () {
     expect(getPrice).toBeTruthy();
 });
 
-it('When tested for 200 it should return 15000', function () {
-    
-    const app = rewire('./app.js');
-    const getPrice = app.__get__('getPrice')
-    expect(getPrice(200)).toBe(15000);
-});
-
-it('When tested for 201 it should return 20000', function () {
-    
-    const app = rewire('./app.js');
-    const getPrice = app.__get__('getPrice')
-    expect(getPrice(200)).toBe(15000);
-});
-
 it('When tested for 50 it should return 4000', function () {
     
     const app = rewire('./app.js');
