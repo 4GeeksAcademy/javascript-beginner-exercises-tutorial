@@ -1,1 +1,4 @@
-// Declare your function here
+generateRandom = () => {
+    return Math.floor(Math.random() * 10)
+}
+console.log(generateRandom())

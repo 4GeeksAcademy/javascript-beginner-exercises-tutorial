@@ -28,7 +28,6 @@ describe('All the javascript should match', function () {
             expect(generateRandom()).toBeLessThanOrEqual(9);
         }
     });
-
     it("You must use Math.random() to generate the random number between 0 and 9", () => {
         const regex = /Math\s*\.\s*random/gm
         expect(regex.test(js.toString())).toBeTruthy();

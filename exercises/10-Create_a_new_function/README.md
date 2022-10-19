@@ -26,10 +26,12 @@ You can use the `Math.random()` function to get a pseudo-random decimal (also ca
 
 1. Create a function called `generateRandom()`, which generates a pseudo-random number between 0 and 9 every time it is called.
 
+2. Use the Math.random() function to generate a random number
+
+3. Use the Math.floor function to round down the randomly generated number.(We want a rounded number NOT A DECIMAL)
+
 ## 💡 Hint:
 
-+ One possible solution may be using two predefined functions: the `Math.random()`and the `Math.floor()` functions. 
-
-+ You can learn more about these two functions [here](https://www.w3schools.com/jsref/jsref_random.asp).
++ You can learn how to use these two functions [here](https://www.w3schools.com/jsref/jsref_random.asp).
 
     
