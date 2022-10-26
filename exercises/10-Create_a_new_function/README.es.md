@@ -20,10 +20,12 @@ Puedes utilizar la función `Math.random()` para obtener un número decimal (en 
 
 ## 📝  Instrucciones:
 
-1. Por favor crea una función llamada `generateRandom()`, que genere un número aleatorio entre 0 y 9 cada vez que la llames.
+1. Por favor crea una función llamada `generateRandom()`, que genere un número aleatorio entre 1 y 10 cada vez que la llames.
+
+2. Usa la función `Math.random()` para generar números random.
+
+3. Usa la función `Math.floor()` para redondear un número hacia abajo (Queremos un número entero, no decimal).
 
 ## 💡 Pista:
-
-+ Una posible solución podría ser utilizar dos funciones predefinidas: las funciones `Math.random()` y `Math.floor()`. 
 
 + Puedes aprender más sobre estas funciones [aquí](https://www.w3schools.com/jsref/jsref_random.asp)
