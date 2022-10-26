@@ -24,7 +24,7 @@ You can use the `Math.random()` function to get a pseudo-random decimal (also ca
 
 ## 📝  Instructions:
 
-1. Create a function called `generateRandom()`, which generates a pseudo-random number between 0 and 9 every time it is called.
+1. Create a function called `generateRandom()`, which generates a pseudo-random number between 1 and 10 every time it is called.
 
 2. Use the Math.random() function to generate a random number
 
@@ -33,5 +33,3 @@ You can use the `Math.random()` function to get a pseudo-random decimal (also ca
 ## 💡 Hint:
 
 + You can learn how to use these two functions [here](https://www.w3schools.com/jsref/jsref_random.asp).
-
-    

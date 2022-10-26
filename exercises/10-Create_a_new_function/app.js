@@ -1,4 +1,1 @@
-generateRandom = () => {
-    return Math.floor(Math.random() * 10)
-}
-console.log(generateRandom())
+// Add your code here
