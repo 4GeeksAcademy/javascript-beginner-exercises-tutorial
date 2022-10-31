@@ -50,7 +50,7 @@ Si compilas este código verás un conteo del `0` al `99` (caracteres blancos) e
 
 ## 📝 Instrucciones:
 
-1. Arregla el código para que cuente hasta el `100`. Luego lo verás seguido por el `101` en verde en la consola.
+1. Arregla el código para que cuente desde el `0` hasta el `100`.
 
 ## 🔎 Importante:
 
