@@ -1,23 +1,22 @@
-function getColor(colorNumber=0)
-{
+function getColor(colorNumber = 0) {
 	//make sure parameter is a number and not a string by converting the value to int:
 	colorNumber = parseInt(colorNumber);
-	switch(colorNumber){
-		case 1: return "red"; 
-				break;
-		case 2: return "yellow"; 
-				break;
-		case 3: return "blue"; 
-				break;
-		case 4: return "green"; 
-				break;
-		default: return "black"; 
-				 break;
+	switch (colorNumber) {
+		case 1: return "red";
+
+		case 2: return "yellow";
+
+		case 3: return "blue";
+
+		case 4: return "green";
+
+		default: return "black";
+
 	}
 }
 
-function getAllStudentColors(){
-	
+function getAllStudentColors() {
+
 	//your loop here
 	let exampleColor = getColor(1);
 }

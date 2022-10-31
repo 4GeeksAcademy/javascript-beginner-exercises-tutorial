@@ -17,12 +17,18 @@ it('Use a for loop', function () {
     expect(app_content).toMatch(/for(\s*)\(/);
 });
 
-test("Function sing should exist", function(){
+test("Function sing should exist", function () {
     const file = rewire("./app.js");
     const sing = file.__get__('sing');
     expect(sing).toBeTruthy();
-  });
-  
+});
+
+test("Function sing should exist", function () {
+    const file = rewire("./app.js");
+    const sing = file.__get__('sing');
+    expect(sing()).toBe('let it be, let it be, let it be, let it be, whisper words of wisdom, let it be, let it be, let it be, let it be, let it be, there will be an answer, let it be');
+});
+
 
 describe('All the javascript should match', function () {
     beforeEach(() => {

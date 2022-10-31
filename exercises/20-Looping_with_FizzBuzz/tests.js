@@ -18,7 +18,7 @@ global.console.log = console.log = jest.fn((text) => {
     if (text.toString().toLowerCase() === "fizzbuzz") { countFizzBuzz++ }
     else if (text.toString().toLowerCase() === "fizz") { countFizz++ }
     else if (text.toString().toLowerCase() === "buzz") { countBuzz++ }
-     
+
     _buffer += text + "\n";
 
 });

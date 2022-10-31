@@ -12,13 +12,29 @@ let _log = console.log;
 // but we are also going to save what supposed to be the ouput of the console inside _buffer
 global.console.log = console.log = jest.fn((text) => _buffer += text + "\n");
 
-test("Function getRandomInt should exist", function(){
+test('function getRandomInt should exist', function () {
+
+    //then I import the index.js (which should have the alert() call inside)
     const file = rewire("./app.js");
     const getRandomInt = file.__get__('getRandomInt');
+    
+    //Expect the console log to have been called with a random 0-9 number at least once
     expect(getRandomInt).toBeTruthy();
-  });
-  
-  test('getRandomInt should return an integer (no decimals)', function () {
+
+});
+
+test('getRandomInt should return something', function () {
+
+    //then I import the index.js (which should have the alert() call inside)
+    const file = rewire("./app.js");
+    const getRandomInt = file.__get__('getRandomInt');
+    
+    //Expect the console log to have been called with a random 0-9 number at least once
+    expect(getRandomInt()).toBeTruthy();
+
+});
+
+test('getRandomInt should return an integer (no decimals)', function () {
 
     //then I import the index.js (which should have the alert() call inside)
     const file = rewire("./app.js");
@@ -27,17 +43,16 @@ test("Function getRandomInt should exist", function(){
     expect(Math.floor(_int)).toBe(_int);
 });
 
-describe('All the javascript should match', function () {
-    beforeEach(() => {
-    });
-    afterEach(() => { jest.resetModules(); });
+test('getRandomInt should return random between 1 and 6', function () {
 
-    it('console.log() call should result between 1 and 6', function () {
-
-        const file = require("./app.js");
-
-        expect(parseInt(console.log())).toBeGreaterThanOrEqual(1);
-
-        expect(parseInt(console.log())).toBeLessThanOrEqual(6);
-    });
+    //then I import the index.js (which should have the alert() call inside)
+    const file = rewire("./app.js");
+    const getRandomInt = file.__get__('getRandomInt');
+    
+    //Expect the console log to have been called with a random 0-9 number at least once
+    for(let i = 0; i < 50; i++) {
+        const _int = getRandomInt();
+        expect(_int).toBeGreaterThanOrEqual(1);
+        expect(_int).toBeLessThanOrEqual(6);
+    }
 });

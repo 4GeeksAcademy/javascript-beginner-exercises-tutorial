@@ -48,7 +48,7 @@ Running the accompanying code will print the integers `0` through `99` to the co
 
 ## 📝 Instructions:
 
-1. Change the code to print the integers `0` to `100`. You will then see it followed by `101` in green text on the console.
+1. Change the code to print the integers `0` to `100`.
 
 ## 🔎 Important:
 
