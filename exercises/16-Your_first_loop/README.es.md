@@ -50,8 +50,8 @@ Si compilas este código verás un conteo del `0` al `99` (caracteres blancos) e
 
 ## 📝 Instrucciones:
 
-1. Arregla el código para que cuente hasta el `100`. Luego lo verás seguido por el `101` en verde en la consola.
+1. Arregla el código para que cuente desde el `0` hasta el `100`.
 
 ## 🔎 Importante:
 
-+ Hay una serie de ejercicios dedicados a Arrays (arreglos). Te recomendamos hacer esos [ejercicios](https://gitpod.io/#https://github.com/4GeeksAcademy/javascript-arrays-exercises-tutorial) antes de continuar con este este primer ejercicio de Array. Luego, regresa aquí para continuar con éstos.
++ Hay una serie de ejercicios dedicados a Arrays (arreglos). Te recomendamos hacer esos [ejercicios](https://gitpod.io/#https://github.com/4GeeksAcademy/javascript-arrays-exercises-tutorial) antes de continuar con este primer ejercicio de Array. Luego, regresa aquí para continuar con éstos.

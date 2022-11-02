@@ -51,9 +51,9 @@ test('getRandomInt should return random between 1,10', function () {
     const getRandomInt = file.__get__('getRandomInt');
     
     //Expect the console log to have been called with a random 0-9 number at least once
-    [0,1,2,3,4,5,6,7,8,9].forEach(() => {
+    for(let i = 0; i < 50; i++) {
         const _int = getRandomInt();
         expect(_int).toBeGreaterThanOrEqual(1);
         expect(_int).toBeLessThanOrEqual(10);
-    })
+    }
 });

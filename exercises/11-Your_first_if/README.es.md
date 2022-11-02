@@ -1,12 +1,12 @@
 # `11` Your First "If" Statement
 
-Tu travesía ha alcanzado un momento crucial: **los condicionales**.  Los **condicionales** le permiten al usuario navegar a través de un programa en base a sus entradas(inputs). Este es el principio de la lógica computacional.
+Tu travesía ha alcanzado un momento crucial: **los condicionales**.  Los **condicionales** le permiten al usuario navegar a través de un programa en base a sus entradas (inputs). Este es el principio de la lógica computacional.
 
 La aplicación actual tiene una ventana que pregunta `How many km are left to go?`. 
 
 ## 📝 Instrucciones:
 
-Una vez el usuario ingresa la cantidad, tenemos que imprimir una de las siguientes respuestas:
+Una vez que el usuario ingresa la cantidad, tenemos que imprimir una de las siguientes respuestas:
 
 1. Si quedan más de 100km, nosotros respondemos: `"We still have a bit of driving left to go"`.
 

@@ -16,6 +16,11 @@ describe('All the javascript should match', function () {
         const file = require("./app.js");
         expect([100,99].includes(console.log.mock.calls.length)).toBeTruthy();
     });
+
+    it('Use a for loop', function () {
+        const app_content = fs.readFileSync(path.resolve(__dirname, './app.js'), 'utf8');
+        expect(app_content).toMatch(/for(\s*)\(/);
+    });
     
     it('console.log() function should be called with proper lyrics for more than one bottle', function () {
         const file = require("./app.js");

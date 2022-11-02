@@ -16,12 +16,14 @@ describe('All the javascript should match', function () {
     const fireGun = app.__get__("fireGun");
     const firePosition = app.__get__("firePosition");
 
-    it('The function fireGun should exist', function () {
-        expect(fireGun).toBeTruthy();
-    });
-
-    it('The function fireGun should return something', function () {
-        expect(fireGun()).not.toBe(undefined)
+    test('The function "fireGun" should exist', () => {
+        const file = rewire("./app.js");
+        const sum = file.__get__("fireGun");
+        expect(sum).not.toBe(undefined);
+    })
+    it('Use "if" conditional;', function () {
+        const app_content = fs.readFileSync(path.resolve(__dirname, './app.js'), 'utf8');
+        expect(app_content).toMatch(/if(\s*)\(/);
     });
 
     it('If fireGun() is false, message should be "Keep playing :)"', function () {
