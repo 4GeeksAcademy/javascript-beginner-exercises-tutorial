@@ -1,3 +1,7 @@
+---
+tutorial: "https://www.youtube.com/watch?v=ISVA9y09Kx4&list=PLCVs_S8Skwp9_apbj_ls2euakDALiWqSN&index=12"
+---
+
 # `11` Your First "If" Statement
 
 Your journey has now reached a crucial point: **conditional statements**.  **Conditionals** allow a user to navigate through a program based upon their inputs. This is the beginning of computer logic.
