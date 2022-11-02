@@ -10,19 +10,17 @@ global.prompt = jest.fn(() => stdin.shift());
 
 const rewire = require('rewire');
 const fs = require('fs');
-const app = rewire('./app.js');
+const path = require('path');
+
+const app = fs.readFileSync(path.resolve(__dirname, './app.js'), 'utf8');
 global.console.log = console.log = jest.fn(text => null);
 
 it('Declare age variable', function () {
-
-    let age = app.__get__("age");
-    expect(age).toEqual(expect.anything());
+    const regex = /let\s+age\s*=\s*prompt\s*\(.*\)/gm
+    expect(regex.test(app.toString())).toBeTruthy();
 });
 
-
 it('Testing with age = 40, and the console.log() should print 50', function () {
-
     const _ = require('./app');
-
     expect(console.log).toHaveBeenCalledWith(50);
 });

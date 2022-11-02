@@ -1,4 +1,6 @@
 let age = prompt('What is your age?');
 
 // Your code below:
-console.log(parseInt(age) + 10)
+
+let result = parseInt(age) + 10
+console.log(result);
