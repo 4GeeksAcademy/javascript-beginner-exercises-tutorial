@@ -10,7 +10,7 @@ Abajo está el coro de una de las canciones más famosas de Los Beatles, *Let it
 
 ## 📝 Instrucciones:
 
-1. Crea una función llamada `sing()` que regrese un string con la letra exacta que puedes oir desde el minuto 3:10 hasta el final de la canción a los 3:54 minutos. 
+1. Crea una función llamada `sing()` que regrese un string con la letra exacta que puedes oír desde el minuto 3:10 hasta el final de la canción a los 3:54 minutos. 
 
 ## Ejemplo de salida:
 
@@ -22,4 +22,4 @@ Abajo está el coro de una de las canciones más famosas de Los Beatles, *Let it
 
 + Las palabras `let it be` se repiten todo el tiempo, probablemente debas crear un bucle (loop) para eso.
 
-+ Here is the song: (https://www.youtube.com/watch?v=QDYfEBY9NM4)
++ Aquí está la canción: (https://www.youtube.com/watch?v=QDYfEBY9NM4)

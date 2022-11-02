@@ -1,7 +1,7 @@
 
 const fs = require('fs');
 const path = require('path');
-var rewire = require('rewire');
+let rewire = require('rewire');
 
 jest.dontMock('fs');
 //here we are going to store and accumulate (concatenate) all the console log's from the exercise
@@ -18,10 +18,16 @@ global.console.log = console.log = jest.fn((text) => {
     if (text.toString().toLowerCase() === "fizzbuzz") { countFizzBuzz++ }
     else if (text.toString().toLowerCase() === "fizz") { countFizz++ }
     else if (text.toString().toLowerCase() === "buzz") { countBuzz++ }
-     
+
     _buffer += text + "\n";
 
 });
+
+it('Use a for loop', function () {
+    const app_content = fs.readFileSync(path.resolve(__dirname, './app.js'), 'utf8');
+    expect(app_content).toMatch(/for(\s*)\(/);
+});
+
 
 describe('All the javascript should match', function () {
     const file = require("./app.js");

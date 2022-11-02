@@ -14,7 +14,7 @@ Here is an example `for` statement:
 
 ```js
 // a "for" loop
-for (var i = 0; i < 10; i++) {
+for (let i = 0; i < 10; i++) {
     console.log("Hello!")
 }
 ```
@@ -33,7 +33,7 @@ And here is an example:
 
 ```js
 // a "while" loop
-var i = 0;
+let i = 0;
 while (i < 10) {
     console.log("Goodbye!");
     i++;
@@ -48,7 +48,7 @@ Running the accompanying code will print the integers `0` through `99` to the co
 
 ## 📝 Instructions:
 
-1. Change the code to print the integers `0` to `100`. You will then see it followed by `101` in green text on the console.
+1. Change the code to print the integers `0` to `100`.
 
 ## 🔎 Important:
 

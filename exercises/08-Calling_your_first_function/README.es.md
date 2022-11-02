@@ -12,12 +12,12 @@ Las fortalezas de las funciones incluyen:
 
 ## 📝  Instrucciones:
 
-1. Por favor llama a la función `isOdd` pasandole el número 45345 como parámetro.
+1. Por favor llama a la función `isOdd` pasándole el número 45345 como parámetro.
 
 2. Imprime el resultado de la función llamada en la consola.
 
 ## 🔎 Importante: 
 
-+ Hay una serie de ejercicios dedicados a Funciones, te recomendamos que vayas y los hagas esos después de que realices este ejercicio de [funciones](https://github.com/4GeeksAcademy/javascript-functions-exercises-tutorial)
++ Hay una serie de ejercicios dedicados a Funciones, te recomendamos que vayas y los hagas, después de que realices este ejercicio de [funciones](https://github.com/4GeeksAcademy/javascript-functions-exercises-tutorial)
 
 (Y luego, regresa y continua con estos).

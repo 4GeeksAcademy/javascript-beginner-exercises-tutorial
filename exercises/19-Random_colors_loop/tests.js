@@ -25,7 +25,7 @@ describe('All the javascript should match', function () {
     it('console.log() function should be called 10 times', function () {
         const file = require("./app.js");
         expect(console.log.mock.calls.length).toBe(10);
-       
+
     });
 
     it('console.log() function should be called with a string', function () {

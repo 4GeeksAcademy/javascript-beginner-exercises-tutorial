@@ -4,3 +4,4 @@ function isOdd(myNumber)
 }
 
 // Your code below:
+isOdd()

@@ -1,7 +1,7 @@
 
 const fs = require('fs');
 const path = require('path');
-var rewire = require('rewire');
+let rewire = require('rewire');
 
 const js = fs.readFileSync(path.resolve(__dirname, './app.js'), 'utf8');
 
@@ -23,12 +23,17 @@ describe('All the javascript should match', function () {
 
     it("Function generateRandom() should return a random number between 0 and 9", function(){
         const generateRandom = file.__get__('generateRandom');
-        expect(generateRandom()).toBeGreaterThanOrEqual(0);
-        expect(generateRandom()).toBeLessThanOrEqual(9);
+        for(let i = 0; i < 100; i++){
+            expect(generateRandom()).toBeGreaterThanOrEqual(1);
+            expect(generateRandom()).toBeLessThanOrEqual(10);
+        }
     });
-
     it("You must use Math.random() to generate the random number between 0 and 9", () => {
         const regex = /Math\s*\.\s*random/gm
+        expect(regex.test(js.toString())).toBeTruthy();
+    })
+    it("You must use Math.floor() to generate a rounded random number (not a decimal) between 0 and 9", () => {
+        const regex = /Math\s*\.\s*floor/gm
         expect(regex.test(js.toString())).toBeTruthy();
     })
 });

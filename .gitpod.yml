@@ -7,8 +7,8 @@ ports:
 
 vscode:
   extensions:
-    - learnpack.learnpack-vscode
-    
+    - learn-pack.learnpack-vscode
+
 github:
     prebuilds:
         # enable for the master/default branch (defaults to true)

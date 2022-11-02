@@ -15,7 +15,7 @@ Digamos que tenemos el siguiente bucle `while`:
 
 ```js
 // un bucle "while" 
-var i = 0;
+let i = 0;
 while (i < 10) {
     console.log("Goodbye!");
 }
@@ -37,5 +37,5 @@ No hay un *expresión de incremento* en nuestro bucle. Esto es un problema porqu
 
 ## 🔎 Importante: 
 
-+ Hay ejercicios dedicados a Arrays, te recomendamos  realizar esos [ejercicios](https://gitpod.io/#https://github.com/4GeeksAcademy/javascript-arrays-exercises-tutorial) después de que termines este ejercicio.  *Cuando te sientas cómodo con este contenido, regresa y continua con estos ejercicio.*
++ Hay ejercicios dedicados a Arrays, te recomendamos  realizar esos [ejercicios](https://gitpod.io/#https://github.com/4GeeksAcademy/javascript-arrays-exercises-tutorial) después de que termines este ejercicio.  *Cuando te sientas cómodo con este contenido, regresa y continua con estos ejercicios.*
 
