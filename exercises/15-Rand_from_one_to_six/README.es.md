@@ -4,7 +4,7 @@
 
 1. ¡Bien! Ahora cambia lo que sea que necesites cambiar para hacer que el algoritmo imprima números enteros aleatorios entre 1 y 6.
 
-## 💡 Hints:
+## 💡 Pistas:
 
 + Debería imprimir entre 1 y 6, no entre 0 y 6.
 

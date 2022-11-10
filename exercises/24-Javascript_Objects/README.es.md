@@ -94,7 +94,7 @@ Cosas sencillas :)
 
 1. De forma automatizada, cambia el cuarto número de la suerte de John Doe(`lucky number`) a `33` (usa un comando, no cambies manualmente el código).
 
-2. De forma automatizada, crea una nueva persona y añádela al objeto familia. `Jimmy Doe`, `13`, `male`(masuclino), `lucky numbers` (números de la suerte): `1`, `2`, `3`, `4`; `significant other: null`. (usa un comando, no cambies manualmente el código).
+2. De forma automatizada, crea una nueva persona y añádela al objeto familia. `Jimmy Doe`, `13`, `male`(masculino), `lucky numbers` (números de la suerte): `1`, `2`, `3`, `4`; `significant other: null`. (usa un comando, no cambies manualmente el código).
 
 3. Ahora por favor imprime (`console.log()`) la SUMA de todos los números de la suerte (`lucky numbers`) de la familia Doe.
 

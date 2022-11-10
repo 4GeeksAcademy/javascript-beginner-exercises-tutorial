@@ -29,4 +29,4 @@ Queremos asegurarnos de que has comprendido que hacer preguntas es importante pa
 
 ## 💡 Pistas:
 
-+ Lee más acerca bucles aquí: https://www.w3schools.com/js/js_loop_for.asp
++ Lee más acerca de bucles aquí: https://www.w3schools.com/js/js_loop_for.asp
