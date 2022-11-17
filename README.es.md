@@ -1,5 +1,6 @@
 # Tutorial de ejercicios de Javascript para Principiantes en 4Geeks Academy 
 
+<!-- hide -->
 <a href="https://www.4geeksacademy.co"><img height="280" align="right" src="https://github.com/4GeeksAcademy/javascript-beginner-exercises-tutorial/blob/master/js-bg-badge.png"></a>
 
 > Por [@alesanchezr](https://twitter.com/alesanchezr) y [otros colaboradores](https://github.com/4GeeksAcademy/javascript-arrays-exercises-tutorial/graphs/contributors) de [4Geeks Academy](https://4geeksacademy.co/)
@@ -7,9 +8,9 @@
 ![last commit](https://img.shields.io/github/last-commit/4geeksacademy/javascript-beginner-exercises-tutorial)
 [![build by developers](https://img.shields.io/badge/build_by-Developers-blue)](https://breatheco.de)
 [![build by developers](https://img.shields.io/twitter/follow/4geeksacademy?style=social&logo=twitter)](https://twitter.com/4geeksacademy)
-
+<!-- endhide -->
 ¡Selección completa de ejercicios de Javascript interactivos autograduados para cualquier persona interesada en aprender Javascript!
-
+<!-- hide -->
 ## Antes de empezar...algunos tutoriales relacionados
 <ol>
   <li><a href="https://github.com/4GeeksAcademy/javascript-beginner-exercises-tutorial">Javascript para Principiantes</a> ← Estás aquí</li>
@@ -27,7 +28,7 @@
 ## Instalación en un clic
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/javascript-beginner-exercises-tutorial.git)
-
+<!-- endhide -->
 ## Instalación local:
 
 1. Instala learnpack, el package manager para los tutoriales interactivos y el html compiler plugin para learnpack, asegúrate también de tener node.js 14+:
