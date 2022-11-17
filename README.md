@@ -1,5 +1,5 @@
 # Javascript exercises tutorial at 4Geeks Academy
-<-- hide -->
+<!-- hide -->
 <a href="https://www.4geeksacademy.co"><img height="280" align="right" src="https://github.com/4GeeksAcademy/javascript-beginner-exercises-tutorial/blob/master/js-bg-badge.png"></a>
 
 > By [@alesanchezr](https://twitter.com/alesanchezr) and [other contributors](https://github.com/4GeeksAcademy/javascript-arrays-exercises-tutorial/graphs/contributors) at [4Geeks Academy](https://4geeksacademy.co/)
@@ -8,11 +8,11 @@
 [![build by developers](https://img.shields.io/badge/build_by-Developers-blue)](https://breatheco.de)
 [![build by developers](https://img.shields.io/twitter/follow/4geeksacademy?style=social&logo=twitter)](https://twitter.com/4geeksacademy)
 
-<-- endhide -->
+<!-- endhide -->
 
 Complete selection of auto-graded and interactive Javascript exercises for anyone interested in learning Javascript!
 
-<-- hide -->
+<!-- hide -->
 ## Before you start...some related tutorials:
 <ol>
   <li><a href="https://github.com/4GeeksAcademy/javascript-beginner-exercises-tutorial">Javascript for Beginners</a> ← You are here</li>
@@ -30,7 +30,7 @@ We need you! These exercises are built and maintained in collaboration with cont
 <h2>One click installation:</h2>
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/javascript-beginner-exercises-tutorial.git)
-<-- endhide -->
+<!-- endhide -->
 
 ## Local Installation
 
