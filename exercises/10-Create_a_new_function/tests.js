@@ -21,18 +21,18 @@ describe('All the javascript should match', function () {
         expect(generateRandom).toBeTruthy();
     });
 
-    it("Function generateRandom() should return a random number between 0 and 9", function(){
+    it("Function generateRandom() should return a random number between 1 and 10", function(){
         const generateRandom = file.__get__('generateRandom');
         for(let i = 0; i < 100; i++){
             expect(generateRandom()).toBeGreaterThanOrEqual(1);
             expect(generateRandom()).toBeLessThanOrEqual(10);
         }
     });
-    it("You must use Math.random() to generate the random number between 0 and 9", () => {
+    it("You must use Math.random() to generate the random number between 1 and 10", () => {
         const regex = /Math\s*\.\s*random/gm
         expect(regex.test(js.toString())).toBeTruthy();
     })
-    it("You must use Math.floor() to generate a rounded random number (not a decimal) between 0 and 9", () => {
+    it("You must use Math.floor() to generate a rounded random number (not a decimal) between 1 and 10", () => {
         const regex = /Math\s*\.\s*floor/gm
         expect(regex.test(js.toString())).toBeTruthy();
     })
