@@ -21,7 +21,7 @@ Complete selection of auto-graded and interactive Javascript exercises for anyon
   <li><a href="(https://github.com/4GeeksAcademy/master-javascript-programming-exercises">Master Javascripts</a></li>
 </ol>
 
-We need you! These exercises are built and maintained in collaboration with contributors such as yourself. If you find any bugs or misspellings please contribute and/or report them.
+We need you! These exercises are built and maintained in collaboration with contributors such as yourself. If you find any bugs or misspellings, please contribute and/or report them.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/4GeeksAcademy/react-exercises/master/preview.gif">
