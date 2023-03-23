@@ -23,7 +23,7 @@ test("Function sing should exist", function () {
     expect(sing).toBeTruthy();
 });
 
-test("Function sing should exist", function () {
+test("Function sing should return the exact lyrics of the song", function () {
     const file = rewire("./app.js");
     const sing = file.__get__('sing');
     expect(sing()).toBe('let it be, let it be, let it be, let it be, whisper words of wisdom, let it be, let it be, let it be, let it be, let it be, there will be an answer, let it be');
