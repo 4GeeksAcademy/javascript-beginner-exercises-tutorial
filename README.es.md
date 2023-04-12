@@ -9,7 +9,9 @@
 [![build by developers](https://img.shields.io/badge/build_by-Developers-blue)](https://breatheco.de)
 [![build by developers](https://img.shields.io/twitter/follow/4geeksacademy?style=social&logo=twitter)](https://twitter.com/4geeksacademy)
 <!-- endhide -->
+
 ¡Selección completa de ejercicios de Javascript interactivos autograduados para cualquier persona interesada en aprender Javascript!
+
 <!-- hide -->
 ## Antes de empezar...algunos tutoriales relacionados
 <ol>
@@ -19,16 +21,18 @@
   <li><a href="(https://github.com/4GeeksAcademy/master-javascript-programming-exercises">Master Javascripts</a></li>
 </ol>
 
-¡Te necesitamos! Estos ejercicios se crean y mantienen  con colaboradores como tú. Si encuentra salgún error o falta de ortografía, contribuye y/o infórmanos.
+> ¡Te necesitamos! Estos ejercicios se crean y mantienen  con colaboradores como tú. Si encuentra salgún error o falta de ortografía, contribuye y/o infórmanos.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/4GeeksAcademy/react-exercises/master/preview.gif">
 </p>
 
-## Instalación en un clic
+## Instalación en un clic (recomendado)
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/javascript-beginner-exercises-tutorial.git)
-<!-- endhide -->
+Puedes empezar estos ejercicios en pocos segundos haciendo clic en: [Abrir en Codespaces](https://codespaces.new/?repo=4GeeksAcademy/css-layouts-tutorial-exercises) (recomendado) o [Abrir en Gitpod](https://gitpod.io#https://github.com/4GeeksAcademy/css-layouts-tutorial-exercises.git).
+
+> Una vez ya tengas abierto VSCode, los ejercicios de LearnPack deberían empezar automáticamente; si esto no sucede puedes intentar empezar los ejercicios escribiendo este comando en tu terminal: `$ learnpack start`
+
 ## Instalación local:
 
 1. Instala learnpack, el package manager para los tutoriales interactivos y el html compiler plugin para learnpack, asegúrate también de tener node.js 14+:
@@ -45,16 +49,17 @@ $ npm i jest@24.8.0 -g
 $ learnpack start
 ```
 
-Nota: Los ejercicios son autograduados pero son bastante rígidos y estrictos, mi recomendación es que ignores los tests y los uses solo como una recomendación sino pueden frustrarte.
+<!-- endhide -->
 
 ## ¿Cómo están organizados los ejercicios?
 
 Cada ejercicio es una pequeña aplicación de react que contiene los siguientes archivos:
-|    |    |
-|:---|:---|
-| **app.js** | Representa el archivo javascript de entrada que ejecutará la computadora ||
-| **README.md** | Contiene las instrucciones de ejercicio |
-| **test.js** | Contiene el script del test para el ejercicio (no es necesario que abras este archivo) |
+
+1. **app.js:** representa el archivo javascript de entrada que ejecutará la computadora.
+2. **README.md:** contiene las instrucciones de ejercicio.
+3. **test.js:** contiene el script del test para el ejercicio (no es necesario que abras este archivo).
+
+> Nota: Los ejercicios son autograduados pero son bastante rígidos y estrictos, mi recomendación es que ignores los tests y los uses solo como una recomendación sino pueden frustrarte.
 
 ## Colaboradores
  
