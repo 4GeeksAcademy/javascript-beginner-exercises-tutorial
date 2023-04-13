@@ -12,7 +12,7 @@ Las fortalezas de las funciones incluyen:
 
 ## 📝  Instrucciones:
 
-1. Por favor llama a la función `isOdd` pasándole el número 45345 como parámetro.
+1. Por favor llama a la función `isOdd` pasándole el número 45345 como argumento.
 
 2. Imprime el resultado de la función llamada en la consola.
 
