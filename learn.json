@@ -3,9 +3,15 @@
     "grading": "isolated",
     "language": "node",
     "repository": "https://github.com/4GeeksAcademy/javascript-beginner-exercises-tutorial",
-    "title": "Javascript Beginner Tutorial (interactive)",
+    "title": {
+        "us": "Javascript Beginner Tutorial (interactive)",
+        "es": "Tutorial para Principiantes de Javascript (Interactivo)"
+    },
     "preview": "https://github.com/4GeeksAcademy/javascript-beginner-exercises-tutorial/blob/master/preview.png?raw=true",
-    "description": "Practice your Javascript programming skills with this interactive and auto-graded set of exercises.",
+    "description": {
+        "us": "Practice your Javascript programming skills with this interactive and auto-graded set of exercises.",
+        "es": "Practica tus habilidades programando en Javascript con este conjunto de ejercicios interactivos y auto-evaluados"
+    },
     "duration": 10,
     "difficulty": "easy",
     "video-solutions": true,
