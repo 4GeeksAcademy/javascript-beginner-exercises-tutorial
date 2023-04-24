@@ -21,7 +21,7 @@
   <li><a href="(https://github.com/4GeeksAcademy/master-javascript-programming-exercises">Master Javascripts</a></li>
 </ol>
 
-> ¡Te necesitamos! Estos ejercicios se crean y mantienen  con colaboradores como tú. Si encuentra salgún error o falta de ortografía, contribuye y/o infórmanos.
+> ¡Te necesitamos! Estos ejercicios se crean y mantienen  con colaboradores como tú. Si encuentras algún error o falta de ortografía, contribuye y/o infórmanos.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/4GeeksAcademy/react-exercises/master/preview.gif">
