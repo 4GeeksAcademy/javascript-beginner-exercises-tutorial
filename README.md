@@ -9,9 +9,8 @@
 [![build by developers](https://img.shields.io/badge/build_by-Developers-blue)](https://breatheco.de)
 [![build by developers](https://img.shields.io/twitter/follow/4geeksacademy?style=social&logo=twitter)](https://twitter.com/4geeksacademy)
 
-<!-- endhide -->
-
 *Estas instrucciones [están disponibles en 🇪🇸 español](https://github.com/4GeeksAcademy/javascript-beginner-exercises-tutorial/blob/master/README.es.md) :es:*
+<!-- endhide -->
 
 Complete selection of auto-graded and interactive Javascript exercises for anyone interested in learning Javascript!
 
