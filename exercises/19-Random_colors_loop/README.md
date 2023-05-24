@@ -6,7 +6,7 @@ A function called `getColor` has been written that returns a color based on an i
 
 Scenario: You are a teacher in a 10-student classroom. You want to randomly assign **ONE** color (`red`, `yellow`, `blue` or `green`), to **EACH** student. 
 
-(just ONE color to EACH student)
+(Just ONE color to EACH student)
 
 ## 📝 Instructions:
 
