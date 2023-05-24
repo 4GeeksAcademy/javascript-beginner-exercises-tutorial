@@ -8,7 +8,7 @@ Aquí la puedes escuchar: https://www.youtube.com/watch?v=Xy-da43E6Lo
 
 1. Escribe un algoritmo para imprimir la misma letra. Debes usar un `for` loop.
 
-## Ejemplo de resultado:
+## Resultado esperado:
 
 ```js
 `99 bottles of milk on the wall, 99 bottles of milk.` 
