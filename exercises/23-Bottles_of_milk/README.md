@@ -30,6 +30,6 @@ Here you can hear it: https://www.youtube.com/watch?v=Xy-da43E6Lo
 
 + The lyrics change slightly when there is one bottle left (singular instead of plural).
 
-+ When there are no more bottles, the last verse changes to `go to the store and by some more`.
++ When there are no more bottles, the last verse changes to `go to the store and buy some more`.
 
 
