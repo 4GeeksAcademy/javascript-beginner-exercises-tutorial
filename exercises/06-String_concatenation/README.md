@@ -8,7 +8,7 @@ One of JavaScript's strengths is generating HTML code.
 
 Concatenation comes in handy because you can create and add to existing HTML strings. To concatenate strings, we use the **+** (plus) operator. 
 
-## 📝  Instructions:
+## 📝 Instructions:
 
 1. Set the values for `myVar1`and `myVar2` so the code prints 'Hello World' to the console.
 
