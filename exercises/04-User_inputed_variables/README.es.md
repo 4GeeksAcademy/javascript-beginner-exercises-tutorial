@@ -1,14 +1,14 @@
 # `04` User Inputted Variables
 
-La otra cuestión genial sobre las variables es que tú no necesitas saber su valor para poder trabajar con ellas.
+La otra cuestión genial sobre las variables es que no necesitas saber su valor para poder trabajar con ellas.
 
-Por ejemplo, originalmente, esta aplicación solicita al usuario su edad. Veamos si podemos cambiarlo.
+Por ejemplo, esta aplicación solicita al usuario su edad. Veamos si podemos cambiarla.
 
-## 📝  Instrucciones
+## 📝 Instrucciones:
 
 1. Por favor añade/suma 10 años al valor de la variable `age`. 
 
-2. Imprime el resultado en la consola
+2. Imprime el resultado en la consola.
 
 
 ## 💡 Pista:
