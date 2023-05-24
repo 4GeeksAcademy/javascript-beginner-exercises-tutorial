@@ -12,7 +12,7 @@ switch (expr) {
         console.log('0');
         break;
     default:
-        console.log(`Does not compute.`);    
+        console.log('Does not compute.');    
 }
 ```
 
