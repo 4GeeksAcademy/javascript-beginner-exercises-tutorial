@@ -18,7 +18,7 @@ describe('All the javascript should match', function () {
     });
     afterEach(() => { jest.resetModules(); });
 
-    it('console.log() function to be called 101 times and once with argument 100', function () {
+    it('console.log() function to be called 101 times once, with argument 100', function () {
 
         const file = require("./app.js");
 
