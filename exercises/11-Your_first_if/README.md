@@ -4,7 +4,7 @@ tutorial: "https://www.youtube.com/watch?v=ISVA9y09Kx4&list=PLCVs_S8Skwp9_apbj_l
 
 # `11` Your First "If" Statement
 
-Your journey has now reached a crucial point: **conditional statements**.  **Conditionals** allow a user to navigate through a program based upon their inputs. This is the beginning of computer logic.
+Your journey has now reached a crucial point: **conditional statements**. **Conditionals** allow a user to navigate through a program based upon their inputs. This is the beginning of computer logic.
 
 The current application has a prompt asking `How many km are left to go?`
 
@@ -26,4 +26,4 @@ Once the user inputs an amount, one of the following responses will be printed t
 
 + Print the corresponding message to the console.
 
-+ You can learn more about it [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
++ You can learn more about it [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else).

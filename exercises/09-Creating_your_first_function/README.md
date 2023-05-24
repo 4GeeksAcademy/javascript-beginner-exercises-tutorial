@@ -16,9 +16,9 @@ function function_name (param1, param2, ...) {
 
 + The `function_name` is the name of the function.
 
-+ `(param1, param2, ...)` are the **parameters** (variables) required by the function.  They can be integers, strings, decimals, or any combination thereof.  You can have zero or more parameters in a given function.  Parameters are assigned **arguments**, which are the user's input.
++ `(param1, param2, ...)` are the **parameters** (variables) required by the function. They can be integers, strings, decimals, or any combination thereof. You can have zero or more parameters in a given function.  Parameters are assigned **arguments**, which are the user's input.
 
-+ The space within the curly brackets `{...}` is the function body.  Here is where the arguments are processed and some sort of output is provided. 
++ The space within the curly brackets `{...}` is the function's body.  Here is where the arguments are processed and some sort of output is provided. 
 
 + The output can include returning a value (as shown in the example above), printing to the console, calling another function, etc.
 

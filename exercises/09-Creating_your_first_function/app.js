@@ -1,5 +1,5 @@
 function addNumbers(a,b){
-	// This is the function body. Write your code here.
+	// This is the function's body. Write your code here.
 	
 }
 

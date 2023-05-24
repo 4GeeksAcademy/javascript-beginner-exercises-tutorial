@@ -8,8 +8,8 @@ jest.dontMock('fs');
 let _buffer = "";
 let _log = console.log;
 
-// lets override the console.log function to mock it,
-// but we are also going to save what supposed to be the ouput of the console inside _buffer
+// let's override the console.log function to mock it,
+// but we are also going to save what is supposed to be the output of the console inside _buffer
 global.console.log = console.log = jest.fn((text) => _buffer += text + "\n");
 
 test("Function isOdd should exist", function(){
