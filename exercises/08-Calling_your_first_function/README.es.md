@@ -10,14 +10,12 @@ Las fortalezas de las funciones incluyen:
 
 - La función ya definida `isOdd`, devuelve `true` si un número impar se pasa como parámetro, y `false` si el número es par. 
 
-## 📝  Instrucciones:
+## 📝 Instrucciones:
 
 1. Por favor llama a la función `isOdd` pasándole el número 45345 como argumento.
 
-2. Imprime el resultado de la función llamada en la consola.
+2. Imprime el resultado de la función en la consola.
 
 ## 🔎 Importante: 
 
-+ Hay una serie de ejercicios dedicados a Funciones, te recomendamos que vayas y los hagas, después de que realices este ejercicio de [funciones](https://github.com/4GeeksAcademy/javascript-functions-exercises-tutorial)
-
-(Y luego, regresa y continua con estos).
++ Hay una serie de ejercicios dedicados a funciones, te recomendamos que los hagas después de que realices este ejercicio. Cuando te sientas más cómodo con las [funciones](https://github.com/4GeeksAcademy/javascript-functions-exercises-tutorial) regresa y continúa con estos.
