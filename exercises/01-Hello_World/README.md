@@ -8,7 +8,7 @@ In JavaScript, we use `console.log()` to make the computer print anything we wan
 
 Every language has a `console`, as it was the only way to interact with the users at the beginning (before Windows or MacOS arrived). 
 
-Today, printing to the `console` is mainly used as a monitoring tool, ideally to leave a trace of the content of variables during execution of a program.
+Today, printing to the `console` is mainly used as a monitoring tool, ideally to leave a trace of the content of variables during the execution of a program.
 
 ## 📝 Instructions:
 
