@@ -12,13 +12,13 @@
 *Estas instrucciones [están disponibles en 🇪🇸 español](https://github.com/4GeeksAcademy/javascript-beginner-exercises-tutorial/blob/master/README.es.md) :es:*
 <!-- endhide -->
 
-Complete selection of auto-graded and interactive Javascript exercises for anyone interested in learning Javascript!
+Complete selection of auto-graded and interactive JavaScript exercises for anyone interested in learning JavaScript!
 
 <!-- hide -->
 ## Before you start... some related tutorials:
 <ol>
   <li><a href="https://github.com/4GeeksAcademy/javascript-beginner-exercises-tutorial">JavaScript for Beginners</a> ← 🔥 You are here</li>
-  <li><a href="https://github.com/4GeeksAcademy/javascript-arrays-exercises-tutorial">Looping with Javascript</a></li>
+  <li><a href="https://github.com/4GeeksAcademy/javascript-arrays-exercises-tutorial">Looping with JavaScript</a></li>
   <li><a href="https://github.com/4GeeksAcademy/javascript-functions-exercises-tutorial">JavaScript Functions</a></li>
   <li><a href="https://github.com/4GeeksAcademy/master-javascript-programming-exercises">Master JavaScript</a></li>
 </ol>
@@ -54,7 +54,7 @@ $ learnpack start
 
 Each exercise is a small React application containing the following files:
 
-1. **app.js:** represents the entry javascript file that will be executed by the computer.
+1. **app.js:** represents the entry JavaScript file that will be executed by the computer.
 2. **README.md:** contains exercise instructions.
 5. **test.js:** contains the testing script for the exercise (you don't have to open this file).
 
