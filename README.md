@@ -56,7 +56,7 @@ Each exercise is a small React application containing the following files:
 
 1. **app.js:** represents the entry JavaScript file that will be executed by the computer.
 2. **README.md:** contains exercise instructions.
-5. **test.js:** contains the testing script for the exercise (you don't have to open this file).
+3. **test.js:** contains the testing script for the exercise (you don't have to open this file).
 
 ## Contributors
 
