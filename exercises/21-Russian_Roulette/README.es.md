@@ -2,13 +2,13 @@
 
 ¿Alguna vez has jugado a la Ruleta Rusa? ¡Es muy divertido! Si logras sobrevivir... (muajajajajaja).
 
-El revólver sólo tiene 6 récamaras para balas. Tú insertas una bala en uno de las recámaras, y giras las recámaras del revólver para hacer el juego aleatorio. Nadie sabe la posición de la bala ¡¡¡¡FUEGO!!!....... ¿has muerto?
+El revólver sólo tiene 6 récamaras para balas. Tú insertas una bala en uno de las recámaras, y giras las recámaras del revólver para hacer el juego aleatorio. Nadie sabe la posición de la bala ¡¡¡FUEGO!!!....... ¿has muerto?
 
 ## 📝 Instrucciones:
 
 El juego casi está funcionando.
 
-1. Por favor completa la función `fireGun()` para que el juego funcione. Debes comparar la posición de la bala contra la posición de la recámara.
+1. Completa la función `fireGun()` para que el juego funcione. Debes comparar la posición de la bala contra la posición de la recámara.
 
 ## 💡 Pistas:
 
