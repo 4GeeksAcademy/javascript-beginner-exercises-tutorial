@@ -16,7 +16,7 @@ A function's strengths include, but are not limited to:
 
 - There is an already defined function `isOdd()` that returns `true` if an odd number is passed as an argument, and `false` if the argument is an even number.
  
-## 📝  Instructions:
+## 📝 Instructions:
 
 1. Call the function `isOdd()` and pass the number 45345 as its argument.
 
@@ -24,4 +24,4 @@ A function's strengths include, but are not limited to:
 
 ## 🔎 Important: 
 
-+ There are exercises dedicated to functions. We encourage you to go and finish those after completing this exercise. Once you feel more comfortable with [functions](https://github.com/4GeeksAcademy/javascript-functions-exercises-tutorial), return here and continue witth these ones.
++ There are exercises dedicated to functions. We encourage you to go and finish those after completing this exercise. Once you feel more comfortable with [functions](https://github.com/4GeeksAcademy/javascript-functions-exercises-tutorial), return here and continue with these ones.
