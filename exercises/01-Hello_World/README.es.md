@@ -8,12 +8,13 @@ Actualmente, imprimir en la `consola` se usa mayormente como una herramienta de 
 
 ## 📝 Instrucciones:
 
-1. Usa `console.log` para imprimir "Hello World" en la consola ¡Siéntete libre de probar otras cosas también!
+1. Usa `console.log` para imprimir `Hello World` en la consola ¡Siéntete libre de probar otras cosas también!
+
 
 ## Ejemplo:
 
 ```js
-console.log("How are you?");
+console.log("¿Cómo estás?");
 ```
 
 ## 💡 Pista:
