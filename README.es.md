@@ -47,6 +47,8 @@ $ learnpack start
 
 <!-- endhide -->
 
+> Nota: Estos ejercicios tienen calificación automática. Los tests son muy rígidos y estrictos, mi recomendación es que no prestes demasiada atención a los tests y los uses solo como una sugerencia o podrías frustrarte.
+
 ## ¿Cómo están organizados los ejercicios?
 
 Cada ejercicio es una pequeña aplicación de React que contiene los siguientes archivos:
@@ -54,8 +56,6 @@ Cada ejercicio es una pequeña aplicación de React que contiene los siguientes 
 1. **app.js:** representa el archivo JavaScript de entrada que ejecutará la computadora.
 2. **README.md:** contiene las instrucciones de ejercicio.
 3. **test.js:** contiene el script del test para el ejercicio (no es necesario que abras este archivo).
-
-> Nota: Los ejercicios son autograduados pero son bastante rígidos y estrictos, mi recomendación es que ignores los tests y los uses solo como una recomendación sino pueden frustrarte.
 
 ## Colaboradores
  
