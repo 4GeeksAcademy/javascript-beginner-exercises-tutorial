@@ -16,7 +16,7 @@ Scenario: You are a teacher in a 10-student classroom. You want to randomly assi
 
 + You have 10 students, you need to loop 10 times.
 
-+ Each time you loop, generate a random number between 1-4 using the `*Math.floor()` and `Math.random()` built-in functions, which we learned about in previous exercises.
++ Each time you loop, generate a random number between 1-4 using the `Math.floor()` and `Math.random()` built-in functions, which we learned about in previous exercises.
 
 + Within the loop, you must also call the `getColor()` function to pass the randomly generated number (as an argument) to obtain and return a color.
 
