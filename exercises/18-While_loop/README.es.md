@@ -33,7 +33,7 @@ No hay un *expresión de incremento* en nuestro bucle. Esto es un problema porqu
 
 2. Imprime del 100 al 0. 
 
-3. Regresa el `counter` a 0.
+3. Devuelve la variable `counter` cuando llegue a 0.
 
 ## 🔎 Importante: 
 
