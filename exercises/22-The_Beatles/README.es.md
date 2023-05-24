@@ -12,7 +12,7 @@ Abajo está el coro de una de las canciones más famosas de Los Beatles, *Let it
 
 ## 📝 Instrucciones:
 
-1. Crea una función llamada `sing()` que regrese un string con la letra exacta que puedes oír desde el minuto 3:20 hasta el final de la canción a los 3:50 minutos. 
+1. Crea una función llamada `sing()` que devuelva un string con la letra exacta que puedes oír desde el minuto 3:20 hasta el final de la canción a los 3:50 minutos. 
 
 ## Ejemplo de resultado:
 
