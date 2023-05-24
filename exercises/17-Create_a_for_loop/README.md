@@ -1,8 +1,8 @@
 # `17` Creating a `for` loop
 
-As we just learned, loops are useful to repeat a task quickly and efficiently using little code. As you continue on your journey as a developer, the `for` loop will become an indispensible tool.
+As we just learned, loops are useful to repeat a task quickly and efficiently using little code. As you continue on your journey as a developer, the `for` loop will become an indispensable tool.
 
-Here again is the structure of a `for` loop:
+Here again, is the structure of a `for` loop:
 
 ```js
 for (initialExpression; conditional; incrementalExpression) {

@@ -8,9 +8,9 @@ The `Math.random()` function will return a random decimal number between 0 and 1
 
 ## 💡 Hints:
 
-+ `Math.random()` only returns decimal numbers from 0 to 1, and we need Integer numbers from 1 to 10.
++ `Math.random()` only returns decimal numbers from 0 to 1, and we need integer numbers from 1 to 10.
 
-+ Multiply the `Math.random()` function by 10 to move the decimal 1 slot to the right.
++ Multiply the `Math.random()` function by 10 to move the decimal point one slot to the right.
 
 + Use the `Math.floor()` function to remove the rest of the decimals and have only integers.
 

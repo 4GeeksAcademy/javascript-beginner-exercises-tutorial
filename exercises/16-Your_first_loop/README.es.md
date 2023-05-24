@@ -2,9 +2,9 @@
 
 Los bucles e iteraciones te permiten repetir un proceso rápida y eficientemente. 
 
-Las dos formas más utilizadas son los blucles `for`y `while`.
+Las dos formas más utilizadas son los bucles `for` y `while`.
 
-1. Un bucle `for`se ve así:
+1. Un bucle `for` se ve así:
 
 ```js
 for (expresionInicial; condicional; expresionIncremental) {
@@ -46,7 +46,7 @@ Mientras el *condicional* sea true, el bucle continuará repitiéndose. Si el *c
 
 Puedes usar `>` (mayor que), `<` (menor que), `>=` (mayor que o igual a), `<=` (menor que o igual a), `===` (igual a), `!==` (distinto) en tus condicionales.
 
-Si compilas este código verás un conteo del `0` al `99` (caracteres blancos) en la consola.  
+Si compilas este código verás un conteo del `0` al `99` en la consola.  
 
 ## 📝 Instrucciones:
 
@@ -54,4 +54,4 @@ Si compilas este código verás un conteo del `0` al `99` (caracteres blancos) e
 
 ## 🔎 Importante:
 
-+ Hay una serie de ejercicios dedicados a Arrays (arreglos). Te recomendamos hacer esos [ejercicios](https://gitpod.io/#https://github.com/4GeeksAcademy/javascript-arrays-exercises-tutorial) antes de continuar con este primer ejercicio de Array. Luego, regresa aquí para continuar con éstos.
++ Hay una serie de ejercicios dedicados a Arrays (arreglos). Te recomendamos hacer esos [ejercicios](https://github.com/4GeeksAcademy/javascript-arrays-exercises-tutorial) antes de continuar con este primer ejercicio de Array. Luego, regresa aquí para continuar con estos.
