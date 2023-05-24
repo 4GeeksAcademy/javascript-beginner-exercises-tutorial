@@ -25,7 +25,7 @@ Puede que ya hayas experimentado con este bucle (loop)
 
 ¿Notas que falta algo? 
 
-No hay un *expresión de incremento* en nuestro bucle. Esto es un problema porque queremos incrementar la variable `i` hasta alcanzar el valor deseado para salirnos del bucle. Si no incrementamos `i`, queda permanentemente en `0`, lo que generará un bucle infinito y hará que nuestro programa deje de funcionar. 
+No hay una *expresión de incremento* en nuestro bucle. Esto es un problema porque queremos incrementar la variable `i` hasta alcanzar el valor deseado para salirnos del bucle. Si no incrementamos `i`, queda permanentemente en `0`, lo que generará un bucle infinito y hará que nuestro programa deje de funcionar. 
 
 ## 📝 Instrucciones:
 
