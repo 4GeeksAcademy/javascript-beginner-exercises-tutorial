@@ -8,8 +8,8 @@ describe('All tests', () => {
             //here we are going to store and accumulate (concatenate) all the console log's from the exercise
             let _buffer = "";
             let _log = console.log;
-            // lets override the console.log function to mock it,
-            // but we are also going to save what supposed to be the ouput of the console inside _buffer
+            // let's override the console.log function to mock it,
+            // but we are also going to save what is supposed to be the output of the console inside _buffer
             global.console.log = console.log = jest.fn((text) => _buffer += text + "\n");
             const stdin = ["50"]
             global.prompt = jest.fn(() => stdin.shift());
@@ -31,8 +31,8 @@ describe('All tests', () => {
             //here we are going to store and accumulate (concatenate) all the console log's from the exercise
             let _buffer = "";
             let _log = console.log;
-            // lets override the console.log function to mock it,
-            // but we are also going to save what supposed to be the ouput of the console inside _buffer
+            // let's override the console.log function to mock it,
+            // but we are also going to save what is supposed to be the output of the console inside _buffer
             global.console.log = console.log = jest.fn((text) => _buffer += text + "\n");
             const stdin = ["49"]
             global.prompt = jest.fn(() => stdin.shift());
@@ -49,8 +49,8 @@ describe('All tests', () => {
             //here we are going to store and accumulate (concatenate) all the console log's from the exercise
             let _buffer = "";
             let _log = console.log;
-            // lets override the console.log function to mock it,
-            // but we are also going to save what supposed to be the ouput of the console inside _buffer
+            // let's override the console.log function to mock it,
+            // but we are also going to save what is supposed to be the output of the console inside _buffer
             global.console.log = console.log = jest.fn((text) => _buffer += text + "\n");
             const stdin = ["99"]
             global.prompt = jest.fn(() => stdin.shift());
@@ -66,14 +66,14 @@ describe('All tests', () => {
             //here we are going to store and accumulate (concatenate) all the console log's from the exercise
             let _buffer = "";
             let _log = console.log;
-            // lets override the console.log function to mock it,
-            // but we are also going to save what supposed to be the ouput of the console inside _buffer
+            // let's override the console.log function to mock it,
+            // but we are also going to save what is supposed to be the output of the console inside _buffer
             global.console.log = console.log = jest.fn((text) => _buffer += text + "\n");
             const stdin = ["100"]
             global.prompt = jest.fn(() => stdin.shift());
             const file = require("./app.js");
         })  
-        it("If there 100 km left to go, we answer:  We'll be there in 5 minutes", function () {
+        it("If there are 100 km left to go, we answer:  We'll be there in 5 minutes", function () {
 
             expect(console.log).toHaveBeenCalledWith("We'll be there in 5 minutes");
         });
@@ -83,8 +83,8 @@ describe('All tests', () => {
             //here we are going to store and accumulate (concatenate) all the console log's from the exercise
             let _buffer = "";
             let _log = console.log;
-            // lets override the console.log function to mock it,
-            // but we are also going to save what supposed to be the ouput of the console inside _buffer
+            // let's override the console.log function to mock it,
+            // but we are also going to save what is supposed to be the output of the console inside _buffer
             global.console.log = console.log = jest.fn((text) => _buffer += text + "\n");
             const stdin = ["101"]
             global.prompt = jest.fn(() => stdin.shift());
@@ -100,8 +100,8 @@ describe('All tests', () => {
             //here we are going to store and accumulate (concatenate) all the console log's from the exercise
             let _buffer = "";
             let _log = console.log;
-            // lets override the console.log function to mock it,
-            // but we are also going to save what supposed to be the ouput of the console inside _buffer
+            // let's override the console.log function to mock it,
+            // but we are also going to save what is supposed to be the output of the console inside _buffer
             global.console.log = console.log = jest.fn((text) => _buffer += text + "\n");
             const stdin = ["200"]
             global.prompt = jest.fn(() => stdin.shift());
