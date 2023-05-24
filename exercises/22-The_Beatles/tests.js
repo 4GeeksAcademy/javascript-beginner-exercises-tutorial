@@ -26,7 +26,7 @@ test("Function sing should exist", function () {
 test("Function sing should return the exact lyrics of the song", function () {
     const file = rewire("./app.js");
     const sing = file.__get__('sing');
-    expect(sing()).toBe('let it be, let it be, let it be, let it be, whisper words of wisdom, let it be, let it be, let it be, let it be, let it be, there will be an answer, let it be');
+    expect(sing()).toBe('let it be, let it be, let it be, let it be, there will be an answer, let it be, let it be, let it be, let it be, let it be, whisper words of wisdom, let it be');
 });
 
 
@@ -40,7 +40,7 @@ describe('All the javascript should match', function () {
 
         const file = require("./app.js");
 
-        expect(console.log).toHaveBeenCalledWith("let it be, let it be, let it be, let it be, whisper words of wisdom, let it be, let it be, let it be, let it be, let it be, there will be an answer, let it be");
+        expect(console.log).toHaveBeenCalledWith("let it be, let it be, let it be, let it be, there will be an answer, let it be, let it be, let it be, let it be, let it be, whisper words of wisdom, let it be");
 
         expect(console.log.mock.calls.length).toBe(1);
     });
