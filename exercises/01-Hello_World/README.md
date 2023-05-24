@@ -22,4 +22,4 @@ console.log('How are you?');
 
 ## 💡 Hint:
 
-+ Here is a 5 minutes video about [the console](https://www.youtube.com/watch?v=1RlkftxAo-M)
++ Here is a 3 minutes video about [the console](https://www.youtube.com/watch?v=1RlkftxAo-M).
