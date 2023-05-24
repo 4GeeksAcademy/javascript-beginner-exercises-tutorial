@@ -1,6 +1,6 @@
 # `03` Multiply Two Values
 
-Cualquier lenguaje de programación como JavaScript te permite hacer operaciones matemáticas básicas (multiplicación, división, etc.) a ejecutarse en expresiones.
+Los lenguajes de programación, tales como JavaScript, te permiten hacer operaciones matemáticas básicas (multiplicación, división, etc.) a ejecutarse en expresiones.
 
 Para multiplicar 2 valores en JavaScript, debes utilizar el asterisco (*) de esta forma:
 
