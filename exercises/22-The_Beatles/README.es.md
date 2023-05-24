@@ -5,7 +5,9 @@
 Abajo está el coro de una de las canciones más famosas de Los Beatles, *Let it be*:
 
 > Let it be, let it be, let it be, let it be
+
 > Whisper words of wisdom
+
 > Let it be
 
 ## 📝 Instrucciones:
