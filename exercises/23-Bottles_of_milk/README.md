@@ -6,7 +6,7 @@ Here you can hear it: https://www.youtube.com/watch?v=Xy-da43E6Lo
 
 ## 📝 Instructions:
 
-1. Write an algorithm to print the exact same lyrics. You must use a for loop.
+1. Write an algorithm to print the exact same lyrics. You must use a `for` loop.
 
 ## Expected output:
 
