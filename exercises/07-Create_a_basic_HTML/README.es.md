@@ -2,7 +2,7 @@
 
 Continuemos utilizando concatenación de strings para generar HTML. El código de la izquierda contiene 8 constantes con diferentes valores de string.
 
-## 📝  Instrucciones:
+## 📝 Instrucciones:
 
 1. Concatena las constantes. 
 
