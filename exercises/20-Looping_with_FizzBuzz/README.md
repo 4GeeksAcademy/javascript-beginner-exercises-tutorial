@@ -42,4 +42,4 @@ Buzz
 
 ## 🔎 Important:
 
-+ If you feel stuck and you don't understand loops, go back to these [exercises](https://gitpod.io/#https://github.com/4GeeksAcademy/javascript-arrays-exercises-tutorial) .
++ If you feel stuck and you don't understand loops, go back to these [exercises](https://github.com/4GeeksAcademy/javascript-arrays-exercises-tutorial).
