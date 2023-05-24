@@ -7,8 +7,8 @@ jest.dontMock('fs');
 let _buffer = "";
 let _log = console.log;
 
-// lets override the console.log function to mock it,
-// but we are also going to save what supposed to be the ouput of the console inside _buffer
+// let's override the console.log function to mock it,
+// but we are also going to save what is supposed to be the output of the console inside _buffer
 global.console.log = console.log = jest.fn((text) => _buffer += text + "\n");
 
 describe('All the javascript should match', function () {
@@ -29,7 +29,7 @@ describe('All the javascript should match', function () {
         }
     });
     
-    it('console.log() function should be called with proper lyrics for two bottle', function () {
+    it('console.log() function should be called with proper lyrics for two bottles', function () {
         const file = require("./app.js");
         expect(_buffer).toContain("2 bottles of milk on the wall, 2 bottles of milk. Take one down and pass it around, 1 bottle of milk on the wall.");
     });

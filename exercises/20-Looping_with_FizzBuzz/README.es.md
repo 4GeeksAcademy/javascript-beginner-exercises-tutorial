@@ -1,4 +1,4 @@
-# `20` Looping con FizzBuzz
+# `20` Looping with FizzBuzz
 
 Este es un test típico para principiantes que es requerido para completar entrevistas en Google, Facebook y todos los otros grandes unicornios tecnológicos.
 
@@ -42,4 +42,4 @@ Buzz
 
 ## 🔎 Importante:
 
-+ Si sientes que no estás entendiendo los bucles y estás atascado, haz primero estos [ejercicios](https://gitpod.io/#https://github.com/4GeeksAcademy/javascript-arrays-exercises-tutorial).
++ Si sientes que no estás entendiendo los bucles y estás atascado, haz primero estos [ejercicios](https://github.com/4GeeksAcademy/javascript-arrays-exercises-tutorial).
