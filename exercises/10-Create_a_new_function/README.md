@@ -28,7 +28,7 @@ You can use the `Math.random()` function to get a pseudo-random decimal (also ca
 
 2. Use the Math.random() function to generate a random number
 
-3. Use the Math.floor() function to round down the randomly generated number.(We want a rounded number NOT A DECIMAL)
+3. Use the Math.floor() function to round down the randomly generated number.(We want a rounded number, NOT A DECIMAL)
 
 ## 💡 Hint:
 
