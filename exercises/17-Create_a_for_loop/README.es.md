@@ -1,6 +1,6 @@
 # `17` Creating a `for` loop
 
-Como ya aprendimos, los bucles son muy útiles para repetir un tarea rápida y eficientemente usando muy pocas líneas de código. Mientras continuas en tu travesía para convertirte en desarrollador, el bucle `for` se convertirá en una herramienta indispensable.
+Como ya aprendimos, los bucles son muy útiles para repetir una tarea rápida y eficientemente usando muy pocas líneas de código. Mientras continúas en tu travesía para convertirte en desarrollador, el bucle `for` se convertirá en una herramienta indispensable.
 
 Esta es la estructura de un bucle `for`:
 
