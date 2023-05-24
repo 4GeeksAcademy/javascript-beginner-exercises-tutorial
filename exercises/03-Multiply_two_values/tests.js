@@ -12,7 +12,7 @@ let _log = console.log;
 // but we are also going to save what supposed to be the ouput of the console inside _buffer
 global.console.log = console.log = jest.fn((text) => _buffer += text + "\n");
 
-test(" The variable 'variablesAreCool' should exist", function(){
+test("The variable 'variablesAreCool' should exist", function(){
     const file = rewire("./app.js");
     const variablesAreCool = file.__get__('variablesAreCool');
     expect(variablesAreCool).toBeTruthy();
