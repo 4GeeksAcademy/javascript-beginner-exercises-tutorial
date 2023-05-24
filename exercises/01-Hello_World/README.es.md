@@ -19,4 +19,4 @@ console.log("¿Cómo estás?");
 
 ## 💡 Pista:
 
-+ Aquí hay un Video de 3 minutos sobre [la consola](https://www.youtube.com/watch?v=1RlkftxAo-M)
++ Aquí hay un Video de 3 minutos sobre [la consola](https://www.youtube.com/watch?v=1RlkftxAo-M).
