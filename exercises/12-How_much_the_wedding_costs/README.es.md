@@ -11,7 +11,7 @@ Aquí está la tabla de precios de una empresa de catering de bodas:
 
 ## 📝 Instrucciones:
 
-1. Crea una función `getPrice` que reciba la cantidad de personas que van a asistir a su boda y devuelve el precio correspondiente en la consola.
+1. Crea una función `getPrice` que reciba la cantidad de personas que van a asistir a la boda y devuelve el precio correspondiente en la consola.
 
 ## Ejemplo:
 
