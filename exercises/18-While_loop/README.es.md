@@ -1,6 +1,6 @@
 # `18` The "while" Loop
 
-Como hemos mencionado en un ejercicio anterior, los bucles `while`son similares a los bucles `for`, solo que están estructurados de manera diferente.
+Como hemos mencionado en un ejercicio anterior, los bucles `while` son similares a los bucles `for`, solo que están estructurados de manera diferente.
 
 Aquí está nuevamente:
 
