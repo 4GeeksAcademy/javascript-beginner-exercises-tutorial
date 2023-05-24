@@ -30,4 +30,4 @@ Aquí la puedes escuchar: https://www.youtube.com/watch?v=Xy-da43E6Lo
 
 + Al final de la canción, la letra cambia porque es sólo una botella (singular en vez de plural).
 
-+ Lee la última parte de la letra y verás como la última línea cambia a `go to the store and buy some more` (anda a comprar más leche).
++ Lee la última parte de la letra y verás como la última línea cambia a `Go to the store and buy some more` (anda a comprar más leche).
