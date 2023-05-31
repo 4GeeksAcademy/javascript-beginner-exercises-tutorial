@@ -24,11 +24,13 @@ En este bloque de código estamos declarando una función que recibe un argument
 
 ## 📝 Instrucciones:
 
-1. Crea una función llama `littleIntroduction()`, que imprima en consola una pequeña introducción de tu persona.
+1. Completa la función llamada `littleIntroduction()`, que imprima en consola una pequeña introducción de tu persona.
 
-2. La función tendrá 3 argumentos: `name`, `profession` y `age`.
+2. La función deberá tener 3 argumentos: `name`, `profession` y `age`.
 
 3. Que se organizarán de la siguiente manera: `Hello! my name is *name*, my profession is *profession*. I am *age* years old.`
+
+4. Por último, llama la función con los datos en el orden correcto para completar el ejercicio.
 
 ## 💡 Pista:
 
