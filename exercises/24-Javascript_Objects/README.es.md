@@ -48,7 +48,7 @@ Ahora estamos guardando información de una forma más organizada, y si queremos
 console.log(car1.model); //imprime el modelo de car1 en la consola
 ```
 
-Podemos tener todos los tipos de variables conocidas en JavaScript como valor(`value`) de cualquier `key` (¡incluyendo objetos!). Ahora imagina las posiblidades...
+Podemos tener todos los tipos de variables conocidas en JavaScript como valor(`value`) de cualquier `key` (¡incluyendo objetos!). Ahora imagina las posibilidades...
 
 ```js
 var person = {
