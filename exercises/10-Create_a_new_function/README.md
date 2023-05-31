@@ -24,7 +24,7 @@ In this block of code we are declaring a function which receives one argument, `
 
 ## 📝 Instructions:
 
-1. Complete the function called `littleIntroduction()`, which prints in the console a little introduction of you.
+1. Complete the function called `shortIntroduction()`, which prints in the console a short introduction of you.
 
 2. The function will ask for 3 arguments: `name`, `profession`, and `age`.
 
