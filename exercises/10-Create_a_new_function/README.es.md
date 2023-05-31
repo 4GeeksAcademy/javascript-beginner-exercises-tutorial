@@ -24,7 +24,7 @@ En este bloque de código estamos declarando una función que recibe un argument
 
 ## 📝 Instrucciones:
 
-1. Completa la función llamada `littleIntroduction()`, que imprima en consola una pequeña introducción de tu persona.
+1. Completa la función llamada `shortIntroduction()`, que imprima en consola una pequeña introducción de tu persona.
 
 2. La función deberá tener 3 argumentos: `name`, `profession` y `age`.
 
