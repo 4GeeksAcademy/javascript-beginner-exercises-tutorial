@@ -1,5 +1,13 @@
 # `14` Random Numbers
 
+JavaScript viene con un montón de funciones "pre-definidas" muy útiles que puedes utilizar. Una de ellas es:
+
+```js
+Math.random();
+```
+
+Puedes utilizar la función `Math.random()` para obtener un número decimal (en inglés llamado **floating-point**, **float** o **double**) aleatorio. Este decimal será entre el 0 y un número `n` (incluyendo el 0 pero no el número n).
+
 La función `Math.random()` devolverá un número decimal aleatorio entre el 0 y 1, compila el ejercicio tal como está varias veces para probarlo.
 
 ## 📝 Instrucciones:
@@ -14,3 +22,4 @@ La función `Math.random()` devolverá un número decimal aleatorio entre el 0 y
 
 + Usa la función `Math.floor()` para eliminar el resto de los decimales y tener solo los enteros.
 
++ Puedes leer mas sobre como usar estas dos funciones [aquí](https://www.w3schools.com/jsref/jsref_random.asp).

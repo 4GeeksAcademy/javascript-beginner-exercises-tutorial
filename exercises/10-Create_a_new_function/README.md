@@ -1,7 +1,3 @@
----
-tutorial: "https://www.youtube.com/watch?v=N95pm7kv0a4"
----
-
 # `10` Creating a New Function
 
 As you know, functions are a useful block of code that can be reused as many times as you need. In the last exercise, you had a function that received two arguments (two inputs) and returned their sum.
@@ -14,22 +10,28 @@ function addNumbers(a, b){
 }
 ```
 
-JavaScript also comes with many "pre-defined" functions that you can use as well. For example:
+We are going to go ahead and learn some more! Consider this function:
 
 ```js
-Math.random();
+function hello(myName) {
+    console.log("Hello! my name is " + myName)
+}
+
+hello("Jose") // This will print "Hello! my name is Jose" in the console
 ```
 
-You can use the `Math.random()` function to get a pseudo-random decimal (also called a **floating-point**, **float**, or **double**) number. This floating-point number will be between 0 and a number `n` (inclusive of 0, but not of n). As a matter of fact, every time you call `Math.random()`, it will return another random float.
+In this block of code we are declaring a function which receives one argument, `myName` which is whatever string (ideally a name) that you choose when calling the function, this will then print in the console the string we declared in the body of the function which is `"Hello! my name is {myName}"` with whatever name we used.
 
 ## 📝 Instructions:
 
-1. Create a function called `generateRandom()`, which generates a pseudo-random number between 1 and 10 every time it is called.
+1. Complete the function called `shortIntroduction()`, which prints in the console a short introduction of you.
 
-2. Use the Math.random() function to generate a random number
+2. The function will ask for 3 arguments: `name`, `profession`, and `age`.
 
-3. Use the Math.floor() function to round down the randomly generated number.(We want a rounded number, NOT A DECIMAL)
+3. They should be concatenated as follows: `Hello! my name is {name}, my profession is {profession}. I am {age} years old.`
+
+4. Finally, call the function with the data in the correct order to finish the exercise.
 
 ## 💡 Hint:
 
-+ You can learn how to use these two functions [here](https://www.w3schools.com/jsref/jsref_random.asp).
++ Remember to use the plus (+) sign to concatenate different strings and variables in the `console.log()`. Also there are more ways to concatenate strings and variables, if you want to learn more, [click here](https://stackoverflow.com/questions/16600925/how-can-i-add-a-variable-to-console-log).
