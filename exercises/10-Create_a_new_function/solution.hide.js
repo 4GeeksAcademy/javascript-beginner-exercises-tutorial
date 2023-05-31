@@ -3,5 +3,5 @@ function littleIntroduction(name, profession, age) {
     console.log("Hello! my name is " + name + ", my profession is " + profession + ". I am " + age + " years old.")
 }
 
-// Call this function with any data you want!
+// Fill the gaps with your data in the correct order
 littleIntroduction("Carlos", "Developer", "35")
