@@ -26,9 +26,7 @@ Imagine that your software is running the inventory of a shoe store. The client 
 
 ## 💡 Hints:
 
-+ You may need to convert the user's input to all lowercase or all uppercase lettering to prevent discrepancies. Click the following to help you accomplish this:
-
-+ For all uppercase: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase
++ You may need to convert the user's input to all lowercase lettering to prevent discrepancies. Click the following to help you accomplish this:
 
 + For all lowercase: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase
 
