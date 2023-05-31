@@ -26,9 +26,7 @@ Imagina que tu software está manejando el inventario de una tienda de zapatos. 
 
 ## 💡 Pista:
 
-+ Es posible que debas llevar la entrada (input) del usuario a minúsculas o mayúsculas para evitar discrepancias. Haz clic a continuación para que aprendas a hacerlo:
-
-+ Para llevar todo a mayúsculas (uppercase): https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase
++ Es posible que debas llevar la entrada (input) del usuario a minúsculas para evitar discrepancias. Haz clic a continuación para que aprendas a hacerlo:
 
 + Para llevar todo a minúsculas (lowercase): https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase
 

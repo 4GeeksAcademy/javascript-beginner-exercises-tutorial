@@ -1,5 +1,4 @@
-function getColor(selection)
-{
+function getColor(selection) {
 	switch(selection){
 		// Add more options here
 		case 'red':
@@ -14,7 +13,7 @@ function getColor(selection)
 	}
 }
 
-let colorname = prompt('What color do you want?').trim();
+let colorname = prompt('What color do you want?').trim().toLowerCase();
 let isAvailable = getColor(colorname);
 
 if(isAvailable)
@@ -24,8 +23,7 @@ else
 
 // Another possible solution
 /*
-	function getColor(selection)
-{
+function getColor(selection) {
 	switch(selection){
 		// Add more options here
 		case 'red': case 'green': case 'blue':
@@ -36,7 +34,7 @@ else
 	}
 }
 
-let colorname = prompt('What color do you want?').trim();
+let colorname = prompt('What color do you want?').trim().toLowerCase();
 let isAvailable = getColor(colorname);
 
 if(isAvailable)
