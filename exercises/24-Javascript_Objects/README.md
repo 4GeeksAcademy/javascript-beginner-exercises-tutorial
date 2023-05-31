@@ -47,7 +47,7 @@ console.log(car1.model); //prints the model of car1 in the console
 We can have all of the known types of variables defined as the value of any `key` (including objects!). Now imagine the possibilities...
 
 ```js
-let person = {
+var person = {
     name: "John",                   //String
     lastName: "Doe",
     age: 35,                        //Number
@@ -56,7 +56,7 @@ let person = {
     significantOther: person2       //Object, yes the same variable/object defined after
 };
 
-let person2 = {
+var person2 = {
     name: "Jane",
     lastName: "Doe",
     age: 38,
@@ -65,7 +65,7 @@ let person2 = {
     significantOther: person
 };
 
-let family = {
+var family = {
     lastName: "Doe",
     members: [person, person2]      //Array that contains other objects
 };
