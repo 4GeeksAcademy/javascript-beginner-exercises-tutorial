@@ -1,4 +1,7 @@
-generateRandom = () => {
-    return Math.floor(Math.random() * 10) + 1;
+function littleIntroduction(name, profession, age) {
+    // Complete this function's body and arguments
+    console.log("Hello! my name is " + name + ", my profession is " + profession + ". I am " + age + " years old.")
 }
-console.log(generateRandom())
+
+// Call this function with any data you want!
+littleIntroduction("Carlos", "Developer", "35")
