@@ -68,7 +68,7 @@ var person2 = {
 
 var family = {
     lastName: "Doe",
-    members: [person, person2]      //Array that contains other objects
+    members: [person, person2]      //Array of objects
 };
 ```
 
