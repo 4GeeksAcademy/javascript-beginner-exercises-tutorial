@@ -54,7 +54,7 @@ var person = {
     age: 35,                        //Number
     gender: "male",
     luckyNumbers: [7, 11, 13, 17],  //Array
-    significantOther: person2       //Object, yes the same variable/object defined after
+    significantOther: person2       //Object, yes, the same variable/object defined after
 };
 
 var person2 = {
