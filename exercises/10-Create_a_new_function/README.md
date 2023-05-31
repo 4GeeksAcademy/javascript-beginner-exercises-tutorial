@@ -24,11 +24,13 @@ In this block of code we are declaring a function which receives one argument, `
 
 ## 📝 Instructions:
 
-1. Create a function called `littleIntroduction()`, which prints in the console a little introduction of you.
+1. Complete the function called `littleIntroduction()`, which prints in the console a little introduction of you.
 
 2. The function will ask for 3 arguments: `name`, `profession`, and `age`.
 
 3. And they should be organized as follows: `Hello! my name is *name*, my profession is *profession*. I am *age* years old.`
+
+4. Finally, call the function with the data in the correct order to finish the exercise.
 
 ## 💡 Hint:
 
