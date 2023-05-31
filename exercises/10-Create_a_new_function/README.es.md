@@ -10,7 +10,7 @@ function addNumbers(a, b){
 }
 ```
 
-¡Asi que vamos a seguir aprendiendo más cosas! Analiza la siguiente función:
+¡Así que vamos a seguir aprendiendo más cosas! Analiza la siguiente función:
 
 ```js
 function hello(myName) {
@@ -20,7 +20,7 @@ function hello(myName) {
 hello("Jose") // Esto imprimirá "Hello! my name is Jose" en la consola
 ```
 
-En este bloque de código estamos declarando una función que recibe un argumento, `myName` que será un string que elijamos (idealmente un nombre) cuando llamemos la función, esto después imprimirá en consola el string que declaramos en el cuerpo de la función siendo "Hello! my name is *myName*" con el nombre que hayamos usado.
+En este bloque de código estamos declarando una función que recibe un argumento, `myName` que será un string que elijamos (idealmente un nombre) cuando llamemos la función, esto después imprimirá en consola el string que declaramos en el cuerpo de la función siendo `"Hello! my name is *myName*"` con el nombre que hayamos usado.
 
 ## 📝 Instrucciones:
 
@@ -32,4 +32,4 @@ En este bloque de código estamos declarando una función que recibe un argument
 
 ## 💡 Pista:
 
-+ Recuerda usar el simbolo más (+) para concatenar diferentes strings y variables en el `console.log()`. Además hay otras formas de concatenar strings y variables, si quieres saber más, [haz clic aquí](https://stackoverflow.com/questions/16600925/how-can-i-add-a-variable-to-console-log).
++ Recuerda usar el símbolo más (+) para concatenar diferentes strings y variables en el `console.log()`. Además, hay otras formas de concatenar strings y variables, si quieres saber más, [haz clic aquí](https://stackoverflow.com/questions/16600925/how-can-i-add-a-variable-to-console-log).
