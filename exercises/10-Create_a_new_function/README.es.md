@@ -10,22 +10,26 @@ function addNumbers(a, b){
 }
 ```
 
-Pero JavaScript viene con un montón de funciones "pre-definidas" que puedes utilizar. Por ejemplo:
+¡Asi que vamos a seguir aprendiendo más cosas! Analiza la siguiente función:
 
 ```js
-Math.random();
+function hello(myName) {
+    console.log("Hello! my name is " + myName)
+}
+
+hello("Jose") // Esto imprimirá "Hello! my name is Jose" en la consola
 ```
 
-Puedes utilizar la función `Math.random()` para obtener un número decimal (en inglés llamado **floating-point**, **float** o **double**) aleatorio.  Este decimal será entre el 0 y un número `n` (incluyendo el 0 pero no el número n). Cada vez que llames a `Math.random()`, devolverá otro número decimal aleatorio.
+En este bloque de código estamos declarando una función que recibe un argumento, `myName` que será un string que elijamos (idealmente un nombre) cuando llamemos la función, esto después imprimirá en consola el string que declaramos en el cuerpo de la función siendo "Hello! my name is *myName*" con el nombre que hayamos usado.
 
 ## 📝 Instrucciones:
 
-1. Por favor crea una función llamada `generateRandom()`, que genere un número aleatorio entre 1 y 10 cada vez que la llames.
+1. Crea una función llama `littleIntroduction()`, que imprima en consola una pequeña introducción de tu persona.
 
-2. Usa la función `Math.random()` para generar números random.
+2. La función tendrá 3 argumentos: `name`, `profession` y `age`.
 
-3. Usa la función `Math.floor()` para redondear un número hacia abajo (Queremos un número entero, no decimal).
+3. Que se organizarán de la siguiente manera: `Hello! my name is *name*, my profession is *profession*. I am *age* years old.`
 
 ## 💡 Pista:
 
-+ Puedes aprender más sobre estas funciones [aquí](https://www.w3schools.com/jsref/jsref_random.asp).
++ Recuerda usar el simbolo más (+) para concatenar diferentes strings y variables en el `console.log()`. Además hay otras formas de concatenar strings y variables, si quieres saber más, [haz clic aquí](https://stackoverflow.com/questions/16600925/how-can-i-add-a-variable-to-console-log).
