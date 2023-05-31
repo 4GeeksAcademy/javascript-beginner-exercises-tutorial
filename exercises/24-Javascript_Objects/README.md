@@ -22,13 +22,13 @@ There's an optimized approach to this, it is called **Objects**. **Objects** are
 So if we want to translate (and optimize) the variables from the car into an Object, we do:
 
 ```js
-let car1 = {model: "Corolla", make: "Toyota", color: "green", year: 2015};
+const car1 = {model: "Corolla", make: "Toyota", color: "green", year: 2015};
 ```
 
 You can see the `key:value` separated by a comma. And for us (developers) to read it easier we write it like this:
 
 ```js
-let car1 = {
+const car1 = {
     model: "Corolla", 
     make: "Toyota", 
     color: "green",  
