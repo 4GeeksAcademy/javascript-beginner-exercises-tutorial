@@ -20,7 +20,7 @@ function hello(myName) {
 hello("Jose") // This will print "Hello! my name is Jose" in the console
 ```
 
-In this block of code we are declaring a function which receives one argument, `myName` which is whatever string (ideally a name) that you choose when calling the function, this will then print in the console the string we declared in the body of the function which is `"Hello! my name is *myName*"` with whatever name we used.
+In this block of code we are declaring a function which receives one argument, `myName` which is whatever string (ideally a name) that you choose when calling the function, this will then print in the console the string we declared in the body of the function which is `"Hello! my name is {myName}"` with whatever name we used.
 
 ## 📝 Instructions:
 
@@ -28,7 +28,7 @@ In this block of code we are declaring a function which receives one argument, `
 
 2. The function will ask for 3 arguments: `name`, `profession`, and `age`.
 
-3. And they should be organized as follows: `Hello! my name is *name*, my profession is *profession*. I am *age* years old.`
+3. They should be concatenated as follows: `Hello! my name is {name}, my profession is {profession}. I am {age} years old.`
 
 4. Finally, call the function with the data in the correct order to finish the exercise.
 
