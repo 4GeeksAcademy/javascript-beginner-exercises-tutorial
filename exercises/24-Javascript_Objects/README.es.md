@@ -24,7 +24,7 @@ Hay un enfoque óptimo para esto, son los **objetos**. Los **objetos (objects)**
 Entonces, si queremos traducir (y optimizar) las variables desde car (auto) a un Object, hacemos:
 
 ```js
-const car1 = {model: "Corolla", make: "Toyota", color: "green",  year: 2015};
+const car1 = {model: "Corolla", make: "Toyota", color: "green", year: 2015};
 ```
 
 Puedes ver el `key:value` separado por una coma. 
