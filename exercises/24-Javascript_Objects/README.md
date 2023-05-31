@@ -91,12 +91,12 @@ Easy stuff :)
 
 2. Programmatically, create a new person and add it to the family object. `Jimmy Doe`, `13`, `male`, `luckyNumbers`: `1`, `2`, `3`, `4`; `significantOther: null`. (use a command, don't manually change the code).
 
-3. Now please print (`console.log()`) the SUM of all of the `luckyNumbers` of the Doe family.
+3. Now please print (`console.log()`) the SUM of all the `luckyNumbers` of the Doe family.
 
 ## 💡 Hint:
 
 + You can get each array of `luckyNumbers` from each person object inside the family object.
 
-+ Once you get each array just loop over it adding every element (like we've been doing so far). And then add each sum of the 3 family members.
++ Once you get each array, just loop over it adding every element (like we've been doing so far). And then add each sum of the 3 family members.
 
 + `null` is also an object.
