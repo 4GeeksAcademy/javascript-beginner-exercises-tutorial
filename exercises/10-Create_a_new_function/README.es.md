@@ -20,7 +20,7 @@ function hello(myName) {
 hello("Jose") // Esto imprimirá "Hello! my name is Jose" en la consola
 ```
 
-En este bloque de código estamos declarando una función que recibe un argumento, `myName` que será un string que elijamos (idealmente un nombre) cuando llamemos la función, esto después imprimirá en consola el string que declaramos en el cuerpo de la función siendo `"Hello! my name is *myName*"` con el nombre que hayamos usado.
+En este bloque de código estamos declarando una función que recibe un argumento, `myName` que será un string que elijamos (idealmente un nombre) cuando llamemos la función, esto después imprimirá en consola el string que declaramos en el cuerpo de la función siendo `"Hello! my name is {myName}"` con el nombre que hayamos usado.
 
 ## 📝 Instrucciones:
 
@@ -28,7 +28,7 @@ En este bloque de código estamos declarando una función que recibe un argument
 
 2. La función deberá tener 3 argumentos: `name`, `profession` y `age`.
 
-3. Que se organizarán de la siguiente manera: `Hello! my name is *name*, my profession is *profession*. I am *age* years old.`
+3. Estos parámetros se concatenarán de la siguiente manera: `Hello! my name is {name}, my profession is {profession}. I am {age} years old.`
 
 4. Por último, llama la función con los datos en el orden correcto para completar el ejercicio.
 
