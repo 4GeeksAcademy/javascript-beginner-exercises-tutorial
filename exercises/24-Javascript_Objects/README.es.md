@@ -29,7 +29,7 @@ const car1 = {model: "Corolla", make: "Toyota", color: "green", year: 2015};
 
 Puedes ver el `key:value` separado por una coma. 
 
-Y para que nosotros (los desarrolladores) podamos leerlos más fácilmente los escribimos así:
+Y para que nosotros (los desarrolladores) podamos leerlas más fácilmente las escribimos así:
 
 ```js
 const car1 = {
