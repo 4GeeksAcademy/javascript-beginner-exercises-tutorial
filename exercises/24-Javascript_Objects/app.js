@@ -1,19 +1,19 @@
 var person = {
     name: "John",                //String
-    lastname: "Doe",
+    lastName: "Doe",
     age: 35,                     //Number
     gender: "male",
-    lucky_numbers: [ 7, 11, 13, 17], //Array
-    significant_other: person2   //Object, yes the same variable/object defined after
+    luckyNumbers: [7, 11, 13, 17], //Array
+    significantOther: person2   //Object, yes the same variable/object defined after
 };
 
 var person2 = {
     name: "Jane",
-    lastname: "Doe",
+    lastName: "Doe",
     age: 38,
     gender: "female",
-    lucky_numbers: [ 2, 4, 6, 8],
-    significant_other: person
+    luckyNumbers: [2, 4, 6, 8],
+    significantOther: person
 };
 
 var family = {
