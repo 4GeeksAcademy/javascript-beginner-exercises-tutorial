@@ -65,7 +65,7 @@ var person2 = {
     lastName: "Doe",
     age: 38,
     gender: "female",
-    luckyNumbers: [ 2, 4, 6, 8],
+    luckyNumbers: [2, 4, 6, 8],
     significantOther: person
 };
 
