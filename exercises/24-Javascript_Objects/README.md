@@ -89,7 +89,7 @@ Easy stuff :)
 
 1. Programmatically, change the fourth `luckyNumber` of John Doe to `33` (use a command, don't manually change the code).
 
-2. Programmatically, create a new person and add it to the family object. `Jimmy Doe`, `13`, `male`, `luckyNumbers`: `1`, `2`, `3`, `4`; `significantOther: null`. (use a command, don't manually change the code).
+2. Programmatically, create a new person and add it to the family object. `Jimmy Doe`, `13`, `male`, `luckyNumbers`: `1`, `2`, `3`, `4`; `significantOther: null`.
 
 3. Now please print (`console.log()`) the SUM of all the `luckyNumbers` of the Doe family.
 
