@@ -2,5 +2,5 @@ function littleIntroduction() {
   // Complete this function's body and arguments
 }
 
-// Call this function with any data you want!
+// Fill the gaps with your data in the correct order
 littleIntroduction(" ", " ", " ")
