@@ -32,4 +32,4 @@ In this block of code we are declaring a function which receives one argument, `
 
 ## 💡 Hint:
 
-+ Remember to use the plus (+) sign to concatenate different strings and variables in the `console.log()`, Also there are more ways to concatenate strings and variables, if you want to learn more, [click here](https://stackoverflow.com/questions/16600925/how-can-i-add-a-variable-to-console-log).
++ Remember to use the plus (+) sign to concatenate different strings and variables in the `console.log()`. Also there are more ways to concatenate strings and variables, if you want to learn more, [click here](https://stackoverflow.com/questions/16600925/how-can-i-add-a-variable-to-console-log).
