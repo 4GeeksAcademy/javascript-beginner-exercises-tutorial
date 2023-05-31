@@ -21,7 +21,7 @@ describe('All the javascript should match', function () {
     afterEach(() => { jest.resetModules(); });
 
     it("John Doe's fourth lucky number should be 33" , function(){
-        expect(family.members[0].lucky_numbers[3]).toBe(33)
+        expect(family.members[0].luckyNumbers[3]).toBe(33)
     })
 
     it('console.log() function should be called with 94 - sum of all family lucky numbers', function () {
