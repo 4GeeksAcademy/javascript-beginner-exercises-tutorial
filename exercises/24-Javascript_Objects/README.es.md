@@ -29,7 +29,7 @@ const car1 = {model: "Corolla", make: "Toyota", color: "green", year: 2015};
 
 Puedes ver el `key:value` separado por una coma. 
 
-Y para que nosotros (los desarrolladores) podamos leerlas más fácilmente las escribimos así:
+Y para que nosotros (los desarrolladores) podamos leerlos más fácilmente los escribimos así:
 
 ```js
 const car1 = {
@@ -57,7 +57,7 @@ var person = {
     age: 35,                        //Número
     gender: "male",
     luckyNumbers: [7, 11, 13, 17],  //Array
-    significantOther: person2       //Objeto, sí la misma variable/objeto definida después
+    significantOther: person2       //Objeto, sí, la misma variable/objeto definida después
 };
 
 var person2 = {
@@ -101,6 +101,6 @@ Cosas sencillas :)
 
 + Puedes obtener cada array de números de la suerte (`luckyNumbers`) desde el objeto de cada persona dentro del objeto familia.
 
-+ Una vez obtengas cada array, solo has un loop sobre él sumando cada elemento (como hemos hecho hasta ahora). Y añade la suma de cada unos de los 3 miembros de la familia.
++ Una vez obtengas cada array, solo has un loop sobre él sumando cada elemento (como hemos hecho hasta ahora). Luego obtén el total de la suma de los 3 miembros de la familia.
 
 + `null` también es un objeto.
