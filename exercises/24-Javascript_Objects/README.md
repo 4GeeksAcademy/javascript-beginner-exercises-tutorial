@@ -14,6 +14,7 @@ let car2Model = "Santa Fe";
 let car2Make = "Hyundai";
 let car2Color = "purple";
 let car2Year = 2013;
+
 //... (you get the idea)
 ```
 
