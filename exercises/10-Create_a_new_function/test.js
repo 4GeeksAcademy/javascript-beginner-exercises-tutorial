@@ -15,20 +15,23 @@ test('shortIntroduction function requires 3 arguments', () => {
   expect(hasProperParameters).toBeTruthy();
 });
 
-test("shortIntroduction function creates correct introduction", ()=>{
-    // read the content of the file
-    const file = fs.readFileSync(path.resolve(__dirname, './app.js'), 'utf8');
+test("shortIntroduction function returns correct introduction", ()=>{
 
-    // Use regex pattern to check for the correct console.log within the function using template literals
-    const patternTemplate = /console\.log\(\s*`Hello! my name is \${\s*\w+\s*}, my profession is \${\s*\w+\s*}\. I am \${\s*\w+\s*} years old\.`\s*\)\s*;?/gm;
+    const file = rewire("./app.js");
+    const shortIntroduction = file.__get__('shortIntroduction');
     
-    // Use regex pattern to check for the correct console.log within the function using + operator
-    const patternPlus = /console\.log\(\s*"Hello! my name is "\s*\+\s*\w+\s*\+\s*", my profession is "\s*\+\s*\w+\s*\+\s*". I am "\s*\+\s*\w+\s*\+\s*" years old."\s*\)\s*;?/gm;
-    
-    const hasCorrectConsoleLogTemplate = patternTemplate.test(file.toString());
-    const hasCorrectConsoleLogPlus = patternPlus.test(file.toString());
-
-    expect(hasCorrectConsoleLogTemplate || hasCorrectConsoleLogPlus).toBeTruthy();
+    expect(shortIntroduction("Bob", "developer", 25)).toBe("Hello! my name is Bob, my profession is developer. I am 25 years old.");
+    expect(shortIntroduction("John", "CTO", 43)).toBe("Hello! my name is John, my profession is CTO. I am 43 years old.");
+    expect(shortIntroduction("Tom", "lead developer", 28)).toBe("Hello! my name is Tom, my profession is lead developer. I am 28 years old.");
+    expect(shortIntroduction("Alberto", "CIO", 32)).toBe("Hello! my name is Alberto, my profession is CIO. I am 32 years old.");
 });
 
+test("console.log should be called with shortIntroduction function", () => {
+  const file = fs.readFileSync(path.resolve(__dirname, './app.js'), 'utf8');
+  
+  // Regular expression to match console.log with the function inside
+  let regex = /console\s*\.log\s*\(\s*shortIntroduction\s*/gm;
 
+  // Ensure that the regular expression matches at least once
+  expect(regex.test(file.toString())).toBeTruthy();
+});
