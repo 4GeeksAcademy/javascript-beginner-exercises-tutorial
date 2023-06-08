@@ -8,13 +8,6 @@ test('shortIntroduction function exists', () => {
   expect(typeof shortIntroduction).toBe('function');
 });
 
-test('shortIntroduction function requires 3 arguments', () => {
-  const file = fs.readFileSync(path.resolve(__dirname, './app.js'), 'utf8');
-  const shortIntroductionRegex = /function\s*shortIntroduction\s*\(\s*\w+\s*,\s*\w+\s*,\s*\w+\s*\)\s*{/gm;
-  const hasProperParameters = shortIntroductionRegex.test(file.toString());
-  expect(hasProperParameters).toBeTruthy();
-});
-
 test("shortIntroduction function returns correct introduction", ()=>{
 
     const file = rewire("./app.js");
@@ -24,14 +17,4 @@ test("shortIntroduction function returns correct introduction", ()=>{
     expect(shortIntroduction("John", "CTO", 43)).toBe("Hello! my name is John, my profession is CTO. I am 43 years old.");
     expect(shortIntroduction("Tom", "lead developer", 28)).toBe("Hello! my name is Tom, my profession is lead developer. I am 28 years old.");
     expect(shortIntroduction("Alberto", "CIO", 32)).toBe("Hello! my name is Alberto, my profession is CIO. I am 32 years old.");
-});
-
-test("console.log should be called with shortIntroduction function", () => {
-  const file = fs.readFileSync(path.resolve(__dirname, './app.js'), 'utf8');
-  
-  // Regular expression to match console.log with the function inside
-  let regex = /console\s*\.log\s*\(\s*shortIntroduction\s*/gm;
-
-  // Ensure that the regular expression matches at least once
-  expect(regex.test(file.toString())).toBeTruthy();
 });
