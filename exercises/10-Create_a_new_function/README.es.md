@@ -24,7 +24,7 @@ En este bloque de código estamos declarando una función que recibe un argument
 
 ## 📝 Instrucciones:
 
-1. Completa la función llamada shortIntroduction() la cual retorna una breve presentación sobre ti.
+1. Completa la función llamada `shortIntroduction()` la cual retorna una breve presentación sobre ti.
 
 2. La función deberá tener 3 argumentos: `name`, `profession` y `age`.
 
