@@ -24,13 +24,13 @@ En este bloque de código estamos declarando una función que recibe un argument
 
 ## 📝 Instrucciones:
 
-1. Completa la función llamada `shortIntroduction()`, que imprima en consola una pequeña introducción de tu persona.
+1. Completa la función llamada shortIntroduction() la cual retorna una breve presentación sobre ti.
 
 2. La función deberá tener 3 argumentos: `name`, `profession` y `age`.
 
 3. Estos parámetros se concatenarán de la siguiente manera: `Hello! my name is {name}, my profession is {profession}. I am {age} years old.`
 
-4. Por último, llama la función con los datos en el orden correcto para completar el ejercicio.
+4. Finalmente, dentro de un `console.log()`, llama a la función con los datos en el orden correcto para terminar el ejercicio.
 
 ## 💡 Pista:
 
