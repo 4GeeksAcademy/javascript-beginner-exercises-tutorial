@@ -8,7 +8,7 @@ Here you can hear it: https://www.youtube.com/watch?v=Xy-da43E6Lo
 
 1. Write an algorithm to print the exact same lyrics. You must use a `for` loop.
 
-## Expected output:
+## 💻 Expected output:
 
 ```js
 `99 bottles of milk on the wall, 99 bottles of milk.` 
