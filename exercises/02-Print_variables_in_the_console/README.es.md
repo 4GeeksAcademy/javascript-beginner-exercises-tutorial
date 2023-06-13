@@ -8,7 +8,7 @@ También puedes utilizar la función `console.log()` para imprimir variables en 
 
 2. Luego, imprime su valor en la consola.
 
-## Ejemplo:
+## 📎 Ejemplo:
 
 ```js
 let mySuperVariable = 'hello';
