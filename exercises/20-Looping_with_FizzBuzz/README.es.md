@@ -12,7 +12,7 @@ Este es un test típico para principiantes que es requerido para completar entre
 
 4. Para números que sean múltiplos de 3 y 5, imprime `FizzBuzz`.
 
-## Ejemplo de resultado:
+## 💻 Resultado esperado:
 
 ```js
 /

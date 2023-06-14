@@ -12,7 +12,7 @@ You can also use the `console.log()` function to print variables in the console.
 
 2. Print its value to the console.
 
-## Example:
+## 📎 Example:
 
 ```js
 let mySuperVariable = 'hello';
