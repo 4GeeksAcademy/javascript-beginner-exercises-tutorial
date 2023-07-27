@@ -33,6 +33,22 @@ function addAllFamilyLuckyNumbers(anArray){
 
 //Enter all your code here:
 
+person.luckyNumbers[3] = 33;
+person3 = {name: "Jimmy", lastName: "Doe", age: 13, gender: "male", luckyNumbers: [1, 2, 3, 4], significantOther: null}
+family.members.push(person3)
+
+
+function addAllFamilyLuckyNumbers(unit) {
+    let numadd = 0;
+    for (let i = 0; i < unit.length; i++) {
+            for (let x = 0; x < unit[i].luckyNumbers.length; x++) {
+            numadd += unit[i].luckyNumbers[x]
+            }
+    }
+    return numadd
+}
+// console.log(family.members.length)
 
 //Do not make changes below:
 console.log(addAllFamilyLuckyNumbers(family.members)); 
+
