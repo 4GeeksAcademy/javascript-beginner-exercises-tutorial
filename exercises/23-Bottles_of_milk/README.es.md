@@ -11,19 +11,15 @@ Aquí la puedes escuchar: https://www.youtube.com/watch?v=Xy-da43E6Lo
 ## 💻 Resultado esperado:
 
 ```js
-`99 bottles of milk on the wall, 99 bottles of milk.` 
-`Take one down and pass it around, 98 bottles of milk on the wall.`
+`99 bottles of milk on the wall, 99 bottles of milk. Take one down and pass it around, 98 bottles of milk on the wall.`
 
-`98 bottles of milk on the wall, 98 bottles of milk.`
-`Take one down and pass it around, 97 bottles of milk on the wall.`
+`98 bottles of milk on the wall, 98 bottles of milk. Take one down and pass it around, 97 bottles of milk on the wall.`
 
 ...
 
-`1 bottle of milk on the wall, 1 bottle of milk.`
-`Take one down and pass it around, no more bottles of milk on the wall.`
+`1 bottle of milk on the wall, 1 bottle of milk. Take one down and pass it around, no more bottles of milk on the wall.`
 
-`No more bottles of milk on the wall, no more bottles of milk.`
-`Go to the store and buy some more, 99 bottles of milk on the wall.`
+`No more bottles of milk on the wall, no more bottles of milk. Go to the store and buy some more, 99 bottles of milk on the wall.`
 ```
 
 ## 💡 Pistas:
