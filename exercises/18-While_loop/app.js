@@ -1,7 +1,7 @@
 //fix this function:
 function startCounting() {
-	let counter = 100;
-	while (counter <= 100) {
+	let counter = 101;
+	while (0<counter) {
 		counter--;
 		console.log(counter);
 	}
