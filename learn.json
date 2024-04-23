@@ -17,8 +17,14 @@
     "video-solutions": true,
     "graded": true,
     
-        "editor": {
-            "version": "3.1.23"
+    "editor": {
+        "version": "3.1.23"
+    },
+    "video": {
+        "intro": {
+            "es": "https://www.youtube.com/watch?v=GjQEotj3t6Y",
+            "en": "https://www.youtube.com/watch?v=GjQEotj3t6Y"
         }
+    }
     
 }
