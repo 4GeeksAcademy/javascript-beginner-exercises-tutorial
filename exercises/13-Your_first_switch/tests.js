@@ -1,6 +1,6 @@
 const rewire = require('rewire');
 
-const file = rewire("./app.js");
+const file = rewire("./temporal.js");
 const getColor = file.__get__('getColor');
 test('function getColor should exist', function () {
     expect(getColor).toBeTruthy();
