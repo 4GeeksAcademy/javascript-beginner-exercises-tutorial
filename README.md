@@ -35,17 +35,17 @@ You can open these exercises in just a few seconds by clicking: [Open in Codespa
 
 [Clone the repository](https://4geeks.com/how-to/github-clone-repository) in your local environment and follow the steps below:
 
-1. Install LearnPack, the package manager for learning tutorials and the node compiler plugin for learnpack, make sure you also have node.js 14:
+1. Install LearnPack, the package manager for learning tutorials and the node compiler plugin for learnpack, make sure you also have node.js 16+:
 
 ```bash
-$ npm i learnpack -g
+$ npm i @learnpack/learnpack -g
 $ learnpack plugins:install learnpack-node
 ```
 
 2. Start the tutorial/exercises by running the following command at the same level where your learn.json file is:
 
 ```bash
-$ npm i jest@24.8.0 -g
+$ npm i jest@29.7.0 -g
 $ learnpack start
 ```
 <!-- endhide -->
