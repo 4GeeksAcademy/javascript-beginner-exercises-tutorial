@@ -39,13 +39,11 @@ You can open these exercises in just a few seconds by clicking: [Open in Codespa
 
 ```bash
 $ npm i @learnpack/learnpack -g
-$ learnpack plugins:install learnpack-node
 ```
 
 2. Start the tutorial/exercises by running the following command at the same level where your learn.json file is:
 
 ```bash
-$ npm i jest@29.7.0 -g
 $ learnpack start
 ```
 <!-- endhide -->
