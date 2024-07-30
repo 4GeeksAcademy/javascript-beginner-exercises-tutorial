@@ -10,7 +10,7 @@
 [![build by developers](https://img.shields.io/twitter/follow/4geeksacademy?style=social&logo=twitter)](https://twitter.com/4geeksacademy)
 <!-- endhide -->
 
-¡Selección completa de ejercicios de JavaScript interactivos autograduados para cualquier persona interesada en aprender JavaScript!
+¡Selección completa de ejercicios de JavaScript interactivos autograduado para cualquier persona interesada en aprender JavaScript! Esto es lo mejor
 
 <!-- hide -->
 ## Antes de empezar... algunos tutoriales relacionados
