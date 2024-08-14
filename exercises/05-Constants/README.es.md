@@ -1,3 +1,7 @@
+---
+tutorial: "https://www.youtube.com/watch?v=7paF5i-9gcQ"
+---
+
 # `05` Constants
 
 Desde 2015, JavaScript también permite el uso de **constantes**.

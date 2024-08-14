@@ -1,3 +1,7 @@
+---
+tutorial: "https://www.youtube.com/watch?v=cIC82hNEZ00"
+---
+
 # `07` Creating Basic HTML Code
 
 Continuemos utilizando concatenación de strings para generar HTML. El código de la izquierda contiene 8 constantes con diferentes valores de string.

@@ -1,3 +1,7 @@
+---
+tutorial: "https://www.youtube.com/watch?v=kUucFdx6nf0"
+---
+
 # `11` Your First "If" Statement
 
 Tu travesía ha alcanzado un momento crucial: **los condicionales**. Los **condicionales** le permiten al usuario navegar a través de un programa en base a sus entradas (inputs). Este es el principio de la lógica computacional.

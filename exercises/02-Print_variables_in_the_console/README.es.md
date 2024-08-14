@@ -1,3 +1,7 @@
+---
+tutorial: "https://www.youtube.com/watch?v=49LFfe9Du58"
+---
+
 # `02` Print Variables to the Console
 
 También puedes utilizar la función `console.log()` para imprimir variables en la consola. Es una buena forma para saber su contenido.

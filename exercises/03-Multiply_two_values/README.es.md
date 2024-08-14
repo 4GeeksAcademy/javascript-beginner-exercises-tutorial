@@ -1,3 +1,7 @@
+---
+tutorial: "https://www.youtube.com/watch?v=PICBpE3fuNY"
+---
+
 # `03` Multiply Two Values
 
 Los lenguajes de programación, tales como JavaScript, te permiten hacer operaciones matemáticas básicas (multiplicación, división, etc.) a ejecutarse en expresiones.

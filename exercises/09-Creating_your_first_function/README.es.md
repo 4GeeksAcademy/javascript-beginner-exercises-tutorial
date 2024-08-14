@@ -1,3 +1,7 @@
+---
+tutorial: "https://www.youtube.com/watch?v=t6CPAFQYFuk"
+---
+
 # `09` Creating Your First Function
 
 Para definir una función, debes entender cómo se estructura. Por ejemplo:

@@ -1,3 +1,7 @@
+---
+intro: "https://www.youtube.com/watch?v=32WbSowUcjc"
+---
+
 ![Javascript Preview](../../.learn/assets/i-love-javascript.jpeg?raw=true)
 
 # Bienvenido a los Ejercicios de JavaScript!

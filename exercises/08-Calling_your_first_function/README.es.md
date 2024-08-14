@@ -1,3 +1,7 @@
+---
+tutorial: "https://www.youtube.com/watch?v=M5357xjy2lE"
+---
+
 # `08` Calling Your First Function
 
 Las **funciones** son una increíble herramienta por muchas razones. Principalmente porque puedes encapsular tu código en piezas y reutilizar esas piezas muchas veces sin tener que escribir todo el código de nuevo. 
