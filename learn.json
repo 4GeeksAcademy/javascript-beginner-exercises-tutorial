@@ -1,7 +1,6 @@
 {
     "slug": "javascript-beginner-exercises-tutorial",
     "grading": "isolated",
-    "language": "node",
     "repository": "https://github.com/4GeeksAcademy/javascript-beginner-exercises-tutorial",
     "title": {
         "us": "Javascript Beginner Tutorial (interactive)",
@@ -9,8 +8,8 @@
     },
     "preview": "https://github.com/4GeeksAcademy/javascript-beginner-exercises-tutorial/blob/master/preview.png?raw=true",
     "description": {
-        "us": "Practice your Javascript programming skills with this interactive and auto-graded set of exercises.",
-        "es": "Practica tus habilidades programando en Javascript con este conjunto de ejercicios interactivos y auto-evaluados"
+        "us": "Enhance your Javascript programming skills with this comprehensive set of interactive and auto-graded exercises. These exercises cover fundamental topics such as variables, loops, conditionals, functions, and arrays. By completing these exercises, students will gain a solid understanding of Javascript basics, preparing them for more advanced programming challenges. Technologies and topics included are ES6 syntax and basic algorithmic thinking.",
+        "es": "Mejora tus habilidades de programación en Javascript con este conjunto completo de ejercicios interactivos y auto-evaluados. Estos ejercicios cubren temas fundamentales como variables, bucles, condicionales, funciones y arreglos. Al completar estos ejercicios, los estudiantes obtendrán una comprensión sólida de los conceptos básicos de Javascript, preparándolos para desafíos de programación más avanzados. Las tecnologías y temas incluidos son sintaxis ES6 y pensamiento algorítmico básico."
     },
     "duration": 8,
     "difficulty": "easy",
