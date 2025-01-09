@@ -1,33 +1,33 @@
 {
-"slug": "javascript-beginner-exercises-tutorial",
-"grading": "isolated",
-"language": "node",
-"repository": "https://github.com/4GeeksAcademy/javascript-beginner-exercises-tutorial",
-"title": {
-    "us": "Javascript Beginner Tutorial (interactive)",
-    "es": "Tutorial para Principiantes de Javascript (Interactivo)"
-},
-"preview": "https://github.com/4GeeksAcademy/javascript-beginner-exercises-tutorial/blob/master/preview.png?raw=true",
-"description": {
-    "us": "Practice your Javascript programming skills with this interactive and auto-graded set of exercises.",
-    "es": "Practica tus habilidades programando en Javascript con este conjunto de ejercicios interactivos y auto-evaluados"
-},
-"duration": 8,
-"difficulty": "easy",
-"video-solutions": true,
-"graded": true,
-
-"editor": {
-    "version": "4.0"
-},
-"telemetry": {
-    "batch": "https://breathecode.herokuapp.com/v1/assignment/me/telemetry"
-},
-"video": {
-    "intro": {
-        "es": "https://www.youtube.com/watch?v=32WbSowUcjc",
-        "en": "https://www.youtube.com/watch?v=GjQEotj3t6Y"
+    "slug": "javascript-beginner-exercises-tutorial",
+    "grading": "isolated",
+    "language": "node",
+    "repository": "https://github.com/4GeeksAcademy/javascript-beginner-exercises-tutorial",
+    "title": {
+        "us": "Javascript Beginner Tutorial (interactive)",
+        "es": "Tutorial para Principiantes de Javascript (Interactivo)"
+    },
+    "preview": "https://github.com/4GeeksAcademy/javascript-beginner-exercises-tutorial/blob/master/preview.png?raw=true",
+    "description": {
+        "us": "Practice your Javascript programming skills with this interactive and auto-graded set of exercises.",
+        "es": "Practica tus habilidades programando en Javascript con este conjunto de ejercicios interactivos y auto-evaluados"
+    },
+    "duration": 8,
+    "difficulty": "easy",
+    "videoSolutions": true,
+    "bugsLink": "https://github.com/learnpack/learnpack/issues",
+    "graded": true,
+    "editor": {
+        "version": "5.0"
+    },
+    "telemetry": {
+        "batch": "https://breathecode.herokuapp.com/v1/assignment/me/telemetry"
+    },
+    "video": {
+        "intro": {
+            "es": "https://www.youtube.com/watch?v=32WbSowUcjc",
+            "en": "https://www.youtube.com/watch?v=GjQEotj3t6Y"
+        }
     }
-}
 
 }
