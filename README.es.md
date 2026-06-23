@@ -39,7 +39,7 @@ Clona el repositorio en tu ambiente local y sigue los siguientes pasos:
 $ npm i @learnpack/learnpack -g
 ```
 
-2. Inicializa el tutorial/ejercicios ejecutando el siguiente comando en el mismo nivel donde se encuentra su archivo learn.json:
+2. Inicializa los tutoriales/ejercicios ejecutando el siguiente comando en el mismo nivel donde se encuentra su archivo learn.json:
 
 ```bash
 $ learnpack start
