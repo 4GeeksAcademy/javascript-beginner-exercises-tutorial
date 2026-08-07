@@ -6,7 +6,7 @@ tutorial: "https://www.youtube.com/watch?v=NVOYUidj3Es"
 
 Another cool feature about variables is that you don't need to know their value to be able to work with them.
 
-For example, this application is prompting the user for his or her age. Let's see if we can change it.
+For example, this application is prompting the user for their age. Let's see if we can change it.
 
 ## 📝 Instructions:
 
