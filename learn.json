@@ -14,6 +14,7 @@
     "duration": 8,
     "difficulty": "easy",
     "videoSolutions": true,
+    "projectType": "exercise",
     "gitpod":true,
     "localhostOnly":false,
     "bugsLink": "https://github.com/learnpack/learnpack/issues",
